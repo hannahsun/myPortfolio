@@ -1,0 +1,26 @@
+@import "reset.css";
+body {
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  transition: color 0.15s ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #7b7b7b;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fafafa;
+  background: #0f0f0f;
+}
+
+/*# sourceMappingURL=_config.css.map */
