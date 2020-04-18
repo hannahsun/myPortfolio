@@ -11,7 +11,8 @@ import {
 import Navigation from './components/navComponent/navigation.js';
 import Footer from './components/footerComponent/footer.js';
 //page components
-import Thumbs from './components/pages/thumbs.js';
+import motionThumbs from './components/pages/thumbs_mograph.js';
+import graphicThumbs from './components/pages/thumbs_graphic.js';
 import About from './components/pages/about.js';
 
 
@@ -20,34 +21,13 @@ function App() {
     <Router>
     <div className="App">
        <Navigation />
-          <Route exact path='/' component={Thumbs}></Route>
+          <Route exact path='/' component={motionThumbs}></Route>
+          <Route exact path='/graphic' component={graphicThumbs}></Route>
           <Route exact path='/about' component={About}></Route>
        <Footer />
     </div>
     </Router>
   );
 }
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;

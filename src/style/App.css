@@ -1,6 +1,6 @@
 @import "reset.css";
 body {
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.05em;
   font-weight: 400;
   line-height: 1.5em;
@@ -25,8 +25,13 @@ body {
 
 .section-wrapper {
   width: 100%;
-  max-width: 1280px;
+  max-width: none;
   padding: 70px;
+  margin: auto;
+}
+
+.wide-wrapper {
+  width: 100%;
   margin: auto;
 }
 
@@ -40,7 +45,7 @@ header .section-wrapper {
 }
 header .siteName {
   font-weight: 900;
-  font-size: 24px;
+  font-size: 18px;
   display: inline-block;
 }
 header nav {
@@ -59,13 +64,55 @@ footer {
   min-height: 350px;
 }
 
-.thumbs {
-  min-height: 700px;
+/*
+.thumbs{
+    display: grid;
+    min-height:700px; //change to dynamic later
+    height:100%;
+    grid-template-columns: repeat(4, 1fr);
+    // grid-template-rows: repeat(4, 100px);
+    grid-gap:10px;
+}
+.thumb{
+    background: red;
+    // border: 1px solid white;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.x2{
+        grid-column: span 2;
+    }
 }
 
-.horizontal-container {
-  height: 100vh;
-  width: 1000px;
+.project-image{
+    background-color: yellow;
+    width:100%;
+    height: 100%;
+    background-size: cover;
+}
+*/
+.thumb {
+  height: 25vw;
+}
+
+.thumb a {
+  width: 100%;
+  height: 100%;
+}
+
+.project-image {
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .thumb {
+    height: 50vw;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */

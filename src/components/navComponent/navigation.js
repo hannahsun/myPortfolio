@@ -1,19 +1,19 @@
 import React from 'react';
-// import {
-//   Link
-// } from 'react-router-dom';
+import {
+  Link
+} from 'react-router-dom';
 
 function Navigation() {
   return (
     <header>
       <div className="section-wrapper">
-          <div className="siteName">Hannah Hanqing Sun</div>
+          <div className="siteName"><Link to="/">Hannah Hanqing Sun</Link></div>
           <nav>
           <ul className="menu">
-              <li className="menu-item"><a href="/">Motion Graphics</a></li>
-              <li className="menu-item"><a href="/graphicdesign">Graphic Design</a></li>
+              <li className="menu-item"><Link to="/">Motion Graphics</Link></li>
+              <li className="menu-item"><Link to="/graphic">Graphic Design</Link></li>
               <li className="menu-item">
-                  <a href="/about">About</a>
+                  <Link to="/Linkbout">About</Link>
               </li>
           </ul>
         </nav>
