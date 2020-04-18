@@ -64,35 +64,6 @@ footer {
   min-height: 350px;
 }
 
-/*
-.thumbs{
-    display: grid;
-    min-height:700px; //change to dynamic later
-    height:100%;
-    grid-template-columns: repeat(4, 1fr);
-    // grid-template-rows: repeat(4, 100px);
-    grid-gap:10px;
-}
-.thumb{
-    background: red;
-    // border: 1px solid white;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &.x2{
-        grid-column: span 2;
-    }
-}
-
-.project-image{
-    background-color: yellow;
-    width:100%;
-    height: 100%;
-    background-size: cover;
-}
-*/
 .thumb {
   height: 25vw;
 }
@@ -103,13 +74,13 @@ footer {
 }
 
 .project-image {
-  background-color: yellow;
   width: 100%;
   height: 100%;
   background-size: cover;
+  background-position: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 960px) {
   .thumb {
     height: 50vw;
   }
