@@ -15,7 +15,7 @@ import motionThumbs from './components/pages/thumbs_mograph.js';
 import graphicThumbs from './components/pages/thumbs_graphic.js';
 import About from './components/pages/about.js';
 //project page components
-import motionReel from './components/project pages/motionReel.js';
+import motionReel from './components/projectPages/motionReel.js';
 
 function App() {
   return (
