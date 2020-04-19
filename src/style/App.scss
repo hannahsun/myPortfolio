@@ -86,13 +86,13 @@ $transit-s: .2s;
     opacity: 1;
 
     &:hover{
-        background-color: rgba(170,170,170,1);
+        background-color: rgba(150,150,150,1);
     }
     &:hover > .project-overlay{ 
         opacity: 1;
     }
-    &:hover > .thumb-info{ 
-        top:0;
+    &:hover > .viewmore{ 
+        transform: translate(-50%, -50%) scale(1);
         opacity: 1;
     }
 }
@@ -111,31 +111,16 @@ $transit-s: .2s;
     transition: $transit-s ease-out;
 }
 
-.thumb-info{
+.viewmore{
+    height:35%;
     position: absolute;
-    left:0;
-    top:10px;
-    opacity: 0;
-    padding:.7em 1em;
-    font-size: clamp(10px, 2em, 20px);
-    font-family: $roboto;
-    font-weight: 700;
-    line-height: 1.1em;
-    text-transform: capitalize;
-    // background-color: red;
-    height:100%;
+    opacity:0;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.8);
 
     transition: .3s ease-in-out;
-
-    & span{
-        font-family: $ibm-plex;
-        font-size: clamp(4px, .6em, 10px);
-        display: inline-block;
-        text-transform: uppercase;
-        letter-spacing: .1em;
-    }
 }
-
 
 
 //breakpoints

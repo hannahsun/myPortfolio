@@ -18,7 +18,7 @@ a:hover {
 }
 
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fafafa;
   background: #0f0f0f;
   position: relative;
@@ -101,13 +101,13 @@ footer {
   opacity: 1;
 }
 .project-image:hover {
-  background-color: #aaaaaa;
+  background-color: #969696;
 }
 .project-image:hover > .project-overlay {
   opacity: 1;
 }
-.project-image:hover > .thumb-info {
-  top: 0;
+.project-image:hover > .viewmore {
+  transform: translate(-50%, -50%) scale(1);
   opacity: 1;
 }
 
@@ -125,26 +125,14 @@ footer {
   transition: 0.2s ease-out;
 }
 
-.thumb-info {
+.viewmore {
+  height: 35%;
   position: absolute;
-  left: 0;
-  top: 10px;
   opacity: 0;
-  padding: 0.7em 1em;
-  font-size: clamp(10px, 2em, 20px);
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  line-height: 1.1em;
-  text-transform: capitalize;
-  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
   transition: 0.3s ease-in-out;
-}
-.thumb-info span {
-  font-family: "IBM Plex Mono", monospace;
-  font-size: clamp(4px, 0.6em, 10px);
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
 }
 
 @media only screen and (max-width: 960px) {

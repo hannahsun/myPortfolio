@@ -3,17 +3,14 @@ import {
   Link
 } from 'react-router-dom';
 
+import viewmore from '../../assets/icon/icon-more-white.svg';
+
 function Thumb(props) {
   return (
     <div className={"thumb" + " " + props.size}>
       <Link to={props.link}>
            <div className="project-image" data-title={props.title} style={{backgroundImage: 'url("' + props.image + '")'}}>
-                <div className="thumb-info">
-                    <span>{props.category}</span><br/>
-                    {props.title}
-                    {/* <span>{props.category}</span> */}
-                    
-                  </div>
+                <img className="viewmore" src={viewmore}></img>
                 <div className="project-overlay"></div>
            </div>
            
