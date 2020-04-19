@@ -1,18 +1,25 @@
 @import "_config.scss";
 
-$max-width:none;
+$max-width:1290px;
 $pageMargin:70px;
 $offwhite: rgb(230,230,230);
 
+//--------------wrappers--------------
 .section-wrapper{
     width:100%;
-    max-width: $max-width;
     padding:$pageMargin;
     margin:auto;
+}
+.constrained{
+    max-width: $max-width;
 }
 .wide-wrapper{
     width:100%;
     margin:auto;
+}
+.horizontal-carousel{
+    width:100%;
+    height:100%;
 }
 
 header{
@@ -24,13 +31,13 @@ header{
         justify-content: space-between;
     }
 
-    .siteName{
-        font-weight: $font-black;
-        font-family: $roboto;
-        letter-spacing: 0.05em;
-        font-size:20px;
-        display: inline-block;
-    }
+    // .siteName{
+    //     font-weight: $font-black;
+    //     font-family: $roboto;
+    //     letter-spacing: 0.05em;
+    //     font-size:20px;
+    //     display: inline-block;
+    // }
 
     .siteLogo{
             display: inline-block;
@@ -38,7 +45,6 @@ header{
             width:$width;
             height:$width;
             // background-color:red;
-            
             & a{
                 width:100%;
                 height:100%;
@@ -54,8 +60,11 @@ header{
         display: inline-block;
     }
     .menu-item{
-        letter-spacing: .12em;
-        text-transform: uppercase;
+        user-select: none;
+        // font-size: 14px;
+        // letter-spacing: .12em;
+        font-weight: $font-regular;
+        text-transform: capitalize;
         display: inline-block;
         padding: 0;
         margin-left: 2em;
