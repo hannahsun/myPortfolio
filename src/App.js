@@ -21,11 +21,13 @@ function App() {
   return (
     <Router>
     <div className="App">
+      <div className="aboveFold">
        <Navigation />
-          <Route exact path='/' component={motionThumbs}></Route>
-          <Route exact path='/graphic' component={graphicThumbs}></Route>
-          <Route exact path='/about' component={About}></Route>
-          <Route exact path='/projectTemplate' component={projectTemplate}></Route>
+        <Route exact path='/' component={motionThumbs}></Route>
+        <Route exact path='/graphic' component={graphicThumbs}></Route>
+        <Route exact path='/about' component={About}></Route>
+        <Route exact path='/projectTemplate' component={projectTemplate}></Route>
+        </div>
        <Footer />
     </div>
     </Router>

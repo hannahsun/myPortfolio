@@ -13,7 +13,7 @@ function Navigation() {
               <li className="menu-item"><Link to="/">Motion Graphics</Link></li>
               <li className="menu-item"><Link to="/graphic">Graphic Design</Link></li>
               <li className="menu-item">
-                  <Link to="/Linkbout">About</Link>
+                  <Link to="/about">About</Link>
               </li>
           </ul>
         </nav>
