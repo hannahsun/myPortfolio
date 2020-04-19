@@ -17,7 +17,7 @@ function motionReel() {
                 </div>
             </div> */}
            <ResponsivePlayer url="https://vimeo.com/378175023"/>
-           <ResponsivePlayer url="https://vimeo.com/378175023"/>
+           {/* <ResponsivePlayer url="https://vimeo.com/378175023"/> */}
     </div>
   );
 }
