@@ -36,7 +36,7 @@ export default function FullWidthGrid() {
       <Grid container spacing={1}>
         <Grid item xs={12} sm={12} md={6}>
           <Thumb 
-                link="/projectTemplate"
+                link="/motionReel"
                 image={tmb_motionReel}
                 title="Motion Reel 2019"
                 size="x2"

@@ -15,7 +15,7 @@ import motionThumbs from './components/pages/thumbs_mograph.js';
 import graphicThumbs from './components/pages/thumbs_graphic.js';
 import About from './components/pages/about.js';
 //project page components
-import projectTemplate from './components/project pages/projectTemplate.js';
+import motionReel from './components/project pages/motionReel.js';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
         <Route exact path='/' component={motionThumbs}></Route>
         <Route exact path='/graphic' component={graphicThumbs}></Route>
         <Route exact path='/about' component={About}></Route>
-        <Route exact path='/projectTemplate' component={projectTemplate}></Route>
+        <Route exact path='/motionReel' component={motionReel}></Route>
         </div>
        <Footer />
     </div>
