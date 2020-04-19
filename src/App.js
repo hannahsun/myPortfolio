@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assets/logo.svg';
+// import logo from './assets/logo.svg';
 import './style/App.css';
 import {
   BrowserRouter as Router,
@@ -14,7 +14,8 @@ import Footer from './components/footerComponent/footer.js';
 import motionThumbs from './components/pages/thumbs_mograph.js';
 import graphicThumbs from './components/pages/thumbs_graphic.js';
 import About from './components/pages/about.js';
-
+//project page components
+import projectTemplate from './components/project pages/projectTemplate.js';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path='/' component={motionThumbs}></Route>
           <Route exact path='/graphic' component={graphicThumbs}></Route>
           <Route exact path='/about' component={About}></Route>
+          <Route exact path='/projectTemplate' component={projectTemplate}></Route>
        <Footer />
     </div>
     </Router>
