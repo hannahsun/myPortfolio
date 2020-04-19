@@ -1,4 +1,5 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Thumb from '../thumbComponent/thumb.js';
 
@@ -14,15 +15,24 @@ import tmb_12principles from '../../assets/img/motion/12principle-1.gif';
 import tmb_adler from '../../assets/img/motion/adlerplanetarium-c.png';
 import tmb_form from '../../assets/img/motion/form-c-2.png';
 import tmb_museum from '../../assets/img/motion/futuristicMuseum-c.png';
-
 import tmb_chicagomemory from '../../assets/img/motion/chicagomemory-c.png';
 
 
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+    spacing: 20,
+  },
+}));
+
+
+
 export default function FullWidthGrid() {
-  
+  const classes = useStyles();
+
   return (
-    <div className="wide-wrapper">
+    <div className={'wide-wrapper' + " " + classes.root}>
       <Grid container spacing={1}>
         <Grid item xs={12} sm={12} md={6}>
           <Thumb 
@@ -30,7 +40,7 @@ export default function FullWidthGrid() {
                 image={tmb_motionReel}
                 title="Motion Reel 2019"
                 size="x2"
-                category="motion"
+                category="motion graphics"
               />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
@@ -39,7 +49,7 @@ export default function FullWidthGrid() {
                 image={tmb_legion}
                 title="Legion"
                 size="x2"
-                category="motion"
+                category="3D Animation"
               />
           </Grid>
         <Grid item xs={6} sm={6} md={3}>
@@ -48,7 +58,7 @@ export default function FullWidthGrid() {
                 image={tmb_stilltolife}
                 title="Still To Life"
                 size="x2"
-                category="motion"
+                category="3D Animation"
               />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
@@ -57,7 +67,7 @@ export default function FullWidthGrid() {
                 image={tmb_socialposts}
                 title="miscellaneous"
                 size="x2"
-                category="motion"
+                category="2D / Motion Graphics"
               />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
@@ -66,7 +76,7 @@ export default function FullWidthGrid() {
                 image={tmb_liquidAnimation}
                 title="Liquid Animation"
                 size="x2"
-                category="motion"
+                category="2D / Cell"
               />
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
@@ -75,7 +85,7 @@ export default function FullWidthGrid() {
                 image={tmb_squares}
                 title="Squares"
                 size="x2"
-                category="motion"
+                category="Motion Graphics"
               />
         </Grid>
 

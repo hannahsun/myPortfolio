@@ -1,6 +1,6 @@
 @import "reset.css";
 body {
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.05em;
   font-weight: 400;
   line-height: 1.5em;
@@ -14,11 +14,11 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #7b7b7b;
+  color: inherit;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: #fafafa;
   background: #0f0f0f;
 }
