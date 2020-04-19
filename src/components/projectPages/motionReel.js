@@ -1,12 +1,11 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
 import ResponsivePlayer from '../elements/responsivePlayer.js';
 import "../../style/projectPage.css"
 
 function motionReel() {
   return (
     <div className="horizontal-carousel">
-           {/* <div className="project-details-wrapper">
+           <div className="project-details-wrapper">
                 <h5>project info</h5>
                 <div className="project-details">
                   <div className="description">
@@ -15,9 +14,8 @@ function motionReel() {
                   <div>2019</div>
                   <div>After Effects Cinema4D Illustrator Photoshop</div>
                 </div>
-            </div> */}
+            </div>
            <ResponsivePlayer url="https://vimeo.com/378175023"/>
-           {/* <ResponsivePlayer url="https://vimeo.com/378175023"/> */}
     </div>
   );
 }

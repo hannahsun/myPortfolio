@@ -3,8 +3,6 @@ import {
   Link
 } from 'react-router-dom';
 
-import viewmore from '../../assets/icon/icon-more-white.svg';
-
 function Thumb(props) {
   return (
     <div className={"thumb" + " " + props.size}>

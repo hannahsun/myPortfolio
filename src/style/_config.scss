@@ -16,6 +16,7 @@ $font-light: 400;
 $font-regular: 500;
 $font-bold: 700;
 $font-black: 900;
+
 //paragraph style
 %body-s{
     font-size:16px;
@@ -44,8 +45,6 @@ $font-black: 900;
 }
 
 //initialize
-
-// ::-moz-selection,
 ::selection { 
     color: $black;
     background: rgba(255, 86, 43, .99); 
