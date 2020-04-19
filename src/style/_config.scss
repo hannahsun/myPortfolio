@@ -3,7 +3,7 @@
 // colors
 $black: rgb(15,15,15);
 $white: rgb(250,250,250);
-
+$grey: rgb(160,160,160);
 //fonts
 $roboto: 'Roboto', sans-serif;
 $ibm-plex: 'IBM Plex Mono', monospace;
@@ -22,10 +22,21 @@ $font-black: 900;
     line-height: 1.5em;
 }
 %header-s{
+    font-size:15px;
+    font-weight:400;
+    line-height: 1.3em;
+}
+%header-m{
     font-size:20px;
     font-weight:900;
     line-height: 1.3em;
 }
+%header-m-dynamic{
+    font-size:clamp(20px, 2vw, 30px);
+    font-weight:900;
+    line-height: 1.3em;
+}
+
 %header-l{
     font-size:25px;
     font-weight:900;
@@ -53,6 +64,22 @@ body{
     position: relative;
 }
 
+h3{
+    font-family: $roboto;
+    @extend %header-m;
+}
+h3.dynamic{
+    font-family: $roboto;
+    @extend %header-m-dynamic;
+}
+h5{
+    font-family: $roboto;
+    @extend %header-s;
+    margin-bottom: 1em;
+}
+.light{
+    color:$grey;
+}
 
 //function shorthands
 @mixin translateY($e){

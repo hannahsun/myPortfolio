@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import Thumb from '../thumbComponent/thumb.js';
+import Thumb from '../elements/thumb.js';
 
 //import thumbnail files
 import tmb_motionReel from '../../assets/img/motion/reel-c.jpg';

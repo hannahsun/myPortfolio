@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import ResponsivePlayer from '../responsivePlayer.js';
+import ResponsivePlayer from '../elements/responsivePlayer.js';
 import "../../style/projectPage.css"
 
 function motionReel() {

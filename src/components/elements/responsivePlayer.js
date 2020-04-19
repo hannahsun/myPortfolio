@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
-import "../style/responsive-player.css"
+import "../../style/responsive-player.css"
 
 
 const ResponsivePlayer = ({ url }) => {

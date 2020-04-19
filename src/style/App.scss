@@ -31,6 +31,25 @@ header{
         font-size:20px;
         display: inline-block;
     }
+
+    .siteLogo{
+            display: inline-block;
+            $width: 35px;
+            width:$width;
+            height:$width;
+            // background-color:red;
+            
+            & a{
+                width:100%;
+                height:100%;
+            }
+
+            & svg{
+                width:100%;
+                fill:$white;
+            }
+     }
+
     nav{
         display: inline-block;
     }
@@ -48,6 +67,9 @@ footer{
     color:$black;
     width:100%;
     min-height:70px;
+}
+footer li{
+    font-weight: $font-regular;
 }
 .aboveFold{
     min-height:100vh;
@@ -81,18 +103,22 @@ $transit-s: .2s;
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-color: rgba(170,170,170,0);
+    background-color: rgba(190,190,190,0);
     background-blend-mode: exclusion;
     opacity: 1;
 
     &:hover{
-        background-color: rgba(150,150,150,1);
+        background-color: rgba(190,190,190,1);
     }
     &:hover > .project-overlay{ 
         opacity: 1;
     }
-    &:hover > .viewmore{ 
-        transform: translate(-50%, -50%) scale(1);
+    // &:hover > .viewmore{ 
+    //     transform: translate(-50%, -50%) scale(1);
+    //     opacity: 1;
+    // }
+    &:hover .thumb-title{
+        margin-top:0px; 
         opacity: 1;
     }
 }
@@ -102,26 +128,66 @@ $transit-s: .2s;
     top:0;
     width:100%;
     height:100%;
-    opacity: 1;
     z-index: 5;
     opacity: 0;
     background-color: $offwhite;
     mix-blend-mode: saturation;
 
-    transition: $transit-s ease-out;
+    transition: $transit-s ease-in-out;
 }
 
-.viewmore{
-    height:35%;
-    position: absolute;
+// .viewmore{
+//     height:35%;
+//     position: absolute;
+//     opacity:0;
+//     top: 50%; 
+//     left: 50%;
+//     transform: translate(-50%, -50%) scale(.8);
+
+//     transition: $transit-s*1.5 ease-in-out;
+// }
+
+.thumb-info{
+        position: absolute;
+        top: 0; 
+        left: 0;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        padding:1.6em;
+        text-transform: capitalize;
+        color: $black;
+        z-index: 10;
+
+    &:after{
+        content:'';
+        position: absolute;
+        left:0; top:0;
+        width:100%; height:100%;
+        background-color: $offwhite;
+        opacity: 0;
+        z-index: -1;
+        transition: $transit-s ease-in-out;
+    }
+    &:hover::after{
+        opacity: .7;
+    }
+}
+.thumb-title{
+    display: block;
+    margin-top:10px;
     opacity:0;
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%) scale(.8);
+    text-transform: capitalize;
+    font-size:clamp(9px, .9em, 16px);
 
-    transition: .3s ease-in-out;
+    transition: $transit-s*1.5 ease-in-out;
+
+    & span{
+        display: block;
+        font-weight:$font-bold;
+        font-size:clamp(14px, 1.4em, 19px);
+    }
 }
-
 
 //breakpoints
 @media only screen and (max-width: 960px) {

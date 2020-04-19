@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import Thumb from '../thumbComponent/thumb.js';
+import Thumb from '../elements/thumb.js';
 
 
 

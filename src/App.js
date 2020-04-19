@@ -8,8 +8,8 @@ import {
 } from 'react-router-dom';
 
 //constant components
-import Navigation from './components/navComponent/navigation.js';
-import Footer from './components/footerComponent/footer.js';
+import Navigation from './components/elements/navigation.js';
+import Footer from './components/elements/footer.js';
 //page components
 import motionThumbs from './components/pages/thumbs_mograph.js';
 import graphicThumbs from './components/pages/thumbs_graphic.js';
