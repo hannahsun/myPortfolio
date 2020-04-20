@@ -84,6 +84,24 @@ footer li{
     min-height:100vh;
 }
 
+//----------accordion--------
+.card{
+    border-radius: 0;
+    border-width: 0px;
+    background-color: transparent;
+    font-weight: $font-bold;
+    // padding: 1em 0;
+}
+.accordion-head{
+    cursor: pointer;
+    padding: 1.2em 0;
+    border-bottom: 1px solid $white;
+}
+.accordion-body{
+    padding: 1em 0;
+    font-weight: $font-light;
+    @extend %body-s;
+}
 
 
 //----------gallery--------

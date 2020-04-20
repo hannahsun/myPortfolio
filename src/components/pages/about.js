@@ -1,11 +1,39 @@
-import React from 'react';
+import React, {createRef} from 'react';
 import Grid from '@material-ui/core/Grid';
+import Card from 'react-bootstrap/Card'
+import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
+import Accordion from 'react-bootstrap/Accordion'
+
+function CustomToggle({ children, eventKey }) {
+  const decoratedOnClick = useAccordionToggle(eventKey, () =>
+    console.log('totally custom!'),
+  );
+    return (
+      <div
+        // type="button"
+        className="accordion-head"
+        style={{ textAlign: "left"}}
+        onClick={decoratedOnClick}
+      >
+        {children}
+      </div>
+    );
+}
+function CustomBody({ children, eventKey }) {
+    return (
+      <div
+        className="accordion-body"
+        style={{ backgroundColor: 'none' }}
+      >
+        {children}
+      </div>
+    );
+}
 
 function About() {
   return (
     <div className="about">
-        <div className="section-wrapper">
-        
+        <div className="section-wrapper">       
         <Grid container spacing={2}>
           <Grid item xs={12} sm={12} md={7}>
               <div className = "aboutme">
@@ -16,6 +44,38 @@ function About() {
                 <br/>
                 Below Is A Little Bit More About Me: 
                 </h3>
+
+                <Accordion defaultActiveKey="0">
+                    <Card>
+                      <CustomToggle as={Card.Header} eventKey="0">
+                            Education
+                      </CustomToggle>
+                      <Accordion.Collapse eventKey="0">
+                      <CustomBody as={Card.Body} eventKey="0" >
+                            <p>
+                            School of Visual Arts / New York, U.S.<br/>
+                            Master of Fine Arts<br/>
+                            2019—2021 | Computer Arts
+                            </p>
+                      </CustomBody>
+                      </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                      <CustomToggle as={Card.Header} eventKey="1">
+                            Education
+                      </CustomToggle>
+                      <Accordion.Collapse eventKey="1">
+                      <CustomBody as={Card.Body} eventKey="1">
+                            School of Visual Arts / New York, U.S.<br/>
+                            Master of Fine Arts<br/>
+                            2019—2021 | Computer Arts
+                      </CustomBody>
+                      </Accordion.Collapse>
+                    </Card>
+
+                   
+                </Accordion>
+
               </div>
           </Grid>
           <Grid item xs={12} sm={12} md={2}>
