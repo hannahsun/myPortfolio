@@ -13,8 +13,10 @@ function Thumb(props) {
                 <div className="thumb-overlay"></div>
                 <div className="thumb-info-wrapper">
                       <div className="thumb-title">
-                          <span>{props.title}</span>
-                      {props.category}</div>
+                          {props.title}
+                          <div className="thumb-category">{props.category}</div>
+                          <div className="thumb-viewmore">view more →</div>
+                      </div>
                   </div>
            </div>
            
