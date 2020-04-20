@@ -1,13 +1,13 @@
 @import "reset.css";
 body {
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0.05em;
   font-weight: 400;
   line-height: 1.5em;
 }
 
 h5 {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.3em;
 }
@@ -20,6 +20,14 @@ h3 {
 
 .m-dynamic {
   font-size: clamp(20px, 2vw, 30px);
+}
+
+.emphasis {
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 500;
 }
 
 ::selection {
@@ -85,6 +93,12 @@ h5 {
 }
 .spacer.spacer-s {
   height: 1em;
+}
+.spacer.spacer-m {
+  height: 2.5em;
+}
+.spacer.spacer-l {
+  height: 6em;
 }
 
 /*# sourceMappingURL=_config.css.map */

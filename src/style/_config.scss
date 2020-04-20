@@ -3,7 +3,9 @@
 // colors
 $black: rgb(15,15,15);
 $white: rgb(250,250,250);
+$offwhite: rgb(230,230,230);
 $grey: rgb(160,160,160);
+$darkgrey: rgb(100,100,100);
 $accent: rgb(255, 86, 43);
 
 //fonts
@@ -19,13 +21,13 @@ $font-black: 900;
 
 //paragraph style
 %body-s{
-    font-size:16px;
+    font-size:15px;
     letter-spacing: .05em;
     font-weight:400;
     line-height: 1.5em;
 }
 %header-s{
-    font-size:15px;
+    font-size:17px;
     font-weight:400;
     line-height: 1.3em;
 }
@@ -42,6 +44,13 @@ $font-black: 900;
     font-size:25px;
     font-weight:900;
     line-height: 1.1em;
+}
+
+.emphasis{
+    font-weight: 700;
+}
+.bold{
+    font-weight: 500;
 }
 
 //initialize
@@ -113,6 +122,12 @@ h5{
     margin:0;
     &.spacer-s{
         height:1em;
+    }
+    &.spacer-m{
+        height:2.5em;
+    }
+    &.spacer-l{
+        height:6em;
     }
 }
 
