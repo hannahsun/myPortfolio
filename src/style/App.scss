@@ -133,7 +133,7 @@ footer li{
 
 $transit-s: .2s;
 
-.project-image{
+.thumb-image{
     transition: $transit-s ease-out;
     position: absolute;
     left:0;
@@ -149,7 +149,7 @@ $transit-s: .2s;
     &:hover{
         background-color: rgba(190,190,190,1);
     }
-    &:hover > .project-overlay{ 
+    &:hover > .thumb-overlay{ 
         opacity: 1;
     }
     // &:hover > .viewmore{ 
@@ -161,7 +161,7 @@ $transit-s: .2s;
         opacity: 1;
     }
 }
-.project-overlay{
+.thumb-overlay{
     position: absolute;
     left:0;
     top:0;
@@ -186,14 +186,14 @@ $transit-s: .2s;
 //     transition: $transit-s*1.5 ease-in-out;
 // }
 
-.thumb-info{
+.thumb-info-wrapper{
         position: absolute;
         top: 0; 
         left: 0;
         opacity: 1;
         width: 100%;
         height: 100%;
-        padding:1.6em;
+        padding:1.2em;
         text-transform: capitalize;
         color: $black;
         z-index: 10;
@@ -216,15 +216,19 @@ $transit-s: .2s;
     display: block;
     margin-top:10px;
     opacity:0;
-    text-transform: capitalize;
-    font-size:clamp(9px, .9em, 16px);
+    font-size:clamp(7px, .8em, 14px); //meta size
+    letter-spacing: 0;
+    text-transform: lowercase;
+    font-family: $ibm-plex;
 
     transition: $transit-s*1.5 ease-in-out;
 
     & span{
         display: block;
         font-weight:$font-bold;
-        font-size:clamp(14px, 1.4em, 19px);
+        font-family: $roboto;
+        text-transform: capitalize;
+        font-size:clamp(14px, 1.4em, 19px); //title size
     }
 }
 

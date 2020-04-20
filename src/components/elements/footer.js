@@ -18,7 +18,7 @@ function Footer() {
                   <h5 className="light">Contact</h5>
                   <div className="spacer spacer-s"></div>
                   <ul>
-                    <li><a className="select" href="">sunhanqing@hotmail.com</a></li>
+                    <li><a className="select" href="mailto:sunhanqing@hotmail.com">sunhanqing@hotmail.com</a></li>
                   </ul>
               </Grid>
               <Grid item xs={12} sm={3} md={3} xl={3}>

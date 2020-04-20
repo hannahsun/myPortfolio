@@ -7,11 +7,11 @@ function Thumb(props) {
   return (
     <div className={"thumb" + " " + props.size}>
       <Link to={props.link}>
-           <div className="project-image" data-title={props.title} style={{backgroundImage: 'url("' + props.image + '")'}}>
+           <div className="thumb-image" data-title={props.title} style={{backgroundImage: 'url("' + props.image + '")'}}>
                 {/* <img className="viewmore" src={viewmore}></img> */}
                 
-                <div className="project-overlay"></div>
-                <div className="thumb-info">
+                <div className="thumb-overlay"></div>
+                <div className="thumb-info-wrapper">
                       <div className="thumb-title">
                           <span>{props.title}</span>
                       {props.category}</div>

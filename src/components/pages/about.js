@@ -168,7 +168,7 @@ function About() {
                     <h5>Contact</h5>
                     <div className="spacer spacer-m"></div>
                     <ul className="contact" >
-                        <li><a className="select" target="_blank" href="">sunhanqing@hotmail.com</a> </li>
+                        <li><a className="select" target="_blank" href="mailto:sunhanqing@hotmail.com">sunhanqing@hotmail.com</a> </li>
                         <li><a className="select" target="_blank" href="https://www.linkedin.com/in/hannah-hanqing-sun-0b3248b4/">Linkedin</a> </li>
                         <li><a className="select" target="_blank"href="https://www.instagram.com/hannah.sun__/">Instagram</a></li>
                     </ul>
