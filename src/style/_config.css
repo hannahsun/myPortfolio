@@ -35,6 +35,14 @@ h3 {
   background: rgba(255, 86, 43, 0.99);
 }
 
+.no-select {
+  user-select: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 a {
   text-decoration: none;
   position: relative;
@@ -99,6 +107,13 @@ h5 {
 }
 .spacer.spacer-l {
   height: 6em;
+}
+
+.inline-spacer {
+  display: inline-block;
+}
+.inline-spacer.inline-spacer-s {
+  width: 0.5em;
 }
 
 /*# sourceMappingURL=_config.css.map */

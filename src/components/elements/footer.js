@@ -9,7 +9,7 @@ function Footer() {
               <Grid item xs={12} sm={3} md={2} xl={2}>
                   <h5 className="light">Social</h5>
                   <div className="spacer spacer-s"></div>
-                  <ul>
+                  <ul className="hello">
                     <li><a className="select" target="_blank" href="https://www.linkedin.com/in/hannah-hanqing-sun-0b3248b4/">Linkedin</a> </li>
                     <li><a className="select" target="_blank"href="https://www.instagram.com/hannah.sun__/">Instagram</a></li>
                   </ul>

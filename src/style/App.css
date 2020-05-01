@@ -35,6 +35,14 @@ h3 {
   background: rgba(255, 86, 43, 0.99);
 }
 
+.no-select {
+  user-select: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 a {
   text-decoration: none;
   position: relative;
@@ -101,6 +109,13 @@ h5 {
   height: 6em;
 }
 
+.inline-spacer {
+  display: inline-block;
+}
+.inline-spacer.inline-spacer-s {
+  width: 0.5em;
+}
+
 .section-wrapper {
   width: 100%;
   padding: 70px;
@@ -125,6 +140,10 @@ h5 {
 .horizontal-carousel {
   width: 100%;
   height: 100%;
+}
+
+.project-info-body-wrapper {
+  padding-bottom: 3em;
 }
 
 header {
@@ -179,11 +198,11 @@ footer li {
   border-radius: 0;
   border-width: 0px;
   background-color: transparent;
-  font-weight: 700;
 }
 
 .accordion-head {
   cursor: pointer;
+  user-select: none;
   padding: 1.2em 0;
   border-bottom: 1px solid #646464;
 }
@@ -202,7 +221,10 @@ footer li {
 
 .project-accordion-head {
   cursor: pointer;
+  user-select: none;
   padding: 1.2em 0;
+  display: flex;
+  align-items: center;
 }
 
 .contact li {
@@ -327,6 +349,38 @@ footer li {
   opacity: 0;
   margin-left: -20px;
   transition: 0.3s ease-in-out;
+}
+
+.icon-more {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s ease;
+}
+.icon-more span {
+  position: absolute;
+  width: 60%;
+  height: 0.05em;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50% 50%;
+  background-color: #fafafa;
+}
+.icon-more .stroke-1 {
+  transform: translate(-50%, 0) rotate(0);
+  transition: 0.25s ease-out;
+}
+.icon-more .stroke-2 {
+  transform: translate(-50%, 0) rotate(90deg);
+  transition: 0.2s ease-out;
+}
+
+.true .icon-more .stroke-1 {
+  transform: translate(-50%, 0) rotate(180deg);
+}
+.true .icon-more .stroke-2 {
+  transform: translate(-50%, 0) rotate(180deg);
 }
 
 @media only screen and (max-width: 960px) {

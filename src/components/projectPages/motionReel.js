@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ResponsivePlayer from '../elements/responsivePlayer.js';
 //for accordion
 import Card from 'react-bootstrap/Card'
@@ -14,11 +14,18 @@ function CustomToggle({ children, eventKey }) {
   const decoratedOnClick = useAccordionToggle(eventKey, () =>
     console.log('totally custom!'),
   );
+  const [isActive, setActive] = useState(false);
+  const toggleActive = () =>{
+    setActive(!isActive)
+  }
     return (
       <div
-        className="project-accordion-head"
+        className={[isActive, "project-accordion-head"].join(" ")}
         style={{ textAlign: "left"}}
-        onClick={decoratedOnClick}
+        onClick={()=>{
+          decoratedOnClick();
+          toggleActive()
+        }}
       >
         {children}
       </div>
@@ -35,7 +42,6 @@ function CustomBody({ children, eventKey }) {
     );
 }
 
-
 function motionReel() {
   return (
     <div className="wide-wrapper">
@@ -43,24 +49,31 @@ function motionReel() {
            <div className="section-wrapper nopadding">
            <Accordion>
                 <Card>
-                  <CustomToggle as={Card.Header} eventKey="0">
-                      <h5>Project Info</h5>
+                  <CustomToggle as={Card.Header} eventKey="0"> 
+                      <h5>Project Info </h5>
+                      <span class="inline-spacer inline-spacer-s"></span>
+                      <div className="icon-more">
+                          <span className="stroke-1"></span>
+                          <span className="stroke-2"></span>
+                      </div>
                   </CustomToggle>
                   <Accordion.Collapse eventKey="0">
                   <CustomBody as={Card.Body} eventKey="0" >
-                    <Grid container spacing={2}>
-                        <Grid item xs={2} sm={1} md={1}>
-                            <div>Year</div>
-                            <div>Tools</div>
+                    <div className="project-info-body-wrapper">
+                      <Grid container spacing={2}>
+                          <Grid item xs={2} sm={1} md={1}>
+                              <div className='light no-select'>Year</div>
+                              <div className='light no-select'>Tools</div>
+                          </Grid>
+                          <Grid item xs={10} sm={5} md={5}>
+                              <div>2019</div>
+                              <div>After Effects / Cinema4D / Illustrator / Photoshop</div>
+                          </Grid>
+                          <Grid item xs={12} sm={6} md={6}>
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+                          </Grid>
                         </Grid>
-                        <Grid item xs={10} sm={5} md={5}>
-                            <div>2019</div>
-                            <div>After Effects / Cinema4D / Illustrator / Photoshop</div>
-                        </Grid>
-                        <Grid item xs={12} sm={6} md={6}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
-                        </Grid>
-                      </Grid>
+                      </div>
                   </CustomBody>
                   </Accordion.Collapse>
                 </Card>

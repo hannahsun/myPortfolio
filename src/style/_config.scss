@@ -23,7 +23,7 @@ $font-black: 900;
 %body-s{
     font-size:15px;
     letter-spacing: .05em;
-    font-weight:400;
+    font-weight:400; 
     line-height: 1.5em;
 }
 %header-s{
@@ -52,13 +52,18 @@ $font-black: 900;
 .bold{
     font-weight: 500;
 }
-
 //initialize
 ::selection { 
     color: $black;
     background: rgba(255, 86, 43, .99); 
 }
 
+.no-select{
+    user-select: none;
+}
+.inline-block{
+    display: inline-block;
+}
 a{
     text-decoration: none; 
     position: relative;
@@ -128,6 +133,12 @@ h5{
     }
     &.spacer-l{
         height:6em;
+    }
+}
+.inline-spacer{
+    display: inline-block;
+    &.inline-spacer-s{
+        width:.5em;
     }
 }
 
