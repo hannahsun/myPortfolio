@@ -6,8 +6,6 @@ $ratio_standard: 9/16;
 $ratio_wide: 1/2.2;
 
 
-//--------------cursor--------------
-
 //--------------wrappers--------------
 .section-wrapper{
     width:100%;
@@ -25,10 +23,6 @@ $ratio_wide: 1/2.2;
 .wide-wrapper{
     width:100%;
     margin:auto;
-}
-.horizontal-carousel{
-    width:100%;
-    height:100%;
 }
 .project-info-body-wrapper{
     padding-bottom:2.4em;
@@ -300,6 +294,14 @@ $transit-s: .2s;
 }
 
 //carousel
+
+a.carousel-control-next{
+    cursor: url('../assets/icon/arrow-R.png'), pointer;
+}
+a.carousel-control-prev{
+    cursor: url('../assets/icon/arrow-L.png'), pointer;
+}
+
 .carousel-item{
     width: 100%;
     min-height:100vw * $ratio_wide;
@@ -321,6 +323,13 @@ $transit-s: .2s;
     background: none;
     width:50%;
 }
+.carousel-indicators li{
+    height:2px;
+    margin: 0 3px;
+}
+
+
+
 //breakpoints
 @media only screen and (max-width: 960px) {
     .thumb{

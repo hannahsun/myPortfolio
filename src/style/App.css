@@ -137,11 +137,6 @@ h5 {
   margin: auto;
 }
 
-.horizontal-carousel {
-  width: 100%;
-  height: 100%;
-}
-
 .project-info-body-wrapper {
   padding-bottom: 2.4em;
 }
@@ -384,6 +379,14 @@ footer li {
   transform: translate(-50%, 0) rotate(180deg);
 }
 
+a.carousel-control-next {
+  cursor: url("../assets/icon/arrow-R.png"), pointer;
+}
+
+a.carousel-control-prev {
+  cursor: url("../assets/icon/arrow-L.png"), pointer;
+}
+
 .carousel-item {
   width: 100%;
   min-height: 45.4545454545vw;
@@ -406,6 +409,11 @@ footer li {
 .carousel-control-next {
   background: none;
   width: 50%;
+}
+
+.carousel-indicators li {
+  height: 2px;
+  margin: 0 3px;
 }
 
 @media only screen and (max-width: 960px) {
