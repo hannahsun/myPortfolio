@@ -1,12 +1,14 @@
 import React, {useState} from 'react';
 import ResponsivePlayer from '../elements/responsivePlayer.js';
-//for accordion
+//Accordion
 import Card from 'react-bootstrap/Card'
 import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
 import Accordion from 'react-bootstrap/Accordion'
+//carousel
+import Carousel from 'react-bootstrap/Carousel'
 //grid
 import Grid from '@material-ui/core/Grid';
-//styling
+//custom styling
 import "../../style/projectPage.css"
 
 //custom accordion look for project info section
