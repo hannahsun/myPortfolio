@@ -27,7 +27,7 @@ $pageMargin:70px;
     height:100%;
 }
 .project-info-body-wrapper{
-    padding-bottom:3em;
+    padding-bottom:2.4em;
 }
 header{
     width:100%;
@@ -103,11 +103,12 @@ footer li{
     user-select: none;
     padding: 1.2em 0;
     border-bottom: 1px solid $darkgrey;
+    font-weight: $font-regular;
 }
 .accordion-body{
     padding: 1em 0;
-    font-weight: $font-light;
     @extend %body-s;
+    font-weight: $font-light;
 }
 .accordion li{
     margin-bottom: 1.5em;
