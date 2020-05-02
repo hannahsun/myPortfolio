@@ -10,12 +10,15 @@ import {
 //constant components
 import Navigation from './components/elements/navigation.js';
 import Footer from './components/elements/footer.js';
+
 //page components
 import motionThumbs from './components/pages/thumbs_mograph.js';
 import graphicThumbs from './components/pages/thumbs_graphic.js';
 import About from './components/pages/about.js';
+
 //project page components
-import motionReel from './components/projectPages/motionReel.js';
+import proj_motionReel from './components/projectPages/motionReel.js';
+import proj_squares from './components/projectPages/proj_squares.js';
 
 function App() {
   return (
@@ -26,7 +29,12 @@ function App() {
         <Route exact path='/' component={motionThumbs}></Route>
         <Route exact path='/graphic' component={graphicThumbs}></Route>
         <Route exact path='/about' component={About}></Route>
-        <Route exact path='/motionReel' component={motionReel}></Route>
+
+        {/*individual project pages  */}
+         <Route exact path='/motionReel' component={proj_motionReel}></Route>
+         <Route exact path='/squares' component={proj_squares}></Route>
+
+
         {/* </div> */}
        <Footer />
     </div>
@@ -35,3 +43,21 @@ function App() {
 }
 
 export default App;
+
+
+//-----------unused--------------
+
+function importComponents( path ){
+
+  function getProjectName(string){
+    let withoutExtension = string.split('.')[1];
+    let fileName = withoutExtension.split('/').slice(-1);
+    // console.log(fileName);
+    return fileName;
+  }
+
+
+  let thisComponent = getProjectName(path);
+  // console.log([thisComponent.slice(1, -1), path])
+  return [thisComponent.slice(1, -1), path];
+}

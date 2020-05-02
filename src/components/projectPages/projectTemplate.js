@@ -12,7 +12,7 @@ import "../../style/projectPage.css"
 //custom accordion look for project info section
 function CustomToggle({ children, eventKey }) {
   const decoratedOnClick = useAccordionToggle(eventKey, () =>
-    console.log('totally custom!'),
+    console.log('toggle accordion!'),
   );
   const [isActive, setActive] = useState(false);
   const toggleActive = () =>{
@@ -31,6 +31,7 @@ function CustomToggle({ children, eventKey }) {
       </div>
     );
 }
+//custom accordion body style
 function CustomBody({ children, eventKey }) {
     return (
       <div
@@ -46,7 +47,7 @@ function CustomBody({ children, eventKey }) {
 //define component ------------------------------------------------------------
 //-----------------------------------------------------------------------------
 
-function motionReel() {
+function Project(props) {
   return (
     <div className="wide-wrapper">
           
@@ -70,11 +71,14 @@ function motionReel() {
                               <div className='light no-select'>Tools</div>
                           </Grid>
                           <Grid item xs={10} sm={5} md={5}>
-                              <div>2019</div>
-                              <div>After Effects / Cinema4D / Illustrator / Photoshop</div>
+                              {/* input-1 */}
+                              <div>{props.year}</div> 
+                              {/* input-2 */}
+                              <div>{props.tools}</div>
                           </Grid>
                           <Grid item xs={12} sm={5} md={6}>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+                              {/* input-3 */}
+                              {props.description}
                           </Grid>
                         </Grid>
                       </div>
@@ -83,9 +87,14 @@ function motionReel() {
                 </Card>
             </Accordion>
             </div>
-           <ResponsivePlayer url="https://vimeo.com/378175023"/>
+            {/* input-4*/}
+           <ResponsivePlayer url={props.videoLink}/>
     </div>
   );
 }
 
-export default motionReel;
+
+//export component ------------------------------------------------------------
+//-----------------------------------------------------------------------------
+
+export default Project;
