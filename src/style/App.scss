@@ -296,12 +296,12 @@ $transit-s: .2s;
 
 //carousel
 
-// a.carousel-control-next{
-//     cursor: url('../assets/icon/arrow-R.png'), pointer;
-// }
-// a.carousel-control-prev{
-//     cursor: url('../assets/icon/arrow-L.png'), pointer;
-// }
+a.carousel-control-next{
+    cursor: url('../assets/icon/arrow-R.png'), pointer;
+}
+a.carousel-control-prev{
+    cursor: url('../assets/icon/arrow-L.png'), pointer;
+}
 
 .carousel-item{
     width: 100%;
