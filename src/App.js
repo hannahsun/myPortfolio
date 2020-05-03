@@ -18,6 +18,8 @@ import About from './components/pages/about.js';
 
 //project page components
 import proj_motionReel from './components/projectPages/proj_motionReel.js';
+import proj_legion from './components/projectPages/proj_legion.js';
+import proj_stillToLife from './components/projectPages/proj_stillToLife.js';
 import proj_squares from './components/projectPages/proj_squares.js';
 import demo from './components/projectPages/demo.js';
 
@@ -32,9 +34,14 @@ function App() {
         <Route exact path='/about' component={About}></Route>
 
         {/*individual project pages  */}
-         <Route exact path='/motionReel' component={proj_motionReel}></Route>
-         <Route exact path='/squares' component={proj_squares}></Route>
-         <Route exact path='/demo' component={demo}></Route>
+        <Route exact path='/motionReel' component={proj_motionReel}></Route>
+        <Route exact path='/legion' component={proj_legion}></Route>
+        <Route exact path='/stilltolife' component={proj_stillToLife}></Route>
+        <Route exact path='/squares' component={proj_squares}></Route>
+
+
+        {/* Demo Page */}
+        <Route exact path='/demo' component={demo}></Route>
 
 
         {/* </div> */}

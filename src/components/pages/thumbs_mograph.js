@@ -39,7 +39,6 @@ export default function FullWidthGrid() {
                 link="/motionReel" //project path
                 image={tmb_motionReel}
                 title="Motion Reel 2019"
-                size="x2"
                 category="motion graphics"
               />
         </Grid>
@@ -48,34 +47,30 @@ export default function FullWidthGrid() {
                 link="/Legion"
                 image={tmb_legion}
                 title="Legion"
-                size="x2"
                 category="3D Animation"
               />
           </Grid>
         <Grid item xs={6} sm={6} md={3}>
         <Thumb 
-                link="/"
+                link="/stilltolife"
                 image={tmb_stilltolife}
                 title="Still To Life"
-                size="x2"
                 category="3D Animation"
               />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
           <Thumb 
-                link="/"
+                link="/miscellaneous"
                 image={tmb_socialposts}
                 title="miscellaneous"
-                size="x2"
                 category="2D / Motion Graphics"
               />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
           <Thumb 
-                link="/"
+                link="/liquidanimation"
                 image={tmb_liquidAnimation}
                 title="Liquid Animation"
-                size="x2"
                 category="2D / Cell"
               />
         </Grid>
@@ -84,7 +79,6 @@ export default function FullWidthGrid() {
                 link="/squares"
                 image={tmb_squares}
                 title="Squares"
-                size="x2"
                 category="Motion Graphics"
               />
         </Grid>
@@ -94,56 +88,51 @@ export default function FullWidthGrid() {
 
         <Grid item xs={12} sm={12} md={6}>
           <Thumb 
-                link="/"
+                link="/starving"
                 image={tmb_starving}
-                title="Motion Reel 2019"
-                size="x2"
-                category="motion"
+                title="Starving"
+                category="3D Animation"
               />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
           <Thumb 
-                link="/"
+                link="/12principles"
                 image={tmb_12principles}
-                title="Legion"
-                size="x2"
-                category="motion"
+                title="12 principles of animation"
+                category="2D Motion Graphics"
               />
           </Grid>
         <Grid item xs={6} sm={6} md={3}>
         <Thumb 
-                link="/"
+                link="/adler"
                 image={tmb_adler}
-                title="Still To Life"
+                title="Adler Planetarium"
                 size="x2"
                 category="motion"
               />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
           <Thumb 
-                link="/"
+                link="/chicagomemory"
                 image={tmb_chicagomemory}
-                title="miscellaneous"
-                size="x2"
-                category="motion"
+                title="chicago memory"
+                category="2D motion graphics"
               />
         </Grid>
         <Grid item xs={6} sm={6} md={3}>
           <Thumb 
-                link="/"
+                link="/form"
                 image={tmb_form}
                 title="Liquid Animation"
-                size="x2"
-                category="motion"
+                category="2D / Particle"
               />
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
           <Thumb 
-                link="/"
+                link="/museum"
                 image={tmb_museum}
-                title="Squares"
-                size="x2"
-                category="motion"
+                title="museum of the future"
+                category="Motion Graphics"
               />
         </Grid>
         

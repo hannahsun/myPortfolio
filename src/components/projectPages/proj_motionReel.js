@@ -23,13 +23,6 @@ export default function proj_motionReel() {
       description="hello world"
       videoLink="https://vimeo.com/378175023"
     />
-    <ControlledCarousel 
-      imagePool = {thisImagePool}
-    />
-    <Gallery 
-      imagePool = {thisImagePool}
-    />
-
     </React.Fragment>
   );
 }
