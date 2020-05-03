@@ -2,6 +2,7 @@ import React from 'react';
 import Project from './projectTemplate';
 import ControlledCarousel from '../elements/carousel';
 import Gallery from '../elements/gallery';
+import ResponsivePlayer from '../elements/responsivePlayer'
 
 let thisImagePool = [
   {url:"https://www.petsworld.in/blog/wp-content/uploads/2014/10/Corgi.jpg"}
@@ -22,7 +23,9 @@ export default function myproject() {
       year="2019-20"
       tools="After Effects / Cinema4D / Octane / Trapcode / Photoshop / Illustrator"
       description=""
-      videoLink="https://vimeo.com/378175023"
+    />
+    <ResponsivePlayer 
+      url="https://vimeo.com/378175023"
     />
     </React.Fragment>
   );

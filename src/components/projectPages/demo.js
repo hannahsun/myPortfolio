@@ -7,6 +7,7 @@ import ControlledCarousel from '../elements/carousel';
 import Gallery from '../elements/gallery';
 import GalleryGrid from '../elements/galleryGrid';
 import Insert from '../elements/projectInsert';
+import ResponsivePlayer from '../elements/responsivePlayer'
 
 // image import
 import img_dogA from '../../assets/img/motion/NewYearGif.gif';
@@ -43,9 +44,11 @@ export default function demo() {
       year="year of creation"
       tools="program 1  /  program 2  /  program 3"
       description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-      videoLink="https://www.youtube.com/watch?v=e9Xwzs0mNqk"
     />
-
+    
+    <ResponsivePlayer 
+      url="https://www.youtube.com/watch?v=e9Xwzs0mNqk"
+    />
     <Insert 
       title="Carousel Gallery"
       subtitle="see below"

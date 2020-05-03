@@ -1,8 +1,9 @@
 import React from 'react';
 import Project from './projectTemplate';
 import GalleryGrid from '../elements/galleryGrid.js';
+// import ResponsivePlayer from '../elements/responsivePlayer'
 
-// image import
+// image import -----------------------------------------
 import img_1 from '../../assets/img/motion/graduation.gif';
 import img_2 from '../../assets/img/motion/NewYearGif.gif';
 import img_3 from '../../assets/img/motion/welcomeBack.gif';
@@ -25,6 +26,7 @@ let ImagePool_miscellaneous = [
   {url: img_5,
   size: 1.5}
 ]
+
 
 
 export default function myproject() {

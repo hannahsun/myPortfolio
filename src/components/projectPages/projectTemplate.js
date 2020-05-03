@@ -89,8 +89,7 @@ function Project(props) {
                 </Card>
             </Accordion>
             </div>
-            {/* input-4*/}
-           <ResponsivePlayer url={props.videoLink}/>
+           {/* <ResponsivePlayer url={props.videoLink}/> */}
     </div>
   );
 }
