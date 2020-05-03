@@ -1,17 +1,40 @@
 @import "_config.scss";
 
 $max-width:1290px;
-$pageMargin:70px;
+// $pageMargin:70px;
 $ratio_standard: 9/16;
 $ratio_wide: 1/2.2;
 
 
 //--------------wrappers--------------
-.section-wrapper{
-    width:100%;
-    padding:$pageMargin;
-    margin:auto;
+
+@media only screen and (min-width: 600px) {
+    $pageMargin:70px;
+    .section-wrapper{
+        width:100%;
+        padding:$pageMargin;
+        margin:auto;
+    }
+    .padded-wrapper{
+        width:100%;
+        padding: 0 $pageMargin;
+        margin:auto;
+    }
 }
+@media only screen and (max-width: 600px) {
+    $pageMargin:30px;
+    .section-wrapper{
+        width:100%;
+        padding:$pageMargin;
+        margin:auto;
+    }
+    .padded-wrapper{
+        width:100%;
+        padding: 0 0;
+        margin:auto;
+    }
+}
+
 .nopadding{
     padding-top: 0;
     padding-bottom:0;
@@ -122,7 +145,7 @@ footer li{
 .project-accordion-head{
     cursor: pointer;
     user-select: none;
-    padding: 1.2em 0;
+    padding: 1.5em 0;
     display: flex;
     align-items: center;
 }
@@ -306,13 +329,14 @@ $transit-s: .2s;
 //     cursor: url('../assets/icon/arrow-L.png'), pointer;
 // }
 
-.carousel-item{
-    width: 100%;
-    min-height:100vw * $ratio_wide;
-    max-height: 100vw * $ratio_standard;
-}
+// .carousel-item{
+//     width: 100%;
+//     min-height:100vw * $ratio_wide;
+//     height: 100vw * $ratio_standard;
+// }
 
 img.d-block{
+    object-fit: cover;
     width:100%;
     height:100%;
     object-position: 50% 50%;
@@ -343,5 +367,4 @@ img.d-block{
     .thumb-info-wrapper{
         padding:3vw;
     }
-
   }

@@ -12,14 +12,27 @@ function ControlledCarousel(props) {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+  const carouselRatio = {
+    width: '100%',
+    height: [100 * props.ratio + 'vw']
+  }
 
-  console.log(props.imagePool);
+    const paddedSection=(e)=>{
+      if(e == true){
+          return 'padded-wrapper'
+      }else{
+        return 'nopadding'
+      }
+    }
+    const paddingStyle = paddedSection(props.isPadded);
+
 
   return (
+    <div className={paddingStyle}>
     <Carousel interval={null} activeIndex={index} onSelect={handleSelect}>
        {
          props.imagePool.map((item,i) => (
-            <Carousel.Item key={i}>
+            <Carousel.Item key={i} style={carouselRatio}>
             <img
               className="d-block"
               src={item.url}
@@ -29,6 +42,7 @@ function ControlledCarousel(props) {
         ))
        }
     </Carousel>
+    </div>
   );
 }
 

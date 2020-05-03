@@ -6,10 +6,20 @@ import React, { useState } from 'react';
 
 function Gallery(props) {
   
-  console.log(props.imagePool);
+  // console.log(props.imagePool);
+
+  const paddedSection=(e)=>{
+      if(e == true){
+          return 'padded-wrapper'
+      }else{
+        return 'nopadding'
+      }
+  }
+  // console.log(props.isPadded)
+  const paddingStyle = paddedSection(props.isPadded);
 
   return (
-    <div className="gallery">
+    <div className={paddingStyle}>
        {
          props.imagePool.map((item,i) => (
             <div className="gallery-item" key={['galleryItem-'+i]}>

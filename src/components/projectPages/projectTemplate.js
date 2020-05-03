@@ -54,7 +54,7 @@ function Project(props) {
     <div className="wide-wrapper">
           
            <div className="section-wrapper nopadding">
-           <Accordion>
+           <Accordion defaultActiveKey="">
                 <Card>
                   <CustomToggle as={Card.Header} eventKey="0"> 
                       <h5>Project Info </h5>

@@ -33,6 +33,7 @@ import proj_form from './components/projectPages/proj_form';
 import proj_museum from './components/projectPages/proj_museum';
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
+import proj_blackout from './components/projectPages/proj_blackout';
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
         <Route exact path='/museum' component={proj_museum}></Route>
         {/* graphic design project */}
         <Route exact path='/planit' component={proj_planit}></Route>
+        <Route exact path='/blackout' component={proj_blackout}></Route>
 
         {/* Demo Page */}
         <Route exact path='/demo' component={demo}></Route>

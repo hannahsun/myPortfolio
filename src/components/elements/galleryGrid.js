@@ -7,7 +7,6 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 
 function GalleryGrid(props) {
-  // console.log(props.imagePool);
   const matches = useMediaQuery('(min-width:600px)');
   const gridSize = [12/props.col];
 
@@ -15,6 +14,7 @@ function GalleryGrid(props) {
     item:{
     objectFit: 'cover',
     width:'100%',
+    /*input- number of columns*/
     height: [100/props.col + 'vw'],
     '@media (max-width: 600px)' : {
       height: '100%'
@@ -31,7 +31,6 @@ function GalleryGrid(props) {
             <div className="gallery-grid-item">
             <img
               className={classes.item}
-              // style={gImg_style}
               src={item.url}
               alt={["slide no."+i]}
             />
