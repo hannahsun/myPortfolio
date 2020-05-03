@@ -24,7 +24,6 @@ function GalleryGrid(props) {
 
   const classes = useStyles();
   return (
-    // <div className="galleryGrid">
     <Grid container spacing={1}>
        {  
         props.imagePool.map((item,i) => 
