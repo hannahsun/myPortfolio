@@ -28,6 +28,9 @@ $ratio_wide: 1/2.2;
     padding-bottom:2.4em;
     line-height: 1.6em;
 }
+.project-info-list{
+    margin-bottom:.1em;
+}
 header{
     width:100%;
     margin:auto;
@@ -296,12 +299,12 @@ $transit-s: .2s;
 
 //carousel
 
-a.carousel-control-next{
-    cursor: url('../assets/icon/arrow-R.png'), pointer;
-}
-a.carousel-control-prev{
-    cursor: url('../assets/icon/arrow-L.png'), pointer;
-}
+// a.carousel-control-next{
+//     cursor: url('../assets/icon/arrow-R.png'), pointer;
+// }
+// a.carousel-control-prev{
+//     cursor: url('../assets/icon/arrow-L.png'), pointer;
+// }
 
 .carousel-item{
     width: 100%;

@@ -142,6 +142,10 @@ h5 {
   line-height: 1.6em;
 }
 
+.project-info-list {
+  margin-bottom: 0.1em;
+}
+
 header {
   width: 100%;
   margin: auto;
@@ -378,14 +382,6 @@ footer li {
 }
 .true .icon-more .stroke-2 {
   transform: translate(-50%, 0) rotate(180deg);
-}
-
-a.carousel-control-next {
-  cursor: url("../assets/icon/arrow-R.png"), pointer;
-}
-
-a.carousel-control-prev {
-  cursor: url("../assets/icon/arrow-L.png"), pointer;
 }
 
 .carousel-item {
