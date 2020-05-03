@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './projectTemplate';
 import ControlledCarousel from '../elements/carousel';
-import Footer from '../elements/footer';
+import Gallery from '../elements/gallery';
 
 let thisImagePool = [
   {url:"https://www.petsworld.in/blog/wp-content/uploads/2014/10/Corgi.jpg"}
@@ -26,6 +26,10 @@ export default function proj_motionReel() {
     <ControlledCarousel 
       imagePool = {thisImagePool}
     />
+    <Gallery 
+      imagePool = {thisImagePool}
+    />
+
     </React.Fragment>
   );
 }

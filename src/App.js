@@ -19,6 +19,7 @@ import About from './components/pages/about.js';
 //project page components
 import proj_motionReel from './components/projectPages/proj_motionReel.js';
 import proj_squares from './components/projectPages/proj_squares.js';
+import demo from './components/projectPages/demo.js';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         {/*individual project pages  */}
          <Route exact path='/motionReel' component={proj_motionReel}></Route>
          <Route exact path='/squares' component={proj_squares}></Route>
+         <Route exact path='/demo' component={demo}></Route>
 
 
         {/* </div> */}
