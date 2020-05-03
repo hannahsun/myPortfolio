@@ -69,14 +69,14 @@ function Project(props) {
                     <div className="project-info-body-wrapper">
                       <Grid container spacing={2}>
                           <Grid item xs={2} sm={2} md={1} xl={1}>
-                              <div className='light no-select'>Year</div>
-                              <div className='light no-select'>Tools</div>
+                              <div className='project-info-item light no-select'>Project</div>
+                              <div className='project-info-item light no-select'>Tools</div>
                           </Grid>
                           <Grid item xs={10} sm={5} md={4} xl={3}>
                               {/* input-1 */}
-                              <div>{props.year}</div> 
+                              <div className="project-info-item">{props.name}</div> 
                               {/* input-2 */}
-                              <div>{props.tools}</div>
+                              <div className="project-info-item">{props.tools}</div>
                           </Grid>
                           <Grid item xs={12} sm={5} md={7} xl={8}>
                               {/* input-3 */}

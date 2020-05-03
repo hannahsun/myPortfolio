@@ -14,13 +14,14 @@ let thisImagePool = [
   
 ]
 
-export default function proj_motionReel() {
+export default function myproject() {
   return (
     <React.Fragment>
     <Project 
-      year="2010"
-      tools="hehehehehe"
-      description="hello world"
+      name="Motion Reel 2019-20"
+      year="2019-20"
+      tools="After Effects / Cinema4D / Octane / Trapcode / Photoshop / Illustrator"
+      description=""
       videoLink="https://vimeo.com/378175023"
     />
     </React.Fragment>

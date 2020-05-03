@@ -17,11 +17,20 @@ import graphicThumbs from './components/pages/thumbs_graphic.js';
 import About from './components/pages/about.js';
 
 //project page components
-import proj_motionReel from './components/projectPages/proj_motionReel.js';
-import proj_legion from './components/projectPages/proj_legion.js';
-import proj_stillToLife from './components/projectPages/proj_stillToLife.js';
-import proj_squares from './components/projectPages/proj_squares.js';
-import demo from './components/projectPages/demo.js';
+import proj_motionReel from './components/projectPages/proj_motionReel';
+import proj_legion from './components/projectPages/proj_legion';
+import proj_stillToLife from './components/projectPages/proj_stillToLife';
+import proj_miscellaneous from './components/projectPages/proj_miscellaneous';
+import proj_liquidanimation from './components/projectPages/proj_liquidanimation';
+import proj_squares from './components/projectPages/proj_squares';
+import proj_starving from './components/projectPages/proj_starving';
+import proj_12principles from './components/projectPages/proj_12principles';
+import proj_adler from './components/projectPages/proj_adler';
+import proj_chicagomemory from './components/projectPages/proj_chicagomemory';
+import proj_form from './components/projectPages/proj_form';
+import proj_museum from './components/projectPages/proj_museum';
+
+import demo from './components/projectPages/demo';
 
 function App() {
   return (
@@ -37,7 +46,15 @@ function App() {
         <Route exact path='/motionReel' component={proj_motionReel}></Route>
         <Route exact path='/legion' component={proj_legion}></Route>
         <Route exact path='/stilltolife' component={proj_stillToLife}></Route>
+        <Route exact path='/miscellaneous' component={proj_miscellaneous}></Route>
+        <Route exact path='/liquidanimation' component={proj_liquidanimation}></Route>
         <Route exact path='/squares' component={proj_squares}></Route>
+        <Route exact path='/starving' component={proj_starving}></Route>
+        <Route exact path='/12principles' component={proj_12principles}></Route>
+        <Route exact path='/adler' component={proj_adler}></Route>
+        <Route exact path='/chicagomemory' component={proj_chicagomemory}></Route>
+        <Route exact path='/form' component={proj_form}></Route>
+        <Route exact path='/museum' component={proj_museum}></Route>
 
 
         {/* Demo Page */}
