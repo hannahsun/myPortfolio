@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Grid from '@material-ui/core/Grid';
 
 //define component ------------------------------------------------------------
 //-----------------------------------------------------------------------------
@@ -20,17 +21,19 @@ function Gallery(props) {
 
   return (
     <div className={paddingStyle}>
+    <Grid container spacing={props.spacing}>
        {
          props.imagePool.map((item,i) => (
-            <div className="gallery-item" key={['galleryItem-'+i]}>
+          <Grid item xs={12}  key={['galleryItem-'+i]}>
             <img
               className="d-block"
               src={item.url}
               alt={["slide no."+i]}
             />
-          </div>
+          </Grid>
          ))
        }
+    </Grid>
     </div>
   );
 }

@@ -60,6 +60,8 @@ export default function myproject() {
       The visual identity is created to reflect the mission of Salmon Gold and to tell a positive story in the marketplace to demonstrates the value of restoration."
     />
     <Gallery 
+      isPadded = {true}
+      spacing = {2}
       imagePool = {ImagePool_1}
     />
     </React.Fragment>
