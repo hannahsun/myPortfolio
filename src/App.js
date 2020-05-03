@@ -34,6 +34,7 @@ import proj_museum from './components/projectPages/proj_museum';
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
 import proj_blackout from './components/projectPages/proj_blackout';
+import proj_salmongold from './components/projectPages/proj_salmongold';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         {/* graphic design project */}
         <Route exact path='/planit' component={proj_planit}></Route>
         <Route exact path='/blackout' component={proj_blackout}></Route>
+        <Route exact path='/salmongold' component={proj_salmongold}></Route>
 
         {/* Demo Page */}
         <Route exact path='/demo' component={demo}></Route>
