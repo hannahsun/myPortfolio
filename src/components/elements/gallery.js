@@ -11,15 +11,15 @@ function Gallery(props) {
   return (
     <div className="gallery">
        {
-         props.imagePool.map((i) => 
-            <div className="gallery-item">
+         props.imagePool.map((item,i) => (
+            <div className="gallery-item" key={['galleryItem-'+i]}>
             <img
               className="d-block"
-              src={i.url}
+              src={item.url}
               alt={["slide no."+i]}
             />
           </div>
-         )
+         ))
        }
     </div>
   );

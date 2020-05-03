@@ -68,11 +68,11 @@ function Project(props) {
                   <CustomBody as={Card.Body} eventKey="0" >
                     <div className="project-info-body-wrapper">
                       <Grid container spacing={2}>
-                          <Grid item xs={2} sm={2} md={1} xl={1}>
+                          <Grid item xs={3} sm={2} md={1} xl={1}>
                               <div className='project-info-item light no-select'>Project</div>
                               <div className='project-info-item light no-select'>Tools</div>
                           </Grid>
-                          <Grid item xs={10} sm={5} md={4} xl={3}>
+                          <Grid item xs={7} sm={5} md={4} xl={3}>
                               {/* input-1 */}
                               <div className="project-info-item">{props.name}</div> 
                               {/* input-2 */}

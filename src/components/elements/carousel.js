@@ -18,15 +18,15 @@ function ControlledCarousel(props) {
   return (
     <Carousel interval={null} activeIndex={index} onSelect={handleSelect}>
        {
-         props.imagePool.map((i) => 
-            <Carousel.Item>
+         props.imagePool.map((item,i) => (
+            <Carousel.Item key={i}>
             <img
               className="d-block"
-              src={i.url}
+              src={item.url}
               alt={["slide no."+i]}
             />
           </Carousel.Item>
-         )
+        ))
        }
     </Carousel>
   );
