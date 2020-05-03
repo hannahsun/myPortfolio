@@ -6,9 +6,10 @@ export default function myproject() {
   return (
     <React.Fragment>
     <Project 
-      name="Legion Title Resolve"
-      year="2020"
-      tools="Cinema4D / X-Particles"
+      Q1="Project"
+      Q2="Tools"
+      A1="Legion Title Resolve"
+      A2="Cinema4D / X-Particles"
       description="Logo resolve for the FX show LEGION."
     />
     <ResponsivePlayer url="https://vimeo.com/407457829" />

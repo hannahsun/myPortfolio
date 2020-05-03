@@ -6,9 +6,10 @@ export default function myproject() {
   return (
     <React.Fragment>
     <Project 
-      name="Musum of The Future"
-      year="2019"
-      tools="After Effects"
+      Q1="Project"
+      Q2="Tools"
+      A1="Musum of The Future"
+      A2="After Effects"
       description="Reimagining the MET with hologram signage. A short exercise on 3d camera tracking.
       Footages were shot with iPhone7 and iPhone11 for wide angles."
     />

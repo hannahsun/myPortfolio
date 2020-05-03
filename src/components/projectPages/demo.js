@@ -41,8 +41,10 @@ export default function demo() {
   return (
     <React.Fragment>
     <Project 
-      year="year of creation"
-      tools="program 1  /  program 2  /  program 3"
+      Q1="Project"
+      Q2="Tools"
+      A1="Project Title"
+      A2="program 1  /  program 2  /  program 3"
       description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
     />
     

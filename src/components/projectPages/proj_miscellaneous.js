@@ -33,9 +33,10 @@ export default function myproject() {
   return (
     <React.Fragment>
     <Project 
-      name="Social Posts Collection"
-      year="2018"
-      tools="After Effects  /  Cinema 4D  /  Illustrator  /  Clip Studio Paint"
+      Q1="Project"
+      Q2="Tools"
+      A1="Social Posts Collection"
+      A2="After Effects  /  Cinema 4D  /  Illustrator  /  Clip Studio Paint"
       description="A small collection of social posts created for F Newsmagazine, TDH Creative Co., and School of the Art Institute of Chicago."
     />
     <GalleryGrid 

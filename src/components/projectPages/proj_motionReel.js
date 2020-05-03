@@ -19,9 +19,10 @@ export default function myproject() {
   return (
     <React.Fragment>
     <Project 
-      name="Motion Reel 2019-20"
-      year="2019-20"
-      tools="After Effects / Cinema4D / Octane / Trapcode / Photoshop / Illustrator"
+      Q1="Project"
+      Q2="Tools"
+      A1="Motion Reel 2019-20"
+      A2="After Effects / Cinema4D / Octane / Trapcode / Photoshop / Illustrator"
       description=""
     />
     <ResponsivePlayer 

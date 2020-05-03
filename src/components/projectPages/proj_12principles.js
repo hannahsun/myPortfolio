@@ -6,9 +6,10 @@ export default function myproject() {
   return (
     <React.Fragment>
     <Project 
-      name="12 Principles of Animation"
-      year="2019"
-      tools="Cinema4D / After Effects"
+      Q1="Project"
+      Q2="Tools"
+      A1="12 Principles of Animation"
+      A2="Cinema4D / After Effects"
       description="A short assignment illustrating the 12 basic principles of animation."
     />
     <ResponsivePlayer url="https://vimeo.com/358668754" />

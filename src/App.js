@@ -17,6 +17,8 @@ import graphicThumbs from './components/pages/thumbs_graphic.js';
 import About from './components/pages/about.js';
 
 //project page components
+import demo from './components/projectPages/demo';
+//motion projects
 import proj_motionReel from './components/projectPages/proj_motionReel';
 import proj_legion from './components/projectPages/proj_legion';
 import proj_stillToLife from './components/projectPages/proj_stillToLife';
@@ -29,8 +31,8 @@ import proj_adler from './components/projectPages/proj_adler';
 import proj_chicagomemory from './components/projectPages/proj_chicagomemory';
 import proj_form from './components/projectPages/proj_form';
 import proj_museum from './components/projectPages/proj_museum';
-
-import demo from './components/projectPages/demo';
+//graphic design projects
+import proj_planit from './components/projectPages/proj_planit';
 
 function App() {
   return (
@@ -42,7 +44,7 @@ function App() {
         <Route exact path='/graphic' component={graphicThumbs}></Route>
         <Route exact path='/about' component={About}></Route>
 
-        {/*individual project pages  */}
+        {/*motion project pages  */}
         <Route exact path='/motionReel' component={proj_motionReel}></Route>
         <Route exact path='/legion' component={proj_legion}></Route>
         <Route exact path='/stilltolife' component={proj_stillToLife}></Route>
@@ -55,7 +57,8 @@ function App() {
         <Route exact path='/chicagomemory' component={proj_chicagomemory}></Route>
         <Route exact path='/form' component={proj_form}></Route>
         <Route exact path='/museum' component={proj_museum}></Route>
-
+        {/* graphic design project */}
+        <Route exact path='/planit' component={proj_planit}></Route>
 
         {/* Demo Page */}
         <Route exact path='/demo' component={demo}></Route>
