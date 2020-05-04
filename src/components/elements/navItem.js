@@ -1,12 +1,14 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 const NavItem = props => (
     <ul className="menu">
-              <li className="menu-item"><Link to="/">Motion Design</Link></li>
-              <li className="menu-item"><Link to="/graphic">Graphic Design</Link></li>
+              <li className="menu-item"><NavLink to="/" exact activeClassName="nav--active" >
+                  Motion Design
+                </NavLink></li>
+              <li className="menu-item"><NavLink to="/graphic" activeClassName="nav--active">Graphic Design</NavLink></li>
               <li className="menu-item">
-                  <Link to="/about">About</Link>
+                  <NavLink to="/about" activeClassName="nav--active">About</NavLink>
               </li>
      </ul>
 );

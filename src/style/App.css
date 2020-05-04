@@ -208,7 +208,7 @@ header .menu-item {
   position: relative;
 }
 
-.nav-web .menu-item:after {
+.nav-web a:after {
   content: "";
   position: absolute;
   width: 0%;
@@ -218,8 +218,19 @@ header .menu-item {
   left: 0;
   transition: 0.25s ease-out;
 }
-.nav-web .menu-item:hover::after {
+.nav-web a:hover::after {
   width: 100%;
+}
+
+.nav-web a.nav--active:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.2px;
+  background-color: #fafafa;
+  bottom: -0.3em;
+  left: 0;
+  transition: 0.25s ease-out;
 }
 
 footer {
