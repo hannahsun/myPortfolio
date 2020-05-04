@@ -34,7 +34,7 @@ $font-black: 900;
 %header-m{
     font-size:20px;
     font-weight:900;
-    line-height: 1.3em;
+    line-height: 1.4em;
 }
 .m-dynamic{
     font-size:clamp(20px, 2vw, 30px);
@@ -64,7 +64,8 @@ $font-black: 900;
 .inline-block{
     display: inline-block;
 }
-a{
+a{  
+    outline: 0;
     text-decoration: none; 
     position: relative;
     color:inherit;
@@ -76,6 +77,9 @@ a{
         color:inherit;
         // color: darken( $white, 50% );
     }
+}
+a:hover, a:active, a:focus {
+    outline: 0;  
 }
 
 a.select{

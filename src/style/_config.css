@@ -15,7 +15,7 @@ h5 {
 h3 {
   font-size: 20px;
   font-weight: 900;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 
 .m-dynamic {
@@ -44,6 +44,7 @@ h3 {
 }
 
 a {
+  outline: 0;
   text-decoration: none;
   position: relative;
   color: inherit;
@@ -53,6 +54,10 @@ a {
 a:hover {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover, a:active, a:focus {
+  outline: 0;
 }
 
 a.select:after {
