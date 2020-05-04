@@ -13,6 +13,8 @@ import "../../style/projectPage.css"
 
 //custom accordion look for project info section
 function CustomToggle({ children, eventKey }) {
+
+  //accordion toggle
   const decoratedOnClick = useAccordionToggle(eventKey, () =>
     console.log('toggle accordion!'),
   );

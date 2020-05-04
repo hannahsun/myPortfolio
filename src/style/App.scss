@@ -57,11 +57,10 @@ $ratio_wide: 1/2.2;
 header{
     width:100%;
     margin:auto;
-    
-    .section-wrapper{
-        display: flex;
-        justify-content: space-between;
-    }
+    // .section-wrapper{
+    //     display: flex;
+    //     justify-content: space-between;
+    // }
 
     // .siteName{
     //     font-weight: $font-black;
@@ -71,11 +70,21 @@ header{
     //     display: inline-block;
     // }
 
+ 
+    nav{
+        display: block;
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+
+    }
+
     .siteLogo{
             display: inline-block;
-            $width: 35px;
+            $width: 40px;
             width:$width;
             height:$width;
+            margin-right:20px;
             // background-color:red;
             & a{
                 width:100%;
@@ -88,21 +97,23 @@ header{
             }
      }
 
-    nav{
-        display: inline-block;
-    }
-
+    .menu{
+         display: flex;
+     }
     .menu-item{
-        display: inline-block;
         height: 100%;
         user-select: none;
         font-weight: $font-regular;
+        font-size: 17px;
         text-transform: capitalize;
-        display: inline-block;
         padding: 0;
-        margin-top:6px; // not dynmaic
         margin-left: 2em;
+
+        &:hover{
+            color:$grey;
+        }
     }
+    
 }
 
 footer{
@@ -368,5 +379,11 @@ img.d-block{
     }
     .thumb-info-wrapper{
         padding:3vw;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .nav-web{
+        display: none;
     }
   }

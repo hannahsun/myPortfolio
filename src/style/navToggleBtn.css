@@ -116,4 +116,80 @@ h5 {
   width: 0.5em;
 }
 
-/*# sourceMappingURL=_config.css.map */
+.navToggleBtn {
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  width: 30px;
+  height: 20px;
+  margin: 10px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 101;
+}
+
+.navToggleBtn_e {
+  position: absolute;
+  left: 50%;
+  background-color: #fafafa;
+  width: 100%;
+  height: 1.5px;
+  transition: 0.25s ease-out;
+}
+.navToggleBtn_e:first-child {
+  transform: translate(-50%, -5px);
+}
+.navToggleBtn_e:last-child {
+  transform: translate(-50%, 5px);
+}
+
+.nav-mobile {
+  background-color: #fafafa;
+  color: #0f0f0f;
+  width: 75%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 99;
+  display: flex;
+  transition: 0.4s ease-out;
+}
+.nav-mobile .menu {
+  width: 100%;
+  align-self: center;
+  flex-direction: column;
+  padding: 0 5vw;
+  margin: auto;
+}
+.nav-mobile .menu-item {
+  width: 100%;
+  font-size: 6vw;
+  padding: 0.8em 0.5em;
+  margin: 0 0em;
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.active.nav-mobile {
+  right: 0;
+}
+
+.true .navToggleBtn_e {
+  background-color: #0f0f0f;
+}
+.true .navToggleBtn_e:first-child {
+  transform: translate(-50%, 0);
+}
+.true .navToggleBtn_e:last-child {
+  transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  .navToggleBtn {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=navToggleBtn.css.map */

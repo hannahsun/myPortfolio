@@ -15,7 +15,7 @@ h5 {
 h3 {
   font-size: 20px;
   font-weight: 900;
-  line-height: 1.5em;
+  line-height: 1.3em;
 }
 
 .m-dynamic {
@@ -170,14 +170,16 @@ header {
   width: 100%;
   margin: auto;
 }
-header .section-wrapper {
+header nav {
+  display: block;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 header .siteLogo {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
 }
 header .siteLogo a {
   width: 100%;
@@ -187,19 +189,20 @@ header .siteLogo svg {
   width: 100%;
   fill: #fafafa;
 }
-header nav {
-  display: inline-block;
+header .menu {
+  display: flex;
 }
 header .menu-item {
-  display: inline-block;
   height: 100%;
   user-select: none;
   font-weight: 500;
+  font-size: 17px;
   text-transform: capitalize;
-  display: inline-block;
   padding: 0;
-  margin-top: 6px;
   margin-left: 2em;
+}
+header .menu-item:hover {
+  color: #a0a0a0;
 }
 
 footer {
@@ -438,6 +441,11 @@ img.d-block {
 
   .thumb-info-wrapper {
     padding: 3vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .nav-web {
+    display: none;
   }
 }
 

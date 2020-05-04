@@ -1,0 +1,81 @@
+@import "_config.scss";
+
+.navToggleBtn{
+    cursor: pointer;
+    position: absolute;
+    top:30px; right:25px;
+    width:30px;
+    height:20px;
+    margin:10px;
+    // display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 101;
+    
+}
+.navToggleBtn_e{
+    position: absolute;
+    left:50%;
+    background-color:$white;
+    width:100%;
+    height:1.5px;
+    transition: .25s ease-out;
+    &:first-child{
+        transform: translate(-50%, -5px);
+    }
+    &:last-child{
+        transform: translate(-50%, 5px);
+    }
+}
+
+
+.nav-mobile{
+    background-color:$white;
+    color: $black;
+    width:75%;
+    height: 100%;
+    position: fixed;
+    top:0; right:-100%;
+    z-index:99;
+    display: flex;
+    transition:.4s ease-out;
+
+    & .menu{
+        width: 100%;
+        align-self: center;
+        flex-direction: column;
+        padding: 0 5vw;
+        margin: auto;
+    }
+    & .menu-item{
+        width: 100%;
+        font-size: 6vw;
+        padding:.8em .5em;
+        margin: 0 0em;
+        border-bottom: 1px solid $grey;
+    }
+}
+
+
+.active.nav-mobile{
+    right:0;
+    // background-color: red;
+}
+
+.true .navToggleBtn_e{
+    background-color:$black;
+    &:first-child{
+        transform: translate(-50%, 0);
+    }
+    &:last-child{
+        transform: translate(-50%, 0);
+    }
+}
+
+//breakpoints
+@media only screen and (max-width: 600px) {
+    .navToggleBtn{
+        display: flex;
+    }
+  }

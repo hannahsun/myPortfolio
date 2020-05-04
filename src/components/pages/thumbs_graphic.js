@@ -14,7 +14,7 @@ export default function FullWidthGrid() {
   return (
     <div className="wide-wrapper">
       <Grid container spacing={1}>
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={12} md={6}>
           <Thumb 
                 link="/planit"
                 image= {tmb_planit}
@@ -22,7 +22,7 @@ export default function FullWidthGrid() {
                 category="UI/UX"
               />
         </Grid>
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={12} md={6}>
           <Thumb 
                 link="/blackout"
                 image= {tmb_blackout}
@@ -31,7 +31,7 @@ export default function FullWidthGrid() {
               />
           </Grid>        
        
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={12} md={6}>
         <Thumb 
                 link="/salmongold"
                 image= {tmb_salmongold}
@@ -40,7 +40,7 @@ export default function FullWidthGrid() {
               />
         </Grid>
 
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={12} md={6}>
           <Thumb 
                 link="/bookfes"
                 image= {tmb_bookfes}
