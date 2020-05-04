@@ -191,11 +191,14 @@ header nav {
   display: inline-block;
 }
 header .menu-item {
+  display: inline-block;
+  height: 100%;
   user-select: none;
   font-weight: 500;
   text-transform: capitalize;
   display: inline-block;
   padding: 0;
+  margin-top: 6px;
   margin-left: 2em;
 }
 

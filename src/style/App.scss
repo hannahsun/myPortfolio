@@ -91,14 +91,16 @@ header{
     nav{
         display: inline-block;
     }
+
     .menu-item{
+        display: inline-block;
+        height: 100%;
         user-select: none;
-        // font-size: 14px;
-        // letter-spacing: .12em;
         font-weight: $font-regular;
         text-transform: capitalize;
         display: inline-block;
         padding: 0;
+        margin-top:6px; // not dynmaic
         margin-left: 2em;
     }
 }
