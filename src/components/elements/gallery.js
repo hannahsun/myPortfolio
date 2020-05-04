@@ -19,17 +19,23 @@ function Gallery(props) {
   // console.log(props.isPadded)
   const paddingStyle = paddedSection(props.isPadded);
 
+  const galleryStyle={
+    backgroundColor: props.backgroundColor,
+  }
+
   return (
     <div className={paddingStyle}>
     <Grid container spacing={props.spacing}>
        {
          props.imagePool.map((item,i) => (
           <Grid item xs={12}  key={['galleryItem-'+i]}>
+            <div style={galleryStyle} >
             <img
               className="d-block"
               src={item.url}
               alt={["slide no."+i]}
             />
+            </div>
           </Grid>
          ))
        }

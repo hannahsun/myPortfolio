@@ -61,7 +61,7 @@ export default function myproject() {
     />
     <Gallery 
       isPadded = {true}
-      spacing = {2}
+      spacing = {1}
       imagePool = {ImagePool_1}
     />
     </React.Fragment>

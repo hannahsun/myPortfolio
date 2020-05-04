@@ -55,7 +55,9 @@ export default function myproject() {
       description="A short animation that brings El Lissitzky's suprematism drawing to life. This artwork is one of the pieces from Lissitzky's PROUN series in which he sought to combine architecture and 3-dimensional space with the traditional and abstract 2-dimensional imagery."
     />
     <Gallery 
+      backgroundColor = 'rgb(24, 26, 30)'
       isPadded = {true}
+      spacing = {1}
       imagePool = {ImagePool_1}
     />
     </React.Fragment>
