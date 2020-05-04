@@ -3,7 +3,7 @@ import {
   Link
 } from 'react-router-dom';
 
-import mylogo from '../../assets/icon/icon-logo-outline-white.svg';
+// import mylogo from '../../assets/icon/icon-logo-outline-white.svg';
 
 function Navigation() {
   return (
@@ -11,7 +11,7 @@ function Navigation() {
       <div className="section-wrapper">
           {/* <div className="siteName"><Link to="/">Hannah Hanqing Sun</Link></div> */}
           <div className="siteLogo"><Link to="/">
-              <img src={mylogo} />
+              {/* <img src={mylogo} /> */}
             </Link></div>
           <nav>
           <ul className="menu">
