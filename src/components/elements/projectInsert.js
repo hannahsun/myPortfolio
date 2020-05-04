@@ -2,11 +2,21 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 
 function Insert(props) {
-  const myStyle={
-    // backgroundColor:'red',
-    paddingTop: "120px",
-    paddingBottom: "120px"
+  let myStyle;
+  if (props.padding == ''){
+      myStyle={
+        // backgroundColor:'red',
+        paddingTop: "120px",
+        paddingBottom: "120px"
+      }
+  }else{
+    myStyle={
+      // backgroundColor:'red',
+      paddingTop: props.padding,
+      paddingBottom: props.padding
+    }
   }
+
   return (
     <div className="section-wrapper" style={myStyle}>
     <Grid container spacing={2}>
