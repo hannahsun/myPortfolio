@@ -100,7 +100,7 @@ header{
     .menu{
          display: flex;
      }
-    .menu-item{
+    .menu-item{ //for both web and mobile
         height: 100%;
         user-select: none;
         font-weight: $font-regular;
@@ -108,13 +108,26 @@ header{
         text-transform: capitalize;
         padding: 0;
         margin-left: 2em;
-
-        &:hover{
-            color:$grey;
-        }
+        position: relative;
     }
     
 }
+.nav-web .menu-item{
+    &:after{
+        content:'';
+        position: absolute;
+        width: 0%;
+        height:1.2px;
+        background-color: $white;
+        bottom:-.3em;
+        left:0;
+        transition: .25s ease-out;
+    }
+    &:hover::after{
+        width: 100%;
+    }
+}
+
 
 footer{
     background:$white;

@@ -205,9 +205,21 @@ header .menu-item {
   text-transform: capitalize;
   padding: 0;
   margin-left: 2em;
+  position: relative;
 }
-header .menu-item:hover {
-  color: #a0a0a0;
+
+.nav-web .menu-item:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1.2px;
+  background-color: #fafafa;
+  bottom: -0.3em;
+  left: 0;
+  transition: 0.25s ease-out;
+}
+.nav-web .menu-item:hover::after {
+  width: 100%;
 }
 
 footer {
