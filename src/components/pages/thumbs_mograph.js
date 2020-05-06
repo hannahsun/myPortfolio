@@ -1,5 +1,6 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
+import { MuiThemeProvider as V0MuiThemeProvider} from '@material-ui/core'
 import Grid from '@material-ui/core/Grid';
 import Thumb from '../elements/thumb.js';
 
@@ -18,127 +19,140 @@ import tmb_museum from '../../assets/img/motion/futuristicMuseum-c.png';
 import tmb_chicagomemory from '../../assets/img/motion/chicagomemory-c.png';
 
 
+//custom styling for grid
 
-const useStyles = makeStyles((theme) => ({
+
+const mytheme = createMuiTheme({
+  spacing: 10
+});
+
+console.log('hello1');
+console.log(mytheme);
+console.log('hello2');
+
+const useStyles = makeStyles((mytheme) => ({
   root: {
-    flexGrow: 1,
-    spacing: 20,
+    // backgroundColor: 'red',
+    // padding: '10px',
+    // flexGrow: 1,
   },
 }));
-
 
 
 export default function FullWidthGrid() {
   const classes = useStyles();
 
   return (
-    <div className={'wide-wrapper' + " " + classes.root}>
-      <Grid container spacing={1}>
-        <Grid item xs={12} sm={12} md={6}>
-          <Thumb 
-                link="/motionReel" //project path
-                image={tmb_motionReel}
-                title="Motion Reel 2019"
-                category="motion graphics"
-              />
-        </Grid>
-        <Grid item xs={6} sm={6} md={3}>
-          <Thumb 
-                link="/Legion"
-                image={tmb_legion}
-                title="Legion"
-                category="3D Animation"
-              />
-          </Grid>
-        <Grid item xs={6} sm={6} md={3}>
-        <Thumb 
-                link="/stilltolife"
-                image={tmb_stilltolife}
-                title="Still To Life"
-                category="3D Animation"
-              />
-        </Grid>
-        <Grid item xs={6} sm={6} md={3}>
-          <Thumb 
-                link="/miscellaneous"
-                image={tmb_socialposts}
-                title="miscellaneous"
-                category="2D / Motion Graphics"
-              />
-        </Grid>
-        <Grid item xs={6} sm={6} md={3}>
-          <Thumb 
-                link="/liquidanimation"
-                image={tmb_liquidAnimation}
-                title="Liquid Animation"
-                category="2D / Cell"
-              />
-        </Grid>
-        <Grid item xs={12} sm={12} md={6}>
-          <Thumb 
-                link="/squares"
-                image={tmb_squares}
-                title="Squares"
-                category="Motion Graphics"
-              />
-        </Grid>
+    <MuiThemeProvider theme={mytheme}>
+    <V0MuiThemeProvider theme={mytheme}>
+          <div className={'wide-wrapper' + " " + classes.root}>
+            <Grid container spacing={1} >
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/motionReel" //project path
+                      image={tmb_motionReel}
+                      title="Motion Reel 2019"
+                      category="motion graphics"
+                    />
+              </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/Legion"
+                      image={tmb_legion}
+                      title="Legion"
+                      category="3D Animation"
+                    />
+                </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+              <Thumb 
+                      link="/stilltolife"
+                      image={tmb_stilltolife}
+                      title="Still To Life"
+                      category="3D Animation"
+                    />
+              </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/miscellaneous"
+                      image={tmb_socialposts}
+                      title="miscellaneous"
+                      category="2D / Motion Graphics"
+                    />
+              </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/liquidanimation"
+                      image={tmb_liquidAnimation}
+                      title="Liquid Animation"
+                      category="2D / Cell"
+                    />
+              </Grid>
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/squares"
+                      image={tmb_squares}
+                      title="Squares"
+                      category="Motion Graphics"
+                    />
+              </Grid>
 
-        {/* section break */}
+              {/* section break */}
 
 
-        <Grid item xs={12} sm={12} md={6}>
-          <Thumb 
-                link="/starving"
-                image={tmb_starving}
-                title="Starving"
-                category="3D Animation"
-              />
-        </Grid>
-        <Grid item xs={6} sm={6} md={3}>
-          <Thumb 
-                link="/12principles"
-                image={tmb_12principles}
-                title="12 principles of animation"
-                category="2D Motion Graphics"
-              />
-          </Grid>
-        <Grid item xs={6} sm={6} md={3}>
-        <Thumb 
-                link="/adler"
-                image={tmb_adler}
-                title="Adler Planetarium"
-                size="x2"
-                category="motion"
-              />
-        </Grid>
-        <Grid item xs={6} sm={6} md={3}>
-          <Thumb 
-                link="/chicagomemory"
-                image={tmb_chicagomemory}
-                title="chicago memory"
-                category="2D motion graphics"
-              />
-        </Grid>
-        <Grid item xs={6} sm={6} md={3}>
-          <Thumb 
-                link="/form"
-                image={tmb_form}
-                title="Liquid Animation"
-                category="2D / Particle"
-              />
-        </Grid>
-        <Grid item xs={12} sm={12} md={6}>
-          <Thumb 
-                link="/museum"
-                image={tmb_museum}
-                title="museum of the future"
-                category="Motion Graphics"
-              />
-        </Grid>
-        
-        
-        
-      </Grid>
-    </div>
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/starving"
+                      image={tmb_starving}
+                      title="Starving"
+                      category="3D Animation"
+                    />
+              </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/12principles"
+                      image={tmb_12principles}
+                      title="12 principles of animation"
+                      category="2D Motion Graphics"
+                    />
+                </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+              <Thumb 
+                      link="/adler"
+                      image={tmb_adler}
+                      title="Adler Planetarium"
+                      size="x2"
+                      category="motion"
+                    />
+              </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/chicagomemory"
+                      image={tmb_chicagomemory}
+                      title="chicago memory"
+                      category="2D motion graphics"
+                    />
+              </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/form"
+                      image={tmb_form}
+                      title="Liquid Animation"
+                      category="2D / Particle"
+                    />
+              </Grid>
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/museum"
+                      image={tmb_museum}
+                      title="museum of the future"
+                      category="Motion Graphics"
+                    />
+              </Grid>
+                
+            </Grid>
+          </div>
+    
+          </V0MuiThemeProvider>
+    </MuiThemeProvider>
   );
 }
