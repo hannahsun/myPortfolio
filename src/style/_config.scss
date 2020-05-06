@@ -4,7 +4,7 @@
 //$black: rgb(15,15,15);
 $black: rgb(27, 23, 25);
 $white: rgb(231, 229, 221);
-$grey: rgb(160,160,160);
+$grey: rgb(112, 109, 109);
 $darkgrey: rgb(100,100,100);
 $accent: rgb(255, 86, 43);
 
@@ -119,8 +119,9 @@ h5{
     font-family: $roboto;
     @extend %header-s;
 }
-.light{
-    color:$grey;
+
+.lighttext{
+    color: $grey;
 }
 
 //spacer
