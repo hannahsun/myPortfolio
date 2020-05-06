@@ -1,8 +1,9 @@
 import React from 'react';
-import { makeStyles, MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
+import { makeStyles, MuiThemeProvider} from '@material-ui/core/styles';
 import { MuiThemeProvider as V0MuiThemeProvider} from '@material-ui/core'
 import Grid from '@material-ui/core/Grid';
 import Thumb from '../elements/thumb.js';
+import mytheme from '../../style/mytheme.js'
 
 //import thumbnail files
 import tmb_motionReel from '../../assets/img/motion/reel-c.jpg';
@@ -22,19 +23,16 @@ import tmb_chicagomemory from '../../assets/img/motion/chicagomemory-c.png';
 //custom styling for grid
 
 
-const mytheme = createMuiTheme({
-  spacing: 10
-});
+// const mytheme = createMuiTheme({
+//   spacing: 10
+// });
 
-console.log('hello1');
-console.log(mytheme);
-console.log('hello2');
 
-const useStyles = makeStyles((mytheme) => ({
+
+const useStyles = makeStyles((theme) => ({
   root: {
     // backgroundColor: 'red',
-    // padding: '10px',
-    // flexGrow: 1,
+    flexGrow: 1,
   },
 }));
 

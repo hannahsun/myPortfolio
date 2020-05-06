@@ -1,5 +1,5 @@
 @import "reset.css";
-.accordion-body, body {
+.accordion-body, body, #root {
   font-size: 15px;
   letter-spacing: 0.05em;
   font-weight: 400;
@@ -31,7 +31,7 @@ h3 {
 }
 
 ::selection {
-  color: #0f0f0f;
+  color: #1b1719;
   background: rgba(255, 86, 43, 0.99);
 }
 
@@ -73,17 +73,17 @@ a.select:after {
   transition: 0.2s ease-out;
 }
 a.select:hover {
-  color: #0f0f0f;
+  color: #1b1719;
 }
 a.select:hover::after {
   opacity: 1;
 }
 
-body {
+body, #root {
   font-family: "Roboto", sans-serif;
-  color: #fafafa;
-  background: #0f0f0f;
+  color: #e7e5dd;
   position: relative;
+  background-color: #1b1719;
 }
 
 h3 {
@@ -192,7 +192,7 @@ header .siteLogo a {
 }
 header .siteLogo svg {
   width: 100%;
-  fill: #fafafa;
+  fill: #e7e5dd;
 }
 header .menu {
   display: flex;
@@ -213,7 +213,7 @@ header .menu-item {
   position: absolute;
   width: 0%;
   height: 1.2px;
-  background-color: #fafafa;
+  background-color: #e7e5dd;
   bottom: -0.3em;
   left: 0;
   transition: 0.25s ease-out;
@@ -227,15 +227,15 @@ header .menu-item {
   position: absolute;
   width: 100%;
   height: 1.2px;
-  background-color: #fafafa;
+  background-color: #e7e5dd;
   bottom: -0.3em;
   left: 0;
   transition: 0.25s ease-out;
 }
 
 footer {
-  background: #fafafa;
-  color: #0f0f0f;
+  background: #e7e5dd;
+  color: #1b1719;
   width: 100%;
   min-height: 70px;
 }
@@ -339,7 +339,7 @@ footer li {
   height: 100%;
   z-index: 5;
   opacity: 0;
-  background-color: #fafafa;
+  background-color: #e7e5dd;
   mix-blend-mode: saturation;
   transition: 0.2s ease-in-out;
 }
@@ -353,7 +353,7 @@ footer li {
   height: 100%;
   padding: 1.6vw;
   text-transform: capitalize;
-  color: #0f0f0f;
+  color: #1b1719;
   z-index: 10;
 }
 .thumb-info-wrapper:after {
@@ -363,7 +363,7 @@ footer li {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #fafafa;
+  background-color: #e7e5dd;
   opacity: 0;
   z-index: -1;
   transition: 0.2s ease-in-out;
@@ -420,7 +420,7 @@ footer li {
   top: 50%;
   left: 50%;
   transform-origin: 50% 50%;
-  background-color: #fafafa;
+  background-color: #e7e5dd;
 }
 .icon-more .stroke-1 {
   transform: translate(-50%, 0) rotate(0);

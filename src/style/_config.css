@@ -1,5 +1,5 @@
 @import "reset.css";
-body {
+body, #root {
   font-size: 15px;
   letter-spacing: 0.05em;
   font-weight: 400;
@@ -31,7 +31,7 @@ h3 {
 }
 
 ::selection {
-  color: #0f0f0f;
+  color: #1b1719;
   background: rgba(255, 86, 43, 0.99);
 }
 
@@ -73,17 +73,17 @@ a.select:after {
   transition: 0.2s ease-out;
 }
 a.select:hover {
-  color: #0f0f0f;
+  color: #1b1719;
 }
 a.select:hover::after {
   opacity: 1;
 }
 
-body {
+body, #root {
   font-family: "Roboto", sans-serif;
-  color: #fafafa;
-  background: #0f0f0f;
+  color: #e7e5dd;
   position: relative;
+  background-color: #1b1719;
 }
 
 h3 {

@@ -57,20 +57,6 @@ $ratio_wide: 1/2.2;
 header{
     width:100%;
     margin:auto;
-    // .section-wrapper{
-    //     display: flex;
-    //     justify-content: space-between;
-    // }
-
-    // .siteName{
-    //     font-weight: $font-black;
-    //     font-family: $roboto;
-    //     letter-spacing: 0.05em;
-    //     font-size:20px;
-    //     display: inline-block;
-    // }
-
- 
     nav{
         display: block;
         display: flex;
@@ -111,21 +97,6 @@ header{
         position: relative;
     }
     
-}
-.nav-web .menu-item > a{
-    // &:after{
-    //     content:'';
-    //     position: absolute;
-    //     width: 0%;
-    //     height:1.2px;
-    //     background-color: $white;
-    //     bottom:-.3em;
-    //     left:0;
-    //     transition: .25s ease-out;
-    // }
-    // &:hover::after{
-    //     width: 100%;
-    // }
 }
 
   .nav-web a{
