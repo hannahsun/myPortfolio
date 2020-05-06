@@ -65,6 +65,7 @@
 
 .true .navToggleBtn_e{
     background-color:$black;
+    height:3px;
     &:first-child{
         transform: translate(-50%, 0);
     }
