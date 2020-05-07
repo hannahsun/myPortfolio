@@ -81,7 +81,7 @@ a.select:hover::after {
 
 body, #root {
   font-family: "Roboto", sans-serif;
-  color: #e7e5dd;
+  color: #eeede7;
   position: relative;
   background-color: #181617;
 }
@@ -98,8 +98,12 @@ h5 {
   color: #979696;
 }
 
+.grey {
+  color: gray;
+}
+
 .darktext {
-  color: #706d6d;
+  color: #5c5b5b;
 }
 
 .spacer {

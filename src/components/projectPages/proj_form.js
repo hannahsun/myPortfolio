@@ -9,8 +9,8 @@ export default function myproject() {
       Q1="Project"
       Q2="Tools"
       A1="Forms"
-      A2="After Effects / Trapcode Suite"
-      description="A short exercise exploring the relation between image and sound."
+      A2="After Effects / Red Giant Form & Particular"
+      description=""
     />
     <ResponsivePlayer url="https://vimeo.com/367635230" />
     </React.Fragment>

@@ -10,7 +10,7 @@ export default function myproject() {
       Q2="Tools"
       A1="Squares"
       A2="After Effects / Cinema4D"
-      description="A short assignment exploring one of the fundamental shapes, the square, and the infinite combinations and possibilities it brings."
+      description=""
     />
     <ResponsivePlayer url="https://vimeo.com/360154140" />
     </React.Fragment>

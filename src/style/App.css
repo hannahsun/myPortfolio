@@ -81,7 +81,7 @@ a.select:hover::after {
 
 body, #root {
   font-family: "Roboto", sans-serif;
-  color: #e7e5dd;
+  color: #eeede7;
   position: relative;
   background-color: #181617;
 }
@@ -98,8 +98,12 @@ h5 {
   color: #979696;
 }
 
+.grey {
+  color: gray;
+}
+
 .darktext {
-  color: #706d6d;
+  color: #5c5b5b;
 }
 
 .spacer {
@@ -196,8 +200,8 @@ header .siteLogo a {
 }
 header .siteLogo svg {
   width: 100%;
-  fill: #e7e5dd;
-  stroke: #e7e5dd;
+  fill: #eeede7;
+  stroke: #eeede7;
 }
 header .menu {
   display: flex;
@@ -218,7 +222,7 @@ header .menu-item {
   position: absolute;
   width: 0%;
   height: 1.2px;
-  background-color: #e7e5dd;
+  background-color: #eeede7;
   bottom: -0.3em;
   left: 0;
   transition: 0.25s ease-out;
@@ -232,14 +236,14 @@ header .menu-item {
   position: absolute;
   width: 100%;
   height: 1.2px;
-  background-color: #e7e5dd;
+  background-color: #eeede7;
   bottom: -0.3em;
   left: 0;
   transition: 0.25s ease-out;
 }
 
 footer {
-  background: #e7e5dd;
+  background: white;
   color: #181617;
   width: 100%;
   min-height: 70px;
@@ -263,7 +267,7 @@ footer li {
   cursor: pointer;
   user-select: none;
   padding: 1.2em 0;
-  border-bottom: 1px solid #706d6d;
+  border-bottom: 1px solid #5c5b5b;
   font-weight: 500;
 }
 
@@ -344,7 +348,7 @@ footer li {
   height: 100%;
   z-index: 5;
   opacity: 0;
-  background-color: #e7e5dd;
+  background-color: #eeede7;
   mix-blend-mode: saturation;
   transition: 0.2s ease-in-out;
 }
@@ -368,7 +372,7 @@ footer li {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #e7e5dd;
+  background-color: #eeede7;
   opacity: 0;
   z-index: -1;
   transition: 0.2s ease-in-out;
@@ -425,7 +429,7 @@ footer li {
   top: 50%;
   left: 50%;
   transform-origin: 50% 50%;
-  background-color: #e7e5dd;
+  background-color: #eeede7;
 }
 .icon-more .stroke-1 {
   transform: translate(-50%, 0) rotate(0);

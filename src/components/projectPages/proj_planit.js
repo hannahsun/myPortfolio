@@ -52,7 +52,7 @@ export default function myproject() {
       Q2="Team"
       A1="Plan-it Money App"
       A2="with Yenna Chang / Ann Liu"
-      description="A short animation that brings El Lissitzky's suprematism drawing to life. This artwork is one of the pieces from Lissitzky's PROUN series in which he sought to combine architecture and 3-dimensional space with the traditional and abstract 2-dimensional imagery."
+      description="Plan-it is a space themed money management app designed to help users save money with the help of two main features: spending habit analysis and balance forecast. " 
     />
     <Gallery 
       backgroundColor = 'rgb(28, 29, 31)'

@@ -81,7 +81,7 @@ a.select:hover::after {
 
 body, #root {
   font-family: "Roboto", sans-serif;
-  color: #e7e5dd;
+  color: #eeede7;
   position: relative;
   background-color: #181617;
 }
@@ -98,8 +98,12 @@ h5 {
   color: #979696;
 }
 
+.grey {
+  color: gray;
+}
+
 .darktext {
-  color: #706d6d;
+  color: #5c5b5b;
 }
 
 .spacer {
@@ -142,7 +146,7 @@ h5 {
 .navToggleBtn_e {
   position: absolute;
   left: 50%;
-  background-color: #e7e5dd;
+  background-color: #eeede7;
   width: 100%;
   height: 1.5px;
   transition: 0.25s ease-out;
@@ -155,7 +159,7 @@ h5 {
 }
 
 .nav-mobile {
-  background-color: #e7e5dd;
+  background-color: #eeede7;
   color: #181617;
   width: 75%;
   height: 100%;
@@ -178,7 +182,7 @@ h5 {
   font-size: 6vw;
   padding: 0.8em 0.5em;
   margin: 0 0em;
-  border-bottom: 1px solid #979696;
+  border-bottom: 1px solid gray;
 }
 
 .active.nav-mobile {

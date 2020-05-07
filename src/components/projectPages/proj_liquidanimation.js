@@ -10,7 +10,7 @@ export default function myproject() {
       Q2="Tools"
       A1="Liquid Animation"
       A2="Photoshop / After Effects"
-      description="A logo animation for the logo of SVA MFA Computer Arts program."
+      description=""
     />
     <ResponsivePlayer url="https://vimeo.com/376691667" />
     </React.Fragment>

@@ -10,7 +10,7 @@ export default function myproject() {
       Q2="Tools"
       A1="Legion Title Resolve"
       A2="Cinema4D / X-Particles"
-      description="Logo resolve for the FX show LEGION."
+      description=""
     />
     <ResponsivePlayer url="https://vimeo.com/407457829" />
     </React.Fragment>

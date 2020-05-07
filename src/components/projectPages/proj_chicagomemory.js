@@ -10,8 +10,7 @@ export default function myproject() {
       Q2="Tools"
       A1="Well Street Bridge"
       A2="After Effects"
-      description="A short assignemnt illustrating the view of Chicago river
-      from my previous everyday commute."
+      description="Repainting from memory the view at Well Street Bridge over the Chicago river."
     />
     <ResponsivePlayer url="https://vimeo.com/363142055"/>
     </React.Fragment>
