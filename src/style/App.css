@@ -31,7 +31,7 @@ h3 {
 }
 
 ::selection {
-  color: #1b1719;
+  color: #181617;
   background: rgba(255, 86, 43, 0.99);
 }
 
@@ -73,7 +73,7 @@ a.select:after {
   transition: 0.2s ease-out;
 }
 a.select:hover {
-  color: #1b1719;
+  color: #181617;
 }
 a.select:hover::after {
   opacity: 1;
@@ -83,7 +83,7 @@ body, #root {
   font-family: "Roboto", sans-serif;
   color: #e7e5dd;
   position: relative;
-  background-color: #1b1719;
+  background-color: #181617;
 }
 
 h3 {
@@ -95,6 +95,10 @@ h5 {
 }
 
 .lighttext {
+  color: #979696;
+}
+
+.darktext {
   color: #706d6d;
 }
 
@@ -183,7 +187,7 @@ header nav {
 header .siteLogo {
   display: inline-block;
   width: 40px;
-  height: 40px;
+  height: auto;
   margin-right: 20px;
 }
 header .siteLogo a {
@@ -193,6 +197,7 @@ header .siteLogo a {
 header .siteLogo svg {
   width: 100%;
   fill: #e7e5dd;
+  stroke: #e7e5dd;
 }
 header .menu {
   display: flex;
@@ -235,7 +240,7 @@ header .menu-item {
 
 footer {
   background: #e7e5dd;
-  color: #1b1719;
+  color: #181617;
   width: 100%;
   min-height: 70px;
 }
@@ -258,7 +263,7 @@ footer li {
   cursor: pointer;
   user-select: none;
   padding: 1.2em 0;
-  border-bottom: 1px solid #646464;
+  border-bottom: 1px solid #706d6d;
   font-weight: 500;
 }
 
@@ -353,7 +358,7 @@ footer li {
   height: 100%;
   padding: 1.6vw;
   text-transform: capitalize;
-  color: #1b1719;
+  color: #181617;
   z-index: 10;
 }
 .thumb-info-wrapper:after {

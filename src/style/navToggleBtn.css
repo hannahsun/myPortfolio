@@ -31,7 +31,7 @@ h3 {
 }
 
 ::selection {
-  color: #1b1719;
+  color: #181617;
   background: rgba(255, 86, 43, 0.99);
 }
 
@@ -73,7 +73,7 @@ a.select:after {
   transition: 0.2s ease-out;
 }
 a.select:hover {
-  color: #1b1719;
+  color: #181617;
 }
 a.select:hover::after {
   opacity: 1;
@@ -83,7 +83,7 @@ body, #root {
   font-family: "Roboto", sans-serif;
   color: #e7e5dd;
   position: relative;
-  background-color: #1b1719;
+  background-color: #181617;
 }
 
 h3 {
@@ -95,6 +95,10 @@ h5 {
 }
 
 .lighttext {
+  color: #979696;
+}
+
+.darktext {
   color: #706d6d;
 }
 
@@ -152,7 +156,7 @@ h5 {
 
 .nav-mobile {
   background-color: #e7e5dd;
-  color: #1b1719;
+  color: #181617;
   width: 75%;
   height: 100%;
   position: fixed;
@@ -174,7 +178,7 @@ h5 {
   font-size: 6vw;
   padding: 0.8em 0.5em;
   margin: 0 0em;
-  border-bottom: 1px solid #706d6d;
+  border-bottom: 1px solid #979696;
 }
 
 .active.nav-mobile {
@@ -182,7 +186,7 @@ h5 {
 }
 
 .true .navToggleBtn_e {
-  background-color: #1b1719;
+  background-color: #181617;
   height: 3px;
 }
 .true .navToggleBtn_e:first-child {

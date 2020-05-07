@@ -69,7 +69,7 @@ header{
             display: inline-block;
             $width: 40px;
             width:$width;
-            height:$width;
+            height: auto;
             margin-right:20px;
             // background-color:red;
             & a{
@@ -80,6 +80,9 @@ header{
             & svg{
                 width:100%;
                 fill:$white;
+                // fill:transparent;
+                stroke: $white;
+                // stroke-width:8;
             }
      }
 

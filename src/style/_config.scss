@@ -2,10 +2,10 @@
 
 // colors
 //$black: rgb(15,15,15);
-$black: rgb(27, 23, 25);
+$black: rgb(24, 22, 23);
 $white: rgb(231, 229, 221);
-$grey: rgb(112, 109, 109);
-$darkgrey: rgb(100,100,100);
+$grey: rgb(151, 150, 150);
+$darkgrey: rgb(112, 109, 109);
 $accent: rgb(255, 86, 43);
 
 //fonts
@@ -122,6 +122,9 @@ h5{
 
 .lighttext{
     color: $grey;
+}
+.darktext{
+    color: $darkgrey;
 }
 
 //spacer
