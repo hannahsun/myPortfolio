@@ -53,7 +53,7 @@ export default function myproject() {
       A1="PASSAGE"
       A2="Hannah Sun & I Ting Kao"
       A3="Cinema4D / After Effects / Illustrator"
-      A4="partial 3D animation (texturing, keying & model touchups) / 2D Animation / Graphic Design"
+      A4="partial 3D animation (texturing, keying & model touchups) / 2D Animation / storyboards / Graphic Design"
       description=""
       
     />
