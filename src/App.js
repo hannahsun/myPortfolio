@@ -31,6 +31,8 @@ import proj_adler from './components/projectPages/proj_adler';
 import proj_chicagomemory from './components/projectPages/proj_chicagomemory';
 import proj_form from './components/projectPages/proj_form';
 import proj_museum from './components/projectPages/proj_museum';
+import proj_blend from './components/projectPages/proj_blend';
+import proj_passage from './components/projectPages/proj_passage';
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
 import proj_blackout from './components/projectPages/proj_blackout';
@@ -59,6 +61,8 @@ function App() {
         <Route exact path='/chicagomemory' component={proj_chicagomemory}></Route>
         <Route exact path='/form' component={proj_form}></Route>
         <Route exact path='/museum' component={proj_museum}></Route>
+        <Route exact path='/blend' component={proj_blend}></Route>
+        <Route exact path='/passage' component={proj_passage}></Route>
         {/* graphic design project */}
         <Route exact path='/planit' component={proj_planit}></Route>
         <Route exact path='/blackout' component={proj_blackout}></Route>

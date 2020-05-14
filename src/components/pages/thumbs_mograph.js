@@ -18,6 +18,8 @@ import tmb_adler from '../../assets/img/motion/adlerplanetarium-c.png';
 import tmb_form from '../../assets/img/motion/form-c-2.png';
 import tmb_museum from '../../assets/img/motion/futuristicMuseum-c.png';
 import tmb_chicagomemory from '../../assets/img/motion/chicagomemory-c.png';
+import tmb_blend from '../../assets/img/motion/blend3015.jpg';
+import tmb_passage from '../../assets/img/motion/passage.jpg';
 
 
 //custom styling for grid
@@ -53,6 +55,15 @@ export default function FullWidthGrid() {
                       category="motion graphics"
                     />
               </Grid>
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/passage" //project path
+                      image={tmb_passage}
+                      title="Passage"
+                      category="3D Animation"
+                    />
+              </Grid>
+             
               <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/Legion"
@@ -69,6 +80,7 @@ export default function FullWidthGrid() {
                       category="3D Animation"
                     />
               </Grid>
+              
               <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/miscellaneous"
@@ -106,6 +118,31 @@ export default function FullWidthGrid() {
                     />
               </Grid>
               <Grid item xs={6} sm={6} md={3}>
+              <Thumb 
+                      link="/adler"
+                      image={tmb_adler}
+                      title="Adler Planetarium"
+                      category="motion"
+                    />
+              </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/blend"
+                      image={tmb_blend}
+                      title="Blend 3015"
+                      category="Motion Graphics"
+                    />
+                </Grid>
+              
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/form"
+                      image={tmb_form}
+                      title="Liquid Animation"
+                      category="2D / Particle"
+                    />
+              </Grid>
+              <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/12principles"
                       image={tmb_12principles}
@@ -113,29 +150,12 @@ export default function FullWidthGrid() {
                       category="2D Motion Graphics"
                     />
                 </Grid>
-              <Grid item xs={6} sm={6} md={3}>
-              <Thumb 
-                      link="/adler"
-                      image={tmb_adler}
-                      title="Adler Planetarium"
-                      size="x2"
-                      category="motion"
-                    />
-              </Grid>
-              <Grid item xs={6} sm={6} md={3}>
+                <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/chicagomemory"
                       image={tmb_chicagomemory}
                       title="chicago memory"
                       category="2D motion graphics"
-                    />
-              </Grid>
-              <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/form"
-                      image={tmb_form}
-                      title="Liquid Animation"
-                      category="2D / Particle"
                     />
               </Grid>
               <Grid item xs={12} sm={12} md={6}>

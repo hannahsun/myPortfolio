@@ -24,8 +24,10 @@ function Insert(props) {
             <h3>{props.title}</h3>
             <p>{props.subtitle}</p>
         </Grid>
-        <Grid item xs={12} sm={8}>
-            {props.description} 
+        <Grid item xs={12} sm={7} lg={6}>
+            <p>{props.description}</p>
+        </Grid>
+        <Grid item xs={12} sm={1} lg={2}>
         </Grid>
     </Grid>
     </div>

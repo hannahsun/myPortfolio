@@ -1,13 +1,5 @@
 @import "reset.css";
-
-// colors
-//$black: rgb(15,15,15);
-$black: rgb(24, 22, 23);
-$white: rgb(238, 237, 231);
-$lightgrey: rgb(151, 150, 150);
-$grey: rgb(128, 128, 128);
-$darkgrey: rgb(92, 91, 91);
-$accent: rgb(255, 86, 43);
+@import "color.scss";
 
 //fonts
 $roboto: 'Roboto', sans-serif;
@@ -28,17 +20,18 @@ $font-black: 900;
     line-height: 1.5em;
 }
 %header-s{
-    font-size:17px;
+    font-size:clamp(15px,2vw,18px);
     font-weight:400;
-    line-height: 1.3em;
+    line-height: 1.5em;
 }
 %header-m{
-    font-size:20px;
+    font-size:clamp(20px,2.5vw,28px);
     font-weight:900;
-    line-height: 1.4em;
+    line-height: 1.3em;
 }
 .m-dynamic{
-    font-size:clamp(20px, 2vw, 30px);
+    font-size:clamp(23px, 2vw, 30px);
+    line-height: 1.4em;
 }
 
 %header-l{
@@ -84,6 +77,7 @@ a:hover, a:active, a:focus {
 }
 
 a.select{
+    z-index: 1;
     // text-decoration: underline;
     &:after{
         content:'';
@@ -92,9 +86,9 @@ a.select{
         height:100%;
         opacity:0;
         background-color: $accent;
-        top:0; left:-4px;
+        bottom:0; left:-4px;
         z-index: -1;
-        transition: .2s ease-out;
+        transition: .18s ease-out;
     }
     &:hover{
         color:$black;
@@ -111,7 +105,11 @@ body, #root{
     position: relative;
     background-color: $black;
 }
-
+p {
+    font-family: $roboto;
+    // color:red;
+    @extend %header-s;
+}
 h3{
     font-family: $roboto;
     @extend %header-m;

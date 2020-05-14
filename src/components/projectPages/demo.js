@@ -8,11 +8,11 @@ import Gallery from '../elements/gallery';
 import GalleryGrid from '../elements/galleryGrid';
 import Insert from '../elements/projectInsert';
 import ResponsivePlayer from '../elements/responsivePlayer'
+import Spacer from '../elements/spacer';
 
 
 // image import
 import img_dogA from '../../assets/img/motion/NewYearGif.gif';
-import Spacer from '../elements/spacer';
 
 //define image pools
 let ImagePool_1 = [
