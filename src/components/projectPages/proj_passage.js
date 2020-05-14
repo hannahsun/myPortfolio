@@ -47,10 +47,15 @@ export default function myproject() {
     <React.Fragment>
     <Project 
       Q1="Project"
-      Q2="Tools"
+      Q2="Team"
+      Q3="Tools"
+      Q4="Role"
       A1="PASSAGE"
-      A2="Cinema4D / After Effects / Illustrator"
+      A2="Hannah Sun & I Ting Kao"
+      A3="Cinema4D / After Effects / Illustrator"
+      A4="partial 3D animation (texturing, keying & model touchups) / 2D Animation / Graphic Design"
       description=""
+      
     />
 
     <ControlledCarousel 
