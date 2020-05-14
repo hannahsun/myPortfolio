@@ -279,7 +279,7 @@ $transit-s: .2s;
     font-family: $roboto;
     font-weight:$font-bold;
     text-transform: capitalize;
-    font-size:clamp(14px, 1.3em, 19px); //title size
+    font-size:clamp(14px, 130%, 25px); //title size
     
     margin-left:-20px; //aniamted distance 
     transition: $transit-s*1.5 ease-in-out;

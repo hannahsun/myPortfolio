@@ -398,7 +398,7 @@ footer li {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: capitalize;
-  font-size: clamp(14px, 1.3em, 19px);
+  font-size: clamp(14px, 130%, 25px);
   margin-left: -20px;
   transition: 0.3s ease-in-out;
 }

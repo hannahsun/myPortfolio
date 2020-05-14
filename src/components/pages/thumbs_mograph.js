@@ -55,6 +55,8 @@ export default function FullWidthGrid() {
                       category="motion graphics"
                     />
               </Grid>
+
+
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/passage" //project path
@@ -63,15 +65,8 @@ export default function FullWidthGrid() {
                       category="3D Animation"
                     />
               </Grid>
+              
              
-              <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/Legion"
-                      image={tmb_legion}
-                      title="Legion"
-                      category="3D Animation"
-                    />
-                </Grid>
               <Grid item xs={6} sm={6} md={3}>
               <Thumb 
                       link="/stilltolife"
@@ -80,7 +75,34 @@ export default function FullWidthGrid() {
                       category="3D Animation"
                     />
               </Grid>
+
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/liquidanimation"
+                      image={tmb_liquidAnimation}
+                      title="Liquid Animation"
+                      category="2D / Cell"
+                    />
+                </Grid>
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/squares"
+                      image={tmb_squares}
+                      title="Squares"
+                      category="Motion Graphics"
+                    />
+              </Grid>
               
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/starving"
+                      image={tmb_starving}
+                      title="Starving"
+                      category="3D Animation"
+                    />
+              </Grid>
+
               <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/miscellaneous"
@@ -91,32 +113,17 @@ export default function FullWidthGrid() {
               </Grid>
               <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
-                      link="/liquidanimation"
-                      image={tmb_liquidAnimation}
-                      title="Liquid Animation"
-                      category="2D / Cell"
+                      link="/Legion"
+                      image={tmb_legion}
+                      title="Legion"
+                      category="3D Animation"
                     />
               </Grid>
-              <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/squares"
-                      image={tmb_squares}
-                      title="Squares"
-                      category="Motion Graphics"
-                    />
-              </Grid>
+
 
               {/* section break */}
 
 
-              <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/starving"
-                      image={tmb_starving}
-                      title="Starving"
-                      category="3D Animation"
-                    />
-              </Grid>
               <Grid item xs={6} sm={6} md={3}>
               <Thumb 
                       link="/adler"

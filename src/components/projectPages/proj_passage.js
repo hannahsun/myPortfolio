@@ -52,20 +52,20 @@ export default function myproject() {
       A2="Cinema4D / After Effects / Illustrator"
       description=""
     />
-    <ResponsivePlayer url="https://vimeo.com/417726722" />
+
+    <ControlledCarousel 
+          ratio = {9/16}
+          imagePool = {ImagePool_1}
+        />
 
     <Insert 
       title="PASSAGE"
       subtitle="concept"
-      description= "Those treasure boxes from our childhood have eventually become time capsules that hold our past memories inside. The silly toys, outdated game machines, dusted vinyl records are triggers to the everyday moments we share and bond over universally. This animation imagines a magical space inside a time capsule where the objects from the past continue to live and thrive."
+      description= "Those treasure boxes from childhood will eventaully turn into our time capsules. The silly toys, outdated game machines, dusted vinyl records are triggers to the everyday moments we share and bond over universally. This animation imagines a magical space inside a time capsule where the objects from the past continue to live and thrive."
       padding='100px'
-      
       />
 
-    <ControlledCarousel 
-      ratio = {9/16}
-      imagePool = {ImagePool_1}
-    />
+    <ResponsivePlayer url="https://vimeo.com/417726722" />
 
     </React.Fragment>
   );
