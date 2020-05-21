@@ -102,8 +102,12 @@ function About() {
                           <CustomBody as={Card.Body} eventKey="2">
                             <ul>
                                 <li>
+                                <span className="emphasis">Hornet Inc.</span><br/>
+                                Jun.—Aug. 2020  /  Motion Design Intern <br/>
+                                </li>
+                                <li>
                                 <span className="emphasis">Ogilvy Chicago</span><br/>
-                                Aug. 2018—May.2019  /  Designer <br/>
+                                Aug. 2018—May 2019  /  Designer <br/>
                                 May—Aug. 2018  /  Design Intern<br/>
                                 </li>
                                 <li>
@@ -112,7 +116,7 @@ function About() {
                                 </li>
                                 <li>
                                 <span className="emphasis">F Newsmagazine</span><br/>
-                                Sept. 2017—present  /  Designer & Illustrator
+                                Sept. 2017—May 2018  /  Designer & Illustrator
                                 </li>
                                 <li>
                                 <span className="emphasis">Tom, Dick & Harry Co.</span><br/>
@@ -120,7 +124,7 @@ function About() {
                                 </li>
                                 <li>
                                 <span className="emphasis">SAIC IRFM Creative</span><br/>
-                                Jun. 2015—Jun.2017  /  Graphic Designer
+                                Jun. 2015—Jun. 2017  /  Graphic Designer
                                 </li>
                             </ul>
                           </CustomBody>
