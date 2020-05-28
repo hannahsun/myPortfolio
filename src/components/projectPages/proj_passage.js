@@ -66,7 +66,7 @@ export default function myproject() {
     <Insert 
       title="PASSAGE"
       subtitle="concept"
-      description= "Those treasure boxes from childhood will eventaully turn into our time capsules. The silly toys, outdated game machines, dusted vinyl records are triggers to the everyday moments we share and bond over universally. This animation imagines a magical space inside a time capsule where the objects from the past continue to live and thrive."
+      description= "Treasure boxes from childhood preserved many pieces of memory we share and bond over universally. This animation imagines a magical space inside a time capsule where the objects we've cherished in the past continue to live and thrive in their own dimension."
       padding='100px'
       />
 
