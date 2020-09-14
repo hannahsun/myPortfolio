@@ -62,7 +62,7 @@ export default function FullWidthGrid() {
                       link="/coffee" //project path
                       image={tmb_coffee}
                       title="Coffee Time"
-                      category="3D Motion"
+                      category="3D Mograph"
                     />
               </Grid>
               
