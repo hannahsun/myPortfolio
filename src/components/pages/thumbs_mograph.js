@@ -20,6 +20,7 @@ import tmb_museum from '../../assets/img/motion/futuristicMuseum-c.png';
 import tmb_chicagomemory from '../../assets/img/motion/chicagomemory-c.png';
 import tmb_blend from '../../assets/img/motion/blend3015.jpg';
 import tmb_passage from '../../assets/img/motion/passage.jpg';
+import tmb_coffee from '../../assets/img/motion/content-coffee/coffee_still_03.png';
 
 
 //custom styling for grid
@@ -56,13 +57,12 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
-                      link="/passage" //project path
-                      image={tmb_passage}
-                      title="Passage"
-                      category="3D Animation"
+                      link="/coffee" //project path
+                      image={tmb_coffee}
+                      title="Coffee Time"
+                      category="3D Motion"
                     />
               </Grid>
               
@@ -87,13 +87,13 @@ export default function FullWidthGrid() {
 
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
-                      link="/squares"
-                      image={tmb_squares}
-                      title="Squares"
-                      category="Motion Graphics"
+                      link="/passage" //project path
+                      image={tmb_passage}
+                      title="Passage"
+                      category="3D Animation"
                     />
               </Grid>
-              
+
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/starving"
@@ -103,6 +103,17 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/squares"
+                      image={tmb_squares}
+                      title="Squares"
+                      category="Motion Graphics"
+                    />
+              </Grid>
+              
+             
+
               <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/miscellaneous"
@@ -111,6 +122,8 @@ export default function FullWidthGrid() {
                       category="2D / Motion Graphics"
                     />
               </Grid>
+
+              
               <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/Legion"

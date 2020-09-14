@@ -33,6 +33,8 @@ import proj_form from './components/projectPages/proj_form';
 import proj_museum from './components/projectPages/proj_museum';
 import proj_blend from './components/projectPages/proj_blend';
 import proj_passage from './components/projectPages/proj_passage';
+import proj_coffee from './components/projectPages/proj_coffee';
+
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
 import proj_blackout from './components/projectPages/proj_blackout';
@@ -50,6 +52,7 @@ function App() {
 
         {/*motion project pages  */}
         <Route exact path='/motionReel' component={proj_motionReel}></Route>
+        <Route exact path='/coffee' component={proj_coffee}></Route>
         <Route exact path='/legion' component={proj_legion}></Route>
         <Route exact path='/stilltolife' component={proj_stillToLife}></Route>
         <Route exact path='/miscellaneous' component={proj_miscellaneous}></Route>
