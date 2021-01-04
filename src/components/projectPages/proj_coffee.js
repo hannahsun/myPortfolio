@@ -16,7 +16,6 @@ import coffee5 from '../../assets/img/motion/content-coffee/coffee_still_05.png'
 import coffee6 from '../../assets/img/motion/content-coffee/coffee_still_06.png';
 import coffee7 from '../../assets/img/motion/content-coffee/coffee_still_07.png';
 import coffee8 from '../../assets/img/motion/content-coffee/coffee_still_08.png';
-
 //define image pools
 let ImagePool_1 = [
   {url: coffee2,size: 1},

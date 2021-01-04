@@ -41,6 +41,7 @@ import proj_spider from './components/projectPages/proj_spider';
 import proj_desktop from './components/projectPages/proj_desktop';
 import proj_machine from './components/projectPages/proj_machine';
 import proj_notification from './components/projectPages/proj_notification';
+import proj_hanukkah from './components/projectPages/proj_hanukkah';
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
 import proj_blackout from './components/projectPages/proj_blackout';
@@ -61,6 +62,7 @@ function App() {
         <Route exact path='/marbleglass' component={proj_marbleglass}></Route>
         <Route exact path='/notification' component={proj_notification}></Route>
         <Route exact path='/2020opening' component={proj_2020opening}></Route>
+        <Route exact path='/hanukkah' component={proj_hanukkah}></Route>
         <Route exact path='/basketball' component={proj_basketball}></Route>
         <Route exact path='/spider' component={proj_spider}></Route>
         <Route exact path='/coffee' component={proj_coffee}></Route>

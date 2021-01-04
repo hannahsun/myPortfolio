@@ -28,6 +28,7 @@ import tmb_spider from '../../assets/img/motion/spider-c.png';
 import tmb_desktop from '../../assets/img/motion/content-desktop/desktop-1.png';
 import tmb_machine from '../../assets/img/motion/machine-1.png';
 import tmb_notification from '../../assets/img/motion/notification-1.png';
+import tmb_hanukkah from '../../assets/img/motion/content-hanukkah/hanukkah_1.png';
 
 //custom styling for grid
 
@@ -65,10 +66,19 @@ export default function FullWidthGrid() {
 
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
-                      link="/coffee" //project path
-                      image={tmb_coffee}
-                      title="Coffee Time"
+                      link="/marbleglass" //project path
+                      image={tmb_marbleglass}
+                      title="Marbleglass"
                       category="3D Mograph"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/hanukkah" //project path
+                      image={tmb_hanukkah}
+                      title="The Festival of Lights"
+                      category="2D Mograph"
                     />
               </Grid>
               
@@ -90,14 +100,16 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
+
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
-                      link="/marbleglass" //project path
-                      image={tmb_marbleglass}
-                      title="Marbleglass"
+                      link="/coffee" //project path
+                      image={tmb_coffee}
+                      title="Coffee Time"
                       category="3D Mograph"
                     />
               </Grid>
+
 
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
