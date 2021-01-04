@@ -190,14 +190,7 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/squares"
-                      image={tmb_squares}
-                      title="Squares"
-                      category="Motion Graphics"
-                    />
-              </Grid>
+              
 
               <Grid item xs={6} sm={6} md={3}>
               <Thumb 
@@ -208,15 +201,6 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              {/* <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/liquidanimation"
-                      image={tmb_liquidAnimation}
-                      title="Liquid Animation"
-                      category="2D / Cell"
-                    />
-                </Grid> */}
-
 
                 <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
@@ -226,9 +210,27 @@ export default function FullWidthGrid() {
                       category="Motion Graphics"
                     />
                 </Grid>
-              
+
+
+                <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/squares"
+                      image={tmb_squares}
+                      title="Squares"
+                      category="Motion Graphics"
+                    />
+              </Grid>
              
 
+              {/* <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/liquidanimation"
+                      image={tmb_liquidAnimation}
+                      title="Liquid Animation"
+                      category="2D / Cell"
+                    />
+                </Grid> */}
+                
               {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/miscellaneous"
