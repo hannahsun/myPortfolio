@@ -6,7 +6,7 @@ import Thumb from '../elements/thumb.js';
 import mytheme from '../../style/mytheme.js'
 
 //import thumbnail files
-import tmb_motionReel from '../../assets/img/motion/reel-c.jpg';
+import tmb_motionReel from '../../assets/img/motion/motionreel-2020-cover.png';
 import tmb_legion from '../../assets/img/motion/legion-sqr-2.png';
 import tmb_stilltolife from '../../assets/img/motion/still to life-c.png';
 import tmb_socialposts from '../../assets/img/motion/graduation.gif';
@@ -20,8 +20,14 @@ import tmb_museum from '../../assets/img/motion/futuristicMuseum-c.png';
 import tmb_chicagomemory from '../../assets/img/motion/chicagomemory-c.png';
 import tmb_blend from '../../assets/img/motion/blend3015.jpg';
 import tmb_passage from '../../assets/img/motion/passage.jpg';
-import tmb_coffee from '../../assets/img/motion/content-coffee/coffee_still_03.png';
-
+import tmb_coffee from '../../assets/img/motion/content-coffee/coffee_still_01.png';
+import tmb_2020opening from '../../assets/img/motion/content-2020opening/2020opening_1.png';
+import tmb_basketball from '../../assets/img/motion/basketball-1.png';
+import tmb_marbleglass from '../../assets/img/motion/content-marbleglass/marbleglass-1.png';
+import tmb_spider from '../../assets/img/motion/spider-c.png';
+import tmb_desktop from '../../assets/img/motion/content-desktop/desktop-1.png';
+import tmb_machine from '../../assets/img/motion/machine-1.png';
+import tmb_notification from '../../assets/img/motion/notification-1.png';
 
 //custom styling for grid
 
@@ -52,7 +58,7 @@ export default function FullWidthGrid() {
                 <Thumb 
                       link="/motionReel" //project path
                       image={tmb_motionReel}
-                      title="Motion Reel 2019"
+                      title="Motion Reel 2020"
                       category="motion graphics"
                     />
               </Grid>
@@ -65,6 +71,72 @@ export default function FullWidthGrid() {
                       category="3D Mograph"
                     />
               </Grid>
+              
+              <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
+                      link="/basketball" //project path
+                      image={tmb_basketball}
+                      title="Halftime"
+                      category="3D Animation / Compositing"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
+                      link="/notification" //project path
+                      image={tmb_notification}
+                      title="'You Received a New Message'"
+                      category="3D Mograph"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/marbleglass" //project path
+                      image={tmb_marbleglass}
+                      title="Marbleglass"
+                      category="3D Mograph"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/desktop" //project path
+                      image={tmb_desktop}
+                      title="Workstation 2020"
+                      category="3D Mograph"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
+                      link="/spider" //project path
+                      image={tmb_spider}
+                      title="Spider"
+                      category="Modeling / Compositing / Concept Art"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
+                      link="/machine" //project path
+                      image={tmb_machine}
+                      title="Rube Goldburg Machine"
+                      category="3D Dynamic"
+                    />
+              </Grid>
+             
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/2020opening" //project path
+                      image={tmb_2020opening}
+                      title="demoreel opening"
+                      category="3D Mograph"
+                    />
+              </Grid>
+              
+              
               
              
               <Grid item xs={6} sm={6} md={3}>
@@ -94,12 +166,20 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={6}>
+              {/* <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/starving"
                       image={tmb_starving}
                       title="Starving"
                       category="3D Animation"
+                    />
+              </Grid> */}
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/museum"
+                      image={tmb_museum}
+                      title="museum of the future"
+                      category="Motion Graphics"
                     />
               </Grid>
 
@@ -124,27 +204,28 @@ export default function FullWidthGrid() {
               </Grid>
 
               
-              <Grid item xs={6} sm={6} md={3}>
+              {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/Legion"
                       image={tmb_legion}
                       title="Legion"
                       category="3D Animation"
                     />
-              </Grid>
+              </Grid> */}
 
 
               {/* section break */}
 
 
-              <Grid item xs={6} sm={6} md={3}>
+              {/* <Grid item xs={6} sm={6} md={3}>
               <Thumb 
                       link="/adler"
                       image={tmb_adler}
                       title="Adler Planetarium"
                       category="motion"
                     />
-              </Grid>
+              </Grid> */}
+
               <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/blend"
@@ -154,22 +235,24 @@ export default function FullWidthGrid() {
                     />
                 </Grid>
               
-              <Grid item xs={6} sm={6} md={3}>
+              {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/form"
                       image={tmb_form}
                       title="Liquid Animation"
                       category="2D / Particle"
                     />
-              </Grid>
-              <Grid item xs={6} sm={6} md={3}>
+              </Grid> */}
+
+              {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/12principles"
                       image={tmb_12principles}
                       title="12 principles of animation"
                       category="2D Motion Graphics"
                     />
-                </Grid>
+                </Grid> */}
+
                 <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/chicagomemory"
@@ -178,14 +261,7 @@ export default function FullWidthGrid() {
                       category="2D motion graphics"
                     />
               </Grid>
-              <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/museum"
-                      image={tmb_museum}
-                      title="museum of the future"
-                      category="Motion Graphics"
-                    />
-              </Grid>
+              
                 
             </Grid>
           </div>
