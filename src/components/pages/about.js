@@ -103,7 +103,7 @@ function About() {
                             <ul>
                                 <li>
                                 <span className="emphasis">Hornet Inc.</span><br/>
-                                Jun.—Aug. 2020  /  Motion Design Intern <br/>
+                                Jun.—Dec. 2020  /  Motion Design Intern <br/>
                                 </li>
                                 <li>
                                 <span className="emphasis">Ogilvy Chicago</span><br/>
