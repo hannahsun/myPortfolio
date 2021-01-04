@@ -42,6 +42,7 @@ import proj_desktop from './components/projectPages/proj_desktop';
 import proj_machine from './components/projectPages/proj_machine';
 import proj_notification from './components/projectPages/proj_notification';
 import proj_hanukkah from './components/projectPages/proj_hanukkah';
+import proj_whatever from './components/projectPages/proj_whatever';
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
 import proj_blackout from './components/projectPages/proj_blackout';
@@ -81,6 +82,7 @@ function App() {
         <Route exact path='/museum' component={proj_museum}></Route>
         <Route exact path='/blend' component={proj_blend}></Route>
         <Route exact path='/passage' component={proj_passage}></Route>
+        <Route exact path='/whatever' component={proj_whatever}></Route>
         {/* graphic design project */}
         <Route exact path='/planit' component={proj_planit}></Route>
         <Route exact path='/blackout' component={proj_blackout}></Route>

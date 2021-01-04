@@ -79,11 +79,13 @@ export default function myproject() {
     <GalleryGrid 
         imagePool = {ImagePool_2}
         col = {6}
+        spacing = {1}
     />
     <Spacer height="60px" />
     <GalleryGrid 
         imagePool = {ImagePool_1}
         col = {6}
+        spacing = {1}
     />
 
     

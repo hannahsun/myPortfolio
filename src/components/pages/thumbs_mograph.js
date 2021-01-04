@@ -29,6 +29,7 @@ import tmb_desktop from '../../assets/img/motion/content-desktop/desktop-1.png';
 import tmb_machine from '../../assets/img/motion/machine-1.png';
 import tmb_notification from '../../assets/img/motion/notification-1.png';
 import tmb_hanukkah from '../../assets/img/motion/content-hanukkah/hanukkah_1.png';
+import tmb_whatever from '../../assets/img/motion/content-whatever/ig-3.png';
 
 //custom styling for grid
 
@@ -73,30 +74,13 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
+
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/hanukkah" //project path
                       image={tmb_hanukkah}
                       title="The Festival of Lights"
                       category="2D Mograph"
-                    />
-              </Grid>
-              
-              <Grid item xs={12} sm={12} md={3}>
-                <Thumb 
-                      link="/basketball" //project path
-                      image={tmb_basketball}
-                      title="Halftime"
-                      category="3D Animation / Compositing"
-                    />
-              </Grid>
-
-              <Grid item xs={12} sm={12} md={3}>
-                <Thumb 
-                      link="/notification" //project path
-                      image={tmb_notification}
-                      title="'You Received a New Message'"
-                      category="3D Mograph"
                     />
               </Grid>
 
@@ -111,6 +95,26 @@ export default function FullWidthGrid() {
               </Grid>
 
 
+              <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
+                      link="/basketball" //project path
+                      image={tmb_basketball}
+                      title="Halftime"
+                      category="3D Animation / Compositing"
+                    />
+              </Grid>
+
+
+              <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
+                      link="/notification" //project path
+                      image={tmb_notification}
+                      title="'You Received a New Message'"
+                      category="3D Mograph"
+                    />
+              </Grid>
+
+
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/desktop" //project path
@@ -120,6 +124,15 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/whatever" //project path
+                      image={tmb_whatever}
+                      title="Explorations & Stuff"
+                      category="Mixed"
+                    />
+              </Grid>
+              
               <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
                       link="/spider" //project path
@@ -139,35 +152,6 @@ export default function FullWidthGrid() {
               </Grid>
              
 
-              <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/2020opening" //project path
-                      image={tmb_2020opening}
-                      title="demoreel opening"
-                      category="3D Mograph"
-                    />
-              </Grid>
-              
-              
-              
-             
-              <Grid item xs={6} sm={6} md={3}>
-              <Thumb 
-                      link="/stilltolife"
-                      image={tmb_stilltolife}
-                      title="Still To Life"
-                      category="3D Animation"
-                    />
-              </Grid>
-
-              <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/liquidanimation"
-                      image={tmb_liquidAnimation}
-                      title="Liquid Animation"
-                      category="2D / Cell"
-                    />
-                </Grid>
 
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
@@ -177,6 +161,17 @@ export default function FullWidthGrid() {
                       category="3D Animation"
                     />
               </Grid>
+
+                <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/2020opening" //project path
+                      image={tmb_2020opening}
+                      title="demoreel opening"
+                      category="3D Mograph"
+                    />
+              </Grid>
+
+
 
               {/* <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
@@ -203,17 +198,45 @@ export default function FullWidthGrid() {
                       category="Motion Graphics"
                     />
               </Grid>
+
+              <Grid item xs={6} sm={6} md={3}>
+              <Thumb 
+                      link="/stilltolife"
+                      image={tmb_stilltolife}
+                      title="Still To Life"
+                      category="3D Animation"
+                    />
+              </Grid>
+
+              {/* <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/liquidanimation"
+                      image={tmb_liquidAnimation}
+                      title="Liquid Animation"
+                      category="2D / Cell"
+                    />
+                </Grid> */}
+
+
+                <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/blend"
+                      image={tmb_blend}
+                      title="Blend 3015"
+                      category="Motion Graphics"
+                    />
+                </Grid>
               
              
 
-              <Grid item xs={6} sm={6} md={3}>
+              {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/miscellaneous"
                       image={tmb_socialposts}
                       title="miscellaneous"
                       category="2D / Motion Graphics"
                     />
-              </Grid>
+              </Grid> */}
 
               
               {/* <Grid item xs={6} sm={6} md={3}>
@@ -237,15 +260,6 @@ export default function FullWidthGrid() {
                       category="motion"
                     />
               </Grid> */}
-
-              <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/blend"
-                      image={tmb_blend}
-                      title="Blend 3015"
-                      category="Motion Graphics"
-                    />
-                </Grid>
               
               {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
