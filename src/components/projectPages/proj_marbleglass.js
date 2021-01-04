@@ -2,9 +2,9 @@ import React from 'react';
 import Project from './projectTemplate';
 import ResponsivePlayer from '../elements/responsivePlayer'
 import ControlledCarousel from '../elements/carousel';
-//import Insert from '../elements/projectInsert';
 import Spacer from '../elements/spacer';
 import GalleryGrid from '../elements/galleryGrid';
+import Insert from '../elements/projectInsert';
 
 
 // image import
@@ -16,11 +16,11 @@ import marbleglass5 from '../../assets/img/motion/content-marbleglass/marbleglas
 
 //define image pools
 let ImagePool_1 = [
-  {url: marbleglass1,size: 2},
-  {url: marbleglass2,size: 1},
-  {url: marbleglass3,size: 1},
+  {url: marbleglass2,size: 2},
+  {url: marbleglass3,size: 2},
   {url: marbleglass4,size: 1},
   {url: marbleglass5,size: 1},
+  {url: marbleglass1,size: 2},
 ]
 
 export default function myproject() {
@@ -35,20 +35,19 @@ export default function myproject() {
       
     />
 
-    {/* <ControlledCarousel 
-          ratio = {9/16}
-          imagePool = {ImagePool_1}
-        /> */}
-
-    <Spacer height="8px"/>
-
     <ResponsivePlayer url="https://vimeo.com/491288204" />
 
-    <Spacer height="8px"/>
+    <Spacer height="120px"/>
+    <Insert 
+      title="Snapshots"
+      subtitle=""
+      description= ""
+      padding='40px'
+    />
 
     <GalleryGrid 
         imagePool = {ImagePool_1}
-        col = {2}
+        col = {4}
     />
 
     </React.Fragment>

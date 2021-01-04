@@ -34,7 +34,13 @@ import proj_museum from './components/projectPages/proj_museum';
 import proj_blend from './components/projectPages/proj_blend';
 import proj_passage from './components/projectPages/proj_passage';
 import proj_coffee from './components/projectPages/proj_coffee';
-
+import proj_2020opening from './components/projectPages/proj_2020opening';
+import proj_basketball from './components/projectPages/proj_basketball';
+import proj_marbleglass from './components/projectPages/proj_marbleglass';
+import proj_spider from './components/projectPages/proj_spider';
+import proj_desktop from './components/projectPages/proj_desktop';
+import proj_machine from './components/projectPages/proj_machine';
+import proj_notification from './components/projectPages/proj_notification';
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
 import proj_blackout from './components/projectPages/proj_blackout';
@@ -46,13 +52,20 @@ function App() {
     <div className="App">
       {/* <div className="aboveFold"> */}
        <Navigation />
-        <Route exact path='/' component={motionThumbs}></Route>
+       <Route exact path='/' component={motionThumbs}></Route>
         <Route exact path='/graphic' component={graphicThumbs}></Route>
         <Route exact path='/about' component={About}></Route>
 
         {/*motion project pages  */}
         <Route exact path='/motionReel' component={proj_motionReel}></Route>
+        <Route exact path='/marbleglass' component={proj_marbleglass}></Route>
+        <Route exact path='/notification' component={proj_notification}></Route>
+        <Route exact path='/2020opening' component={proj_2020opening}></Route>
+        <Route exact path='/basketball' component={proj_basketball}></Route>
+        <Route exact path='/spider' component={proj_spider}></Route>
         <Route exact path='/coffee' component={proj_coffee}></Route>
+        <Route exact path='/desktop' component={proj_desktop}></Route>
+        <Route exact path='/machine' component={proj_machine}></Route>
         <Route exact path='/legion' component={proj_legion}></Route>
         <Route exact path='/stilltolife' component={proj_stillToLife}></Route>
         <Route exact path='/miscellaneous' component={proj_miscellaneous}></Route>
@@ -70,6 +83,7 @@ function App() {
         <Route exact path='/planit' component={proj_planit}></Route>
         <Route exact path='/blackout' component={proj_blackout}></Route>
         <Route exact path='/salmongold' component={proj_salmongold}></Route>
+
 
         {/* Demo Page */}
         <Route exact path='/demo' component={demo}></Route>
