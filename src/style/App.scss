@@ -1,15 +1,15 @@
 @import "_config.scss";
 
 $max-width:1290px;
-// $pageMargin:70px;
+$pageMargin:70px;
 $ratio_standard: 9/16;
 $ratio_wide: 1/2.2;
 
 
 //--------------wrappers--------------
 
-@media only screen and (min-width: 600px) {
-    $pageMargin:70px;
+@media only screen and (min-width: 768px) {
+    // $pageMargin:70px;
     .section-wrapper{
         width:100%;
         padding:$pageMargin;
@@ -20,8 +20,29 @@ $ratio_wide: 1/2.2;
         padding: 0 $pageMargin;
         margin:auto;
     }
+
+    .player-wrapper{
+        //background: red;
+        padding:0 !important;
+        height:calc(100vw * 9/16);
+        max-height: 720px;
+        background:rgb(0, 0, 0);
 }
-@media only screen and (max-width: 600px) {
+    .player-subwrapper{
+        margin: auto;
+        width:100%;
+        height: 100%;
+        position: absolute;
+        left:50%; top:0;
+        transform: translateX(-50%);
+        //background: red;
+        max-width: 1280px;
+        max-height: 720px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
     $pageMargin:30px;
     .section-wrapper{
         width:100%;
