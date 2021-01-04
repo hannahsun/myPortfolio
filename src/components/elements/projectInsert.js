@@ -25,7 +25,8 @@ function Insert(props) {
             <p>{props.subtitle}</p>
         </Grid>
         <Grid item xs={12} sm={7} lg={6}>
-            <p>{props.description}</p>
+            {/* <p>{props.description}</p> */}
+            <div dangerouslySetInnerHTML={{ __html: props.description}}></div>
         </Grid>
         <Grid item xs={12} sm={1} lg={2}>
         </Grid>

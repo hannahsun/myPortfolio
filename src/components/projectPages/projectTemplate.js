@@ -88,7 +88,8 @@ function Project(props) {
                           </Grid>
                           <Grid item xs={12} sm={5} md={6} xl={8}>
                               {/* input-5 */}
-                              {props.description}
+                              {/* {props.description} */}
+                              <div dangerouslySetInnerHTML={{ __html: props.description}}></div>
                           </Grid>
                         </Grid>
                       </div>
