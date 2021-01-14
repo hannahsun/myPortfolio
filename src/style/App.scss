@@ -296,7 +296,7 @@ $transit-s: .2s;
     height: 100%;
     opacity:0; 
     letter-spacing: 0;
-    font-family: $roboto;
+    font-family: $primaryFont;
     font-weight:$font-bold;
     text-transform: capitalize;
     font-size:clamp(14px, 130%, 25px); //title size
@@ -305,7 +305,7 @@ $transit-s: .2s;
     transition: $transit-s*1.5 ease-in-out;
 }
 .thumb-category{
-    font-family: $ibm-plex;
+    font-family: $codeFont;
     font-weight:$font-regular;
     font-size:clamp(7px, .7em, 14px); //meta size
     letter-spacing: 0;
@@ -313,7 +313,7 @@ $transit-s: .2s;
 }
 
 .thumb-viewmore{
-    font-family: $ibm-plex;
+    font-family: $codeFont;
     font-weight:$font-regular;
     text-transform: lowercase;
     font-size:clamp(7px, .7em, 14px); //meta size

@@ -2,11 +2,7 @@
 @import "color.scss";
 
 
-
-
 //fonts
-$roboto: 'Roboto', sans-serif;
-$ibm-plex: 'IBM Plex Mono', monospace;
 @font-face {
     font-family: 'MonumentExtended';
     font-weight: 900;
@@ -27,7 +23,21 @@ $ibm-plex: 'IBM Plex Mono', monospace;
     font-weight: 900;
     src: local('Telegraf'), url(../assets/fonts/Telegraf-UltraBold.woff) format('woff');
   }
+  @font-face {
+    font-family: 'Telegraf';
+    font-weight: 300;
+    src: local('Telegraf'), url(../assets/fonts/Telegraf-Regular.woff) format('woff');
+  }
+@font-face {
+    font-family: 'PangranSans';
+    font-weight: 300;
+    src: local('PangranSans'), url(../assets/fonts/Pangram-Regular.woff) format('woff');
+  }
 
+
+
+$primaryFont: 'Telegraf', sans-serif;
+$codeFont: 'IBM Plex Mono', monospace;
 
 
 $font-light: 300;
@@ -133,14 +143,14 @@ a.select{
 }
 
 body, #root{
-    font-family: $roboto;
+    font-family: $primaryFont;
     @extend %body-s;
     color:$white;
     position: relative;
     background-color: $black;
 }
 p {
-    font-family: $roboto;
+    font-family: $primaryFont;
     // color:red;
     @extend %header-s;
 }
@@ -149,7 +159,7 @@ h3{
     @extend %header-l;
 }
 h5{
-    font-family: $roboto;
+    font-family: $primaryFont;
     @extend %header-s;
 }
 
