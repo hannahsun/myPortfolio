@@ -103,7 +103,7 @@ function About() {
                           <CustomBody as={Card.Body} eventKey="2">
                             <ul>
                                 <li>
-                                <span className="emphasis">Hornet Inc.</span><br/>
+                                <span className="emphasis">Hornet Animation</span><br/>
                                 Jun.—Dec. 2020  /  Motion Design Intern <br/>
                                 </li>
                                 <li>
