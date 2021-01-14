@@ -1,16 +1,42 @@
 @import "reset.css";
 @import "color.scss";
 
+
+
+
 //fonts
 $roboto: 'Roboto', sans-serif;
 $ibm-plex: 'IBM Plex Mono', monospace;
-// $notosans: 'Noto Sans', sans-serif;
+@font-face {
+    font-family: 'MonumentExtended';
+    font-weight: 900;
+    src: local('MonumentExtended'), url(../assets/fonts/MonumentExtended-Black.woff) format('woff');
+  }
+@font-face {
+    font-family: 'Agrandir';
+    font-weight: 900;
+    src: local('Agrandir'), url(../assets/fonts/Agrandir-GrandHeavy.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Hatton';
+    font-weight: 900;
+    src: local('Hatton'), url(../assets/fonts/Hatton-Ultrabold.woff) format('woff');
+  }
+@font-face {
+    font-family: 'Telegraf';
+    font-weight: 900;
+    src: local('Telegraf'), url(../assets/fonts/Telegraf-UltraBold.woff) format('woff');
+  }
+
 
 
 $font-light: 300;
 $font-regular: 500;
 $font-bold: 700;
 $font-black: 900;
+
+
+
 
 
 
@@ -41,9 +67,11 @@ b {
 }
 
 %header-l{
-    font-size:25px;
+    //font-size:clamp(20px,2.5vw,28px);
+    font-size:35px;
+    font-size:clamp(30px,2.5vw,36px);
     font-weight:900;
-    line-height: 1.1em;
+    line-height: 1.3em;
 }
 
 .emphasis{
@@ -117,8 +145,8 @@ p {
     @extend %header-s;
 }
 h3{
-    font-family: $roboto;
-    @extend %header-m;
+    font-family: 'Telegraf','Roboto', sans-serif;
+    @extend %header-l;
 }
 h5{
     font-family: $roboto;

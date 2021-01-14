@@ -1,4 +1,24 @@
 @import "reset.css";
+@font-face {
+  font-family: "MonumentExtended";
+  font-weight: 900;
+  src: local("MonumentExtended"), url(../assets/fonts/MonumentExtended-Black.woff) format("woff");
+}
+@font-face {
+  font-family: "Agrandir";
+  font-weight: 900;
+  src: local("Agrandir"), url(../assets/fonts/Agrandir-GrandHeavy.woff) format("woff");
+}
+@font-face {
+  font-family: "Hatton";
+  font-weight: 900;
+  src: local("Hatton"), url(../assets/fonts/Hatton-Ultrabold.woff) format("woff");
+}
+@font-face {
+  font-family: "Telegraf";
+  font-weight: 900;
+  src: local("Telegraf"), url(../assets/fonts/Telegraf-UltraBold.woff) format("woff");
+}
 b {
   font-weight: 900;
 }
@@ -16,15 +36,16 @@ h5, p {
   line-height: 1.5em;
 }
 
-h3 {
-  font-size: clamp(20px,2.5vw,28px);
-  font-weight: 900;
-  line-height: 1.3em;
-}
-
 .m-dynamic {
   font-size: clamp(23px, 2vw, 30px);
   line-height: 1.4em;
+}
+
+h3 {
+  font-size: 35px;
+  font-size: clamp(30px,2.5vw,36px);
+  font-weight: 900;
+  line-height: 1.3em;
 }
 
 .emphasis {
@@ -99,7 +120,7 @@ p {
 }
 
 h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Telegraf", "Roboto", sans-serif;
 }
 
 h5 {
