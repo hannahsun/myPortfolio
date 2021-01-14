@@ -85,7 +85,7 @@ a {
   position: relative;
   color: inherit;
   font-family: inherit;
-  transition: color 0.15s ease;
+  transition: color 0.05s;
 }
 a:hover {
   text-decoration: none;
