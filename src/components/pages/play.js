@@ -1,5 +1,5 @@
 import React from 'react';
-import Gallery from 'react-photo-gallery'
+import Gallery from 'react-photo-gallery';
 
 //image links
 import chips from '../../assets/img/play/chips.gif';
@@ -50,21 +50,21 @@ const photos = [
         width: 1,
         height: 1
         },
-        {
-        src: everydayJob,
-        width: 1,
-        height: 1
-        },
-        {
-        src: blob,
-        width: 1,
-        height: 1
-        },   
+        // {
+        // src: everydayJob,
+        // width: 1,
+        // height: 1
+        // },
         {
         src: notification,
         width: 1,
         height: 1
-        },     
+        },   
+        {
+        src: blob,
+        width: 1,
+        height: 1
+        },  
         
       ];
 
@@ -72,7 +72,6 @@ const photos = [
 
 export default function Play() {
         return (
-                <div>Hello world</div>,
                 <Gallery photos={photos} direction={"column"}/>
         );
       }
