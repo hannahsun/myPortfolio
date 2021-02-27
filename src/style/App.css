@@ -248,13 +248,14 @@ header {
 header nav {
   display: block;
   display: flex;
+  margin: 10px 0;
   align-items: center;
 }
 header .siteLogo {
   display: inline-block;
-  width: 50px;
+  width: 240px;
   height: auto;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 header .siteLogo a {
   width: 100%;
