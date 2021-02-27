@@ -15,6 +15,7 @@ import Footer from './components/elements/footer.js';
 import motionThumbs from './components/pages/thumbs_mograph.js';
 import graphicThumbs from './components/pages/thumbs_graphic.js';
 import About from './components/pages/about.js';
+import Play from './components/pages/play.js';
 
 //project page components
 import demo from './components/projectPages/demo';
@@ -54,9 +55,10 @@ function App() {
     <div className="App">
       {/* <div className="aboveFold"> */}
        <Navigation />
-       <Route exact path='/' component={motionThumbs}></Route>
+        <Route exact path='/' component={motionThumbs}></Route>
         <Route exact path='/graphic' component={graphicThumbs}></Route>
         <Route exact path='/about' component={About}></Route>
+        <Route exact path='/play' component={Play}></Route>
 
         {/*motion project pages  */}
         <Route exact path='/motionReel' component={proj_motionReel}></Route>
