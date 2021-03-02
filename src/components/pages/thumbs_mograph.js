@@ -99,15 +99,6 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={3}>
-                <Thumb 
-                      link="/sva2021" //project path
-                      image={tmb_sva2021}
-                      title="SVA 2021"
-                      category="Kinetic Typography"
-                    />
-              </Grid>
-
 
               <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
@@ -140,10 +131,29 @@ export default function FullWidthGrid() {
 
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
+                      link="/sva2021" //project path
+                      image={tmb_sva2021}
+                      title="SVA 2021"
+                      category="Kinetic Typography"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
                       link="/whatever" //project path
                       image={tmb_whatever}
                       title="Explorations & Stuff"
                       category="Mixed"
+                    />
+              </Grid>
+              
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/passage" //project path
+                      image={tmb_passage}
+                      title="Passage"
+                      category="3D Animation"
                     />
               </Grid>
               
@@ -167,14 +177,6 @@ export default function FullWidthGrid() {
              
 
 
-              <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/passage" //project path
-                      image={tmb_passage}
-                      title="Passage"
-                      category="3D Animation"
-                    />
-              </Grid>
 
                 <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
@@ -185,16 +187,6 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-
-
-              {/* <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/starving"
-                      image={tmb_starving}
-                      title="Starving"
-                      category="3D Animation"
-                    />
-              </Grid> */}
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/museum"
@@ -203,8 +195,6 @@ export default function FullWidthGrid() {
                       category="Motion Graphics"
                     />
               </Grid>
-
-              
 
               <Grid item xs={6} sm={6} md={3}>
               <Thumb 
@@ -234,7 +224,33 @@ export default function FullWidthGrid() {
                       category="Motion Graphics"
                     />
               </Grid>
-             
+
+                <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/chicagomemory"
+                      image={tmb_chicagomemory}
+                      title="chicago memory"
+                      category="2D motion graphics"
+                    />
+              </Grid>
+              <Grid item xs={12} sm={12} md={6}>
+              <Thumb 
+                    link="/blackout"
+                    image= {tmb_blackout}
+                    title="Blackout"
+                    category="Information Design"
+                  />
+              </Grid>        
+          
+            <Grid item xs={12} sm={12} md={6}>
+            <Thumb 
+                    link="/salmongold"
+                    image= {tmb_salmongold}
+                    title="Salmon Gold"
+                    category="Visual identity"
+                  />
+            </Grid>
+              
 
               {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
@@ -265,9 +281,6 @@ export default function FullWidthGrid() {
               </Grid> */}
 
 
-              {/* section break */}
-
-
               {/* <Grid item xs={6} sm={6} md={3}>
               <Thumb 
                       link="/adler"
@@ -294,58 +307,19 @@ export default function FullWidthGrid() {
                       category="2D Motion Graphics"
                     />
                 </Grid> */}
-
-                <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/chicagomemory"
-                      image={tmb_chicagomemory}
-                      title="chicago memory"
-                      category="2D motion graphics"
-                    />
-              </Grid>
-              
                 
+              {/* <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/starving"
+                      image={tmb_starving}
+                      title="Starving"
+                      category="3D Animation"
+                    />
+              </Grid> */}
+
             </Grid>
           </div>
-          <div className="wide-wrapper">
-          <Grid container spacing={1}>
-            {/* <Grid item xs={12} sm={12} md={6}>
-              <Thumb 
-                    link="/planit"
-                    image= {tmb_planit}
-                    title="Plan-it Money App"
-                    category="UI/UX"
-                  />
-            </Grid> */}
-            <Grid item xs={12} sm={12} md={6}>
-              <Thumb 
-                    link="/blackout"
-                    image= {tmb_blackout}
-                    title="Blackout"
-                    category="Information Design"
-                  />
-              </Grid>        
-          
-            <Grid item xs={12} sm={12} md={6}>
-            <Thumb 
-                    link="/salmongold"
-                    image= {tmb_salmongold}
-                    title="Salmon Gold"
-                    category="Visual identity"
-                  />
-            </Grid>
-
-            {/* <Grid item xs={12} sm={12} md={6}>
-              <Thumb 
-                    link="/bookfes"
-                    image= {tmb_bookfes}
-                    title="Brooklyn Book Festival"
-                    category="Visual Identity"
-                  />
-            </Grid> */}
-            
-          </Grid>
-          </div>      
+                
           </V0MuiThemeProvider>
     </MuiThemeProvider>
   );
