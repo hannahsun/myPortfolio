@@ -44,6 +44,7 @@ import proj_machine from './components/projectPages/proj_machine';
 import proj_notification from './components/projectPages/proj_notification';
 import proj_hanukkah from './components/projectPages/proj_hanukkah';
 import proj_whatever from './components/projectPages/proj_whatever';
+import proj_sva2021 from './components/projectPages/proj_sva2021';
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
 import proj_blackout from './components/projectPages/proj_blackout';
@@ -85,6 +86,7 @@ function App() {
         <Route exact path='/blend' component={proj_blend}></Route>
         <Route exact path='/passage' component={proj_passage}></Route>
         <Route exact path='/whatever' component={proj_whatever}></Route>
+        <Route exact path='/sva2021' component={proj_sva2021}></Route>
         {/* graphic design project */}
         <Route exact path='/planit' component={proj_planit}></Route>
         <Route exact path='/blackout' component={proj_blackout}></Route>

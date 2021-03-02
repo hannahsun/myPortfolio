@@ -30,6 +30,7 @@ import tmb_machine from '../../assets/img/motion/machine-1.png';
 import tmb_notification from '../../assets/img/motion/notification-1.png';
 import tmb_hanukkah from '../../assets/img/motion/content-hanukkah/hanukkah_1.png';
 import tmb_whatever from '../../assets/img/motion/content-whatever/ig-3.png';
+import tmb_sva2021 from '../../assets/img/motion/content-sva2021/sva-5.png';
 
 //import thumbnail files
 import tmb_planit from '../../assets/img/graphic/planit.png';
@@ -95,6 +96,15 @@ export default function FullWidthGrid() {
                       image={tmb_coffee}
                       title="Coffee Time"
                       category="3D Mograph"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
+                      link="/sva2021" //project path
+                      image={tmb_sva2021}
+                      title="SVA 2021"
+                      category="Kinetic Typography"
                     />
               </Grid>
 

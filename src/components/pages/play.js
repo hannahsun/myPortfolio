@@ -14,7 +14,6 @@ import legion from '../../assets/img/play/legion.png';
 import notification from '../../assets/img/play/notification.gif';
 
 const photos = [
-
         {
         src: eraser,
         width: 1,
