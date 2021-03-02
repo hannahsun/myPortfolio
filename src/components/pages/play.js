@@ -10,8 +10,9 @@ import blob from '../../assets/img/play/blob.jpg';
 import eraser from '../../assets/img/play/eraser.gif';
 import basketball from '../../assets/img/play/basketball.gif';
 import fbnews from '../../assets/img/play/fbnews.jpg';
-import legion from '../../assets/img/play/legion.png';
+import legion1 from '../../assets/img/play/legion.png';
 import notification from '../../assets/img/play/notification.gif';
+import legionGif1 from '../../assets/img/play/legion-2.gif';
 
 const photos = [
         {
@@ -40,7 +41,7 @@ const photos = [
         height: 1
         },
         {
-        src:legion,
+        src:legion1,
         width: 1,
         height: 1
         },
@@ -49,21 +50,26 @@ const photos = [
         width: 1,
         height: 1
         },
-        // {
-        // src: everydayJob,
-        // width: 1,
-        // height: 1
-        // },
+        {
+        src: legionGif1,
+        width: 1,
+        height: 1
+        },  
         {
         src: notification,
         width: 1,
         height: 1
         },   
         {
-        src: blob,
+        src: everydayJob,
         width: 1,
         height: 1
         },  
+        {
+        src: blob,
+        width: 1,
+        height: 1
+        }, 
         
       ];
 
