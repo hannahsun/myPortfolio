@@ -13,13 +13,13 @@ import fbnews from '../../assets/img/play/fbnews.jpg';
 import legion1 from '../../assets/img/play/legion.png';
 import notification from '../../assets/img/play/notification.gif';
 import legionGif1 from '../../assets/img/play/legion-2.gif';
+import pencil from '../../assets/img/play/pencil.gif';
 
 const photos = [
         {
         src: eraser,
         width: 1,
-        height: 1
-         },
+        height: 1},
         {
         src: fan,
         width: 2,
@@ -46,12 +46,12 @@ const photos = [
         height: 1
         },
         {
-        src:fbnews,
+        src:legionGif1,
         width: 1,
         height: 1
         },
         {
-        src: legionGif1,
+        src: pencil,
         width: 1,
         height: 1
         },  
