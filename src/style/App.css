@@ -525,7 +525,7 @@ footer li {
 }
 
 a.carousel-control-prev {
-  cursor: url("/src/assets/icon/arrow-L.png"), pointer;
+  cursor: url("../../assets/icon/arrow-L.png"), pointer;
 }
 
 .carousel-item {
