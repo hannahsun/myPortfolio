@@ -100,7 +100,7 @@ const lg = 3;
 
 
 export default function Play() {
-        const classes = useStyles();
+        // const classes = useStyles();
         return (
                 <Gallery photos={photos} direction={"column"}/>
 
