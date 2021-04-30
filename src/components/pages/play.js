@@ -1,13 +1,13 @@
 import React from 'react';
 import Gallery from 'react-photo-gallery';
 
-// import Grid from '@material-ui/core/Grid';
-// import { makeStyles, MuiThemeProvider} from '@material-ui/core/styles';
-// import { MuiThemeProvider as V0MuiThemeProvider} from '@material-ui/core'
-// import Image from '../elements/imageContainer.js';
-// import mytheme from '../../style/mytheme.js'
+import Grid from '@material-ui/core/Grid';
+import { makeStyles, MuiThemeProvider} from '@material-ui/core/styles';
+import { MuiThemeProvider as V0MuiThemeProvider} from '@material-ui/core'
+import Image from '../elements/imageContainer.js';
+import mytheme from '../../style/mytheme.js'
 
-// import HoverVideoPlayer from 'react-hover-video-player';
+import HoverVideoPlayer from 'react-hover-video-player';
 
 //image links
 import chips from '../../assets/img/play/chips.gif';
@@ -22,11 +22,11 @@ import legionGif1 from '../../assets/img/play/legion-2.gif';
 import pencil from '../../assets/img/play/pencil.gif';
 
 //video links
-// import pencilVideo from '../../assets/img/play/pencil.mp4';
-// import chipVideo from '../../assets/img/play/chips.mp4';
-// import notificationVideo from '../../assets/img/play/notification.mp4';
-// import legionVideo from '../../assets/img/play/legion-2.mp4';
-// import basketballVideo from '../../assets/img/play/basketball.mp4';
+import pencilVideo from '../../assets/img/play/pencil.mp4';
+import chipVideo from '../../assets/img/play/chips.mp4';
+import notificationVideo from '../../assets/img/play/notification.mp4';
+import legionVideo from '../../assets/img/play/legion-2.mp4';
+import basketballVideo from '../../assets/img/play/basketball.mp4';
 
 
 const photos = [
@@ -84,12 +84,12 @@ const photos = [
 
 
 
-// const useStyles = makeStyles((theme) => ({
-// root: {
-//         //backgroundColor: 'red',
-//         flexGrow: 1,
-// },
-// }));
+const useStyles = makeStyles((theme) => ({
+root: {
+        //backgroundColor: 'red',
+        flexGrow: 1,
+},
+}));
 
 
 
@@ -100,9 +100,113 @@ const lg = 3;
 
 
 export default function Play() {
-        // const classes = useStyles();
+        const classes = useStyles();
         return (
-                <Gallery photos={photos} direction={"column"}/>
+                //<Gallery photos={photos} direction={"column"}/>
+                <MuiThemeProvider theme={mytheme}>
+                        <V0MuiThemeProvider theme={mytheme}>
+                                <div className={'wide-wrapper' + " " + classes.root}>
+                                <Grid container spacing={1} >
+                                       <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                                <Image image={eraser} />
+                                       </Grid>
+                                       <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                                <Image image={fan} />
+                                       </Grid>
+                                        
+                                       <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                                <Image image={plasticWrap} />
+                                       </Grid>
+                                        
+                                        <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                        <HoverVideoPlayer
+                                                videoSrc= {chipVideo}
+                                                loop = {true}
+                                                className = "hover-video-player"
+                                                preload="auto"
+                                                pausedOverlay={
+                                                        <img src="thumbnail-image.jpg" alt="" />
+                                                }
+                                                loadingOverlay={
+                                                        <div className="loading-spinner-overlay" />
+                                                }
+                                                />
+
+                                        </Grid>
+                                        <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                        <HoverVideoPlayer
+                                                videoSrc= {basketballVideo}
+                                                loop = {true}
+                                                className = "hover-video-player"
+                                                preload="auto"
+                                                pausedOverlay={
+                                                        <img src="thumbnail-image.jpg" alt="" />
+                                                }
+                                                loadingOverlay={
+                                                        <div className="loading-spinner-overlay" />
+                                                }
+                                                />
+
+                                        </Grid>
+                                        <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                                <Image image={legion1} />
+                                       </Grid>
+                                       <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                        <HoverVideoPlayer
+                                                videoSrc= {legionVideo}
+                                                loop = {true}
+                                                className = "hover-video-player"
+                                                preload="auto"
+                                                pausedOverlay={
+                                                        <img src="thumbnail-image.jpg" alt="" />
+                                                }
+                                                loadingOverlay={
+                                                        <div className="loading-spinner-overlay" />
+                                                }
+                                                />
+                                        </Grid>
+                                        <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                        <HoverVideoPlayer
+                                                videoSrc= {pencilVideo}
+                                                loop = {true}
+                                                volume={0.4}
+                                                muted = {false}
+                                                className = "hover-video-player"
+                                                preload="auto"
+                                                pausedOverlay={
+                                                        <img src="thumbnail-image.jpg" alt="" />
+                                                }
+                                                loadingOverlay={
+                                                        <div className="loading-spinner-overlay" />
+                                                }
+                                                />
+                                        </Grid>  
+                                        <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                        <HoverVideoPlayer
+                                                videoSrc= {notificationVideo}
+                                                loop = {true}
+                                                volume={0.4}
+                                                muted = {false}
+                                                className = "hover-video-player"
+                                                preload="auto"
+                                                pausedOverlay={
+                                                        <img src="thumbnail-image.jpg" alt="" />
+                                                }
+                                                loadingOverlay={
+                                                        <div className="loading-spinner-overlay" />
+                                                }
+                                                />
+                                        </Grid>
+                                        
+                                        <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                                <Image image={blob} />
+                                       </Grid>          
+
+                                </Grid>
+                                </div>
+                                        
+                        </V0MuiThemeProvider>
+                </MuiThemeProvider>
 
         );
       }
