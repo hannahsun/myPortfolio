@@ -27,6 +27,7 @@ import chipVideo from '../../assets/img/play/chips.mp4';
 import notificationVideo from '../../assets/img/play/notification.mp4';
 import legionVideo from '../../assets/img/play/legion-2.mp4';
 import basketballVideo from '../../assets/img/play/basketball.mp4';
+import everydayjobVideo from '../../assets/img/play/everydayjob.mp4';
 
 
 const photos = [
@@ -107,7 +108,7 @@ export default function Play() {
                         <V0MuiThemeProvider theme={mytheme}>
                                 <div className={'wide-wrapper' + " " + classes.root}>
                                 <Grid container spacing={1} >
-                                       <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                       <Grid item  xs={xs} sm = {sm} md={md} lg={lg}>
                                                 <Image image={eraser} />
                                        </Grid>
                                        <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
@@ -181,6 +182,20 @@ export default function Play() {
                                                 }
                                                 />
                                         </Grid>  
+                                        <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
+                                        <HoverVideoPlayer
+                                                videoSrc= {everydayjobVideo}
+                                                loop = {true}
+                                                className = "hover-video-player"
+                                                preload="auto"
+                                                pausedOverlay={
+                                                        <img src="thumbnail-image.jpg" alt="" />
+                                                }
+                                                loadingOverlay={
+                                                        <div className="loading-spinner-overlay" />
+                                                }
+                                                />
+                                        </Grid>
                                         <Grid item xs={xs} sm = {sm} md={md} lg={lg}>
                                         <HoverVideoPlayer
                                                 videoSrc= {notificationVideo}
