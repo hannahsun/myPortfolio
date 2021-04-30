@@ -9,11 +9,11 @@ import GalleryGrid from '../elements/galleryGrid';
 import Insert from '../elements/projectInsert';
 import ResponsivePlayer from '../elements/responsivePlayer'
 import Spacer from '../elements/spacer';
-
+import HoverVideoPlayer from 'react-hover-video-player';
 
 // image import
 import img_dogA from '../../assets/img/motion/NewYearGif.gif';
-
+import pencilmp4 from '../../assets/img/motion/content-pencil/pencil.mp4';
 //define image pools
 let ImagePool_1 = [
   {url: 'https://media.makeameme.org/created/disapproving-corgi.jpg',
@@ -40,6 +40,23 @@ export default function demo() {
       A2="program 1  /  program 2  /  program 3"
       description="<Project Q1='' Q2='' A1='' A2='' description='...'/>"
     />
+
+
+    <HoverVideoPlayer
+      videoSrc= {pencilmp4}
+      volume={0.4}
+      muted = {false}
+      loop = {true}
+      className = "hover-video-player"
+      preload="auto"
+      pausedOverlay={
+        <img src="thumbnail-image.jpg" alt="" />
+      }
+      loadingOverlay={
+        <div className="loading-spinner-overlay" />
+      }
+    />
+
 
     <ResponsivePlayer 
       url="https://www.youtube.com/watch?v=e9Xwzs0mNqk"
