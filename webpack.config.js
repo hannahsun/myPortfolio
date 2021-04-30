@@ -5,11 +5,16 @@ module.exports = {
 
     rules:[
         {
-            test:/\.(png|jpg)$/,
-            use:[{
-                loader: "url-loader",
-                options:{limit: 5000}
-            }]
+            test:/\.css$/,
+            use:[
+                "css-loader"
+            ]
+        },
+        {
+            test:/\.(png|jpg|gif)$/,
+            use:[
+                "file-loader"
+            ]
         }
     ],
 
