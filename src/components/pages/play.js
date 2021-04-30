@@ -31,7 +31,7 @@ import legionVideo from '../../assets/img/play/legion-2.mp4';
 import basketballVideo from '../../assets/img/play/basketball.mp4';
 import everydayjobVideo from '../../assets/img/play/everydayjob.mp4';
 
-import cursor1 from '../../assets/icon/arrow-L.png'
+//import cursor1 from '../../assets/icon/arrow-L.png'
 
 const photos = [
         {
