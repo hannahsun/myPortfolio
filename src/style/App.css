@@ -524,10 +524,6 @@ footer li {
   transform: translate(-50%, 0) rotate(180deg);
 }
 
-a.carousel-control-prev {
-  cursor: url("/src/assets/icon/arrow-L.png"), pointer;
-}
-
 .carousel-item {
   width: 100%;
   min-height: 45.4545454545vw;
