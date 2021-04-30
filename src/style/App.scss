@@ -387,18 +387,18 @@ $transit-s: .2s;
 
 //carousel
 
-// a.carousel-control-next{
-//     cursor: url('../assets/icon/arrow-R.png'), pointer;
-// }
-// a.carousel-control-prev{
-//     cursor: url('../assets/icon/arrow-L.png'), pointer;
-// }
+a.carousel-control-next{
+    cursor: url('../assets/icon/arrow-R.png'), pointer;
+}
+a.carousel-control-prev{
+    cursor: url('../assets/icon/arrow-L.png'), pointer;
+}
 
-// .carousel-item{
-//     width: 100%;
-//     min-height:100vw * $ratio_wide;
-//     height: 100vw * $ratio_standard;
-// }
+.carousel-item{
+    width: 100%;
+    min-height:100vw * $ratio_wide;
+    height: 100vw * $ratio_standard;
+}
 
 img.d-block{
     object-fit: cover;
