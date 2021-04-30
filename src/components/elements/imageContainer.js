@@ -8,9 +8,10 @@ import {
 //-----------------------------------------------------------------------------
 function Image(props) {
   return (
-      <div className="ImageContainer" data-title={props.title} 
+      <div className="imageWrapper">
+      <div className="imageContainer" data-title={props.title} 
         style={ {backgroundImage: 'url("' + props.image + '")'}} >
-
+      </div>
       </div>
                
   );
