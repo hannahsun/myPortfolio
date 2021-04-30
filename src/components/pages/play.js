@@ -13,7 +13,6 @@ import HoverVideoPlayer from 'react-hover-video-player';
 import chips from '../../assets/img/play/chips.gif';
 import fan from '../../assets/img/play/fan-1.png';
 import plasticWrap from '../../assets/img/play/cloth-1.png';
-import everydayjob from '../../assets/img/play/everydayjob.gif';
 import blob from '../../assets/img/play/blob.jpg';
 import eraser from '../../assets/img/play/eraser.gif';
 import basketball from '../../assets/img/play/basketball.gif';
@@ -28,7 +27,6 @@ import pencilVideo from '../../assets/img/play/pencil.mp4';
 import chipVideo from '../../assets/img/play/chips.mp4';
 import notificationVideo from '../../assets/img/play/notification.mp4';
 import legionVideo from '../../assets/img/play/legion-2.mp4';
-import everydayjobVideo from '../../assets/img/play/everydayjob.mp4';
 import basketballVideo from '../../assets/img/play/basketball.mp4';
 
 
@@ -74,11 +72,6 @@ const photos = [
         },  
         {
         src: notification,
-        width: 1,
-        height: 1
-        },   
-        {
-        src: everydayjob,
         width: 1,
         height: 1
         },  
