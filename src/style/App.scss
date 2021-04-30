@@ -388,11 +388,11 @@ $transit-s: .2s;
 //carousel
 
 // a.carousel-control-next{
-//     cursor: url('../assets/icon/arrow-R.png'), pointer;
+//     cursor: e-resize;
 // }
-// a.carousel-control-prev{
-//     cursor: url('../assets/icon/arrow-L.png'), pointer;
-// }
+a.carousel-control-prev{
+    cursor: url('/src/assets/icon/arrow-L.png'), pointer;
+}
 
 .carousel-item{
     width: 100%;
@@ -438,3 +438,87 @@ img.d-block{
         display: none;
     }
   }
+
+
+//--------------cursor -------------
+
+
+
+.movable {
+    width: 7em;
+    height: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    background: $black;
+    color:$white;
+    position: absolute;
+    z-index: 999999999;
+    transform: translate(-50%, -50%);
+    //border-radius: 50%;
+    pointer-events: none;
+    transition: background 0.5s;
+
+    &:after{
+        font-family: $primaryFont;
+        text-decoration: none;
+        // font-size: 11px;
+        content:'hover to play';
+    }
+  }
+  
+  .movable.active {
+    background: red;
+  }
+  
+  .movable.active:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .movable.cursor-pointer:after {
+    content: "!";
+  }
+  
+  .movable.cursor-play:after {
+    content: "PLAY!";
+  }
+  .movable.cursor-still:after {
+    content: "this is a still";
+  }
+  .movable.cursor-hint:after {
+    content: "hover to play";
+  }
+  
+  .movable.cursor-left:after {
+    content: "<";
+  }
+  .movable.cursor-right:after {
+    content: ">";
+  }
+  
+  .sides {
+    position: relative;
+    background: lightblue;
+  }
+  
+  .side-right,
+  .side-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background: transparent;
+    border: 0;
+    appearance: none;
+  }
+  
+  .side-right {
+    right: 0;
+  }
+  .side-left {
+    left: 0;
+  }
+  

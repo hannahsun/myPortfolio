@@ -9,6 +9,8 @@ import GalleryGrid from '../elements/galleryGrid';
 import Insert from '../elements/projectInsert';
 import ResponsivePlayer from '../elements/responsivePlayer'
 import Spacer from '../elements/spacer';
+
+
 // import HoverVideoPlayer from 'react-hover-video-player';
 
 // image import

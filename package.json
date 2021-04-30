@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "classnames": "^2.3.1",
     "dangerously-set-inner-html": "^2.0.1",
     "jquery": "^3.6.0",
     "react": "^16.13.1",
@@ -49,6 +50,6 @@
     "react-url-loader": "^0.0.3",
     "ts-loader": "^9.1.1",
     "url-loader": "^4.1.0",
-    "webpack": "^4.42.0" 
+    "webpack": "^4.42.0"
   }
 }

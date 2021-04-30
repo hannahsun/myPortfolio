@@ -524,6 +524,10 @@ footer li {
   transform: translate(-50%, 0) rotate(180deg);
 }
 
+a.carousel-control-prev {
+  cursor: url("/src/assets/icon/arrow-L.png"), pointer;
+}
+
 .carousel-item {
   width: 100%;
   min-height: 45.4545454545vw;
@@ -567,6 +571,83 @@ img.d-block {
   .nav-web {
     display: none;
   }
+}
+.movable {
+  width: 7em;
+  height: auto;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: #181617;
+  color: #eeede7;
+  position: absolute;
+  z-index: 999999999;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: background 0.5s;
+}
+.movable:after {
+  font-family: "Telegraf", sans-serif;
+  text-decoration: none;
+  content: "hover to play";
+}
+
+.movable.active {
+  background: red;
+}
+
+.movable.active:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.movable.cursor-pointer:after {
+  content: "!";
+}
+
+.movable.cursor-play:after {
+  content: "PLAY!";
+}
+
+.movable.cursor-still:after {
+  content: "this is a still";
+}
+
+.movable.cursor-hint:after {
+  content: "hover to play";
+}
+
+.movable.cursor-left:after {
+  content: "<";
+}
+
+.movable.cursor-right:after {
+  content: ">";
+}
+
+.sides {
+  position: relative;
+  background: lightblue;
+}
+
+.side-right,
+.side-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background: transparent;
+  border: 0;
+  appearance: none;
+}
+
+.side-right {
+  right: 0;
+}
+
+.side-left {
+  left: 0;
 }
 
 /*# sourceMappingURL=App.css.map */
