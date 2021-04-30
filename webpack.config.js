@@ -1,20 +1,23 @@
 module.exports = {
 
     //entry point
-    // entry:'./src/App.js',
+    entry:'./src/App.js',
 
-    // output:{
-    //     path:'dist',
-    //     filename:'bundle.js'
-    // }
-
-    loaders:[
+    rules:[
         {
             test:/\.(png|jpg)$/,
-            loader: 'file-loader',
-            include: path.join(__dirname, 'src')
+            use:[{
+                loader: "url-loader",
+                options:{limit: 5000}
+            }]
+        }
+    ],
 
-    }
-]
+
+    output:{
+        path:'dist',
+        filename:'bundle.js'
+    },
+    
 
 } 
