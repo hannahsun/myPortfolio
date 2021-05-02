@@ -60,9 +60,11 @@ export default function FullWidthGrid() {
   const classes = useStyles();
 
   return (
+
     <MuiThemeProvider theme={mytheme}>
     <V0MuiThemeProvider theme={mytheme}>
           <div className={'wide-wrapper' + " " + classes.root}>
+
             <Grid container spacing={1} >
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
@@ -281,74 +283,8 @@ export default function FullWidthGrid() {
             </Grid>
               
 
-              {/* <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/liquidanimation"
-                      image={tmb_liquidAnimation}
-                      title="Liquid Animation"
-                      category="2D / Cell"
-                    />
-                </Grid> */}
-                
-              {/* <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/miscellaneous"
-                      image={tmb_socialposts}
-                      title="miscellaneous"
-                      category="2D / Motion Graphics"
-                    />
-              </Grid> */}
-
-              
-              {/* <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/Legion"
-                      image={tmb_legion}
-                      title="Legion"
-                      category="3D Animation"
-                    />
-              </Grid> */}
-
-
-              {/* <Grid item xs={6} sm={6} md={3}>
-              <Thumb 
-                      link="/adler"
-                      image={tmb_adler}
-                      title="Adler Planetarium"
-                      category="motion"
-                    />
-              </Grid> */}
-              
-              {/* <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/form"
-                      image={tmb_form}
-                      title="Liquid Animation"
-                      category="2D / Particle"
-                    />
-              </Grid> */}
-
-              {/* <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/12principles"
-                      image={tmb_12principles}
-                      title="12 principles of animation"
-                      category="2D Motion Graphics"
-                    />
-                </Grid> */}
-                
-              {/* <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/starving"
-                      image={tmb_starving}
-                      title="Starving"
-                      category="3D Animation"
-                    />
-              </Grid> */}
-
             </Grid>
           </div>
-                
           </V0MuiThemeProvider>
     </MuiThemeProvider>
   );

@@ -44,7 +44,7 @@ export default function myproject() {
 
     <GalleryGrid 
         imagePool = {ImagePool_1}
-        col = {4}
+        col = {2}
         spacing = {1}
     />
 

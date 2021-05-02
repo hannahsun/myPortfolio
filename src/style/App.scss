@@ -5,6 +5,15 @@ $pageMargin:70px;
 $ratio_standard: 9/16;
 $ratio_wide: 1/2.2;
 
+
+h4{
+    font-family: 'Telegraf','Roboto', sans-serif;
+    font-size:clamp(20px,2.5vw,28px);
+    font-weight:900;
+    line-height: 1.3em;
+}
+
+
 //--------------wrappers--------------
 
 @media only screen and (min-width: 768px) {

@@ -21,7 +21,7 @@ function Insert(props) {
     <div className="section-wrapper" style={myStyle}>
     <Grid container spacing={2}>
         <Grid item xs={12} sm={4}>
-            <h3>{props.title}</h3>
+            <h4>{props.title}</h4>
             <p>{props.subtitle}</p>
         </Grid>
         <Grid item xs={12} sm={7} lg={6}>
@@ -29,7 +29,7 @@ function Insert(props) {
             <div dangerouslySetInnerHTML={{ __html: props.description}}></div>
         </Grid>
         <Grid item xs={12} sm={1} lg={2}>
-        </Grid>
+        </Grid> 
     </Grid>
     </div>
   );

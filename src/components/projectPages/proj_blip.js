@@ -50,25 +50,19 @@ export default function myproject() {
     <Project 
       Q1="Project"
       Q2="Tools"
-      A1="The Festival of Lights"
-      A2="After Effects / Illustrator"
+      A1="Blip"
+      A2="After Effects / Illustrator / Cinema4D"
       description="
-      blip is known as 'The Festival of Lights'. It's a festival all about sharing the light to illuminate the darkness. About shining a light that can unite us in the fight against evil. Now, more than ever, this message is particularly timely. May your life shrine bright with the light of the Menorah candles this holiday season. Happy blip!
+      Blip is a short 2D animation that explores the topic of digital addiction, an issue increasing year by year and especially during the pandemic lockdown. I was inspired to do a piece about today’s lifestyle and the dependency we’ve developed on our digital devices. In an exaggerated style, the animation portrays the experience of isolation and distraction many people share today with frequent use of digital technology.
+      <br><br> NOTE: The video below is a trailer. Full film coming soon.
       <br><br>
-      <b>Directed and produced by:</b> Itay Tevel <br>
-      <b>Design:</b> Hannah Sun <br>
-      <b>Animation Lead:</b> Itay Tevel <br>
-      <b>Animation:</b> Itay Tevel / Hannah Sun / Tyler West / Lin Youting / Kaycee Nwakudu <br>
-      <b>Original Music and Sound:</b> Tomer Rabinowitz"
+      <b>Design and animation:</b>&nbsp; Hannah Sun <br>
+      <b>Music and sound:</b>&nbsp; Joe Basile"
       
     />
 
     <ResponsivePlayer url="https://vimeo.com/540849731"/>
 
-
-
-
-    
 
     <Spacer height="120px"/>
     <Insert 
@@ -84,7 +78,7 @@ export default function myproject() {
         spacing = {1}
     />
 
-  <Spacer height="60px" />
+  <Spacer height="60px" />÷
 
     <Insert 
       title="Initial Storyboards"
