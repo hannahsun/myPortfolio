@@ -6,6 +6,7 @@ import Insert from '../elements/projectInsert';
 import Spacer from '../elements/spacer';
 import GalleryGrid from '../elements/galleryGrid';
 
+import ReactPlayer from 'react-player'
 
 // image import
 import coffee1 from '../../assets/img/motion/content-coffee/coffee_still_01.png';
@@ -37,7 +38,6 @@ export default function myproject() {
       description=""
       
     />
-
     <ResponsivePlayer url="https://vimeo.com/457577751" />
 
     <Spacer height="120px"/>

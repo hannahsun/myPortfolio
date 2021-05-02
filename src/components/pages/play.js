@@ -56,7 +56,7 @@ const photos = [
         height: 1
         },
         {
-        src:legion1,
+        src: pencil,
         width: 1,
         height: 1
         },
@@ -66,12 +66,12 @@ const photos = [
         height: 1
         },
         {
-        src: pencil,
+        src: notification,
         width: 1,
         height: 1
         },  
         {
-        src: notification,
+        src: legion1,
         width: 1,
         height: 1
         },  
