@@ -1,7 +1,5 @@
 import React from 'react';
 import Gallery from 'react-photo-gallery';
-import CursorProvider from '../elements/cursorProvider.js';
-// import withCursor from "./elements/withCursor";
 
 import Grid from '@material-ui/core/Grid';
 import { makeStyles, MuiThemeProvider} from '@material-ui/core/styles';
@@ -31,7 +29,6 @@ import legionVideo from '../../assets/img/play/legion-2.mp4';
 import basketballVideo from '../../assets/img/play/basketball.mp4';
 import everydayjobVideo from '../../assets/img/play/everydayjob.mp4';
 
-//import cursor1 from '../../assets/icon/arrow-L.png'
 
 const photos = [
         {
@@ -106,8 +103,8 @@ const lg = 3;
 export default function Play() {
         const classes = useStyles();
         return (
-                //<Gallery photos={photos} direction={"column"}/>
-                //<CursorProvider>
+                <Gallery photos={photos} direction={"column"}/>
+                /*
                 <MuiThemeProvider theme={mytheme}>
                         <V0MuiThemeProvider theme={mytheme}>
                                 <div className={'wide-wrapper' + " " + classes.root}>
@@ -226,7 +223,7 @@ export default function Play() {
                                         
                         </V0MuiThemeProvider>
                 </MuiThemeProvider>
-                //</CursorProvider>
+                */
 
         );
       }
