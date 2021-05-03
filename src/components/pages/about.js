@@ -41,7 +41,7 @@ function About() {
                     <div className="spacer spacer-m"></div>
                     {/* <h3 className="m-dynamic"> */}
                     <h3 >
-                    Hello There! I’m Hannah, A New York Based Visual Designer Currently Pursuing her MFA On Computer Arts At the School Of Visual Arts. I’m Passionate About Learning, Ideating, And Making Beautiful Graphics. If I Don’t Know Something, I Try To Wrap My Head Around It Quickly.
+                    Hello there! I'm Hannah, a New York based visual designer who just got her MFA degree on Computer Arts at the School of Visual Arts. I'm Passionate about learning, ideating, and making beautiful graphics. If I don't know something, I try to wrap my head around it quickly.
                     <br/>
                     Below Is A Little More About Me: 
                     </h3>

@@ -156,6 +156,7 @@ p {
 }
 h3{
     font-family: 'Telegraf','Roboto', sans-serif;
+    //text-transform: lowercase;
     @extend %header-l;
 }
 h5{
