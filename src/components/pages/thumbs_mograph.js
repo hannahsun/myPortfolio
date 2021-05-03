@@ -4,7 +4,7 @@ import { MuiThemeProvider as V0MuiThemeProvider} from '@material-ui/core'
 import Grid from '@material-ui/core/Grid';
 import Thumb from '../elements/thumb.js';
 import mytheme from '../../style/mytheme.js'
-
+import GoTop from '../elements/goTop.js';
 //import thumbnail files
 import tmb_motionReel from '../../assets/img/motion/motionreel-2020-cover.png';
 import tmb_legion from '../../assets/img/motion/legion-sqr-2.png';
@@ -60,11 +60,11 @@ export default function FullWidthGrid() {
   const classes = useStyles();
 
   return (
-
+    
     <MuiThemeProvider theme={mytheme}>
     <V0MuiThemeProvider theme={mytheme}>
           <div className={'wide-wrapper' + " " + classes.root}>
-
+            <GoTop />
             <Grid container spacing={1} >
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
