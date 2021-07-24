@@ -103,6 +103,10 @@ function About() {
                           <CustomBody as={Card.Body} eventKey="2">
                             <ul>
                                 <li>
+                                <span className="emphasis">BUCK Design</span><br/>
+                                Jun.—Present  /  2D Animation Apprentice <br/>
+                                </li>
+                                <li>
                                 <span className="emphasis">Hornet Animation</span><br/>
                                 Jun.—Dec. 2020  /  Motion Design Intern <br/>
                                 </li>
