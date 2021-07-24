@@ -97,7 +97,7 @@ export default function FullWidthGrid() {
                       link="/pencil" //project path
                       image={tmb_pencil}
                       title="Pencil"
-                      category="Animation"
+                      category="Motion Graphics"
                     />
               </Grid>
               <Grid item xs={12} sm={6} md={3}>
@@ -270,7 +270,7 @@ export default function FullWidthGrid() {
                       link="/chicagomemory"
                       image={tmb_chicagomemory}
                       title="chicago memory"
-                      category="2D motion graphics"
+                      category="motion graphics"
                     />
               </Grid>
               <Grid item xs={12} sm={12} md={6}>
