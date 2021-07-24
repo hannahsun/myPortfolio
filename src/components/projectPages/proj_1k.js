@@ -13,6 +13,7 @@ import onek3 from '../../assets/img/motion/content-1k/1k-3.png';
 import onek4 from '../../assets/img/motion/content-1k/1k-4.png';
 import onek5 from '../../assets/img/motion/content-1k/1k-5.png';
 import onek6 from '../../assets/img/motion/content-1k/1k-6.png';
+import onek_sb from '../../assets/img/motion/content-1k/1k-sb.png';
 
 //define image pools
 let ImagePool_1 = [
@@ -58,6 +59,26 @@ export default function myproject() {
         col = {6}
         spacing = {1}
     />
+
+<Spacer height="120px"/>
+        <Insert 
+          title="Sketches"
+          subtitle=""
+          description= ""
+          padding='60px'
+        />
+
+
+    <Image image={onek_sb} />
+
+    <Spacer height="120px"/>
+        <Insert 
+          title="Behind the Scene"
+          subtitle=""
+          description= ""
+          padding='60px'
+        />
+    <ResponsivePlayer url="https://vimeo.com/578908233"/>
 
     </React.Fragment>
   );
