@@ -25,7 +25,7 @@ function Footer() {
                     <h5 className="lighttext">Copyright</h5>
                     <div className="spacer spacer-s"></div>
                     <ul>
-                    <li>© 2020 Hanqing Sun </li>
+                    <li>© 2021 Hanqing Sun </li>
                   </ul>
               </Grid>
         </Grid>

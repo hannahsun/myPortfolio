@@ -50,26 +50,41 @@ function About() {
                     <Accordion>
                         <Card>
                           <CustomToggle as={Card.Header} eventKey="0">
-                                Education
+                                Experience
                           </CustomToggle>
                           <Accordion.Collapse eventKey="0">
                           <CustomBody as={Card.Body} eventKey="0" >
-                            <ul>
+                          <ul>
                                 <li>
-                                <span className="emphasis">School of Visual Arts</span> / New York, U.S.<br/>
-                                Master of Fine Arts<br/>
-                                2019—2021 | Computer Arts
+                                <span className="emphasis">BUCK Design</span><br/>
+                                Jun. 2021 — Present  /  2D Animation Apprentice <br/>
                                 </li>
                                 <li>
-                                <span className="emphasis">School of the Art Institute of Chicago</span> / Chicago, U.S.<br/>
-                                Bachelor of Fine Arts<br/>
-                                2015—2018 | Visual Communication Design
+                                <span className="emphasis">Hornet Animation</span><br/>
+                                Jun. — Dec. 2020  /  Motion Design Intern <br/>
                                 </li>
                                 <li>
-                                <span className="emphasis">Donghua University</span> / Shanghai, China<br/>
-                                2013—2014 | Automation Engineering, School of Information Science & Technology
+                                <span className="emphasis">Ogilvy Chicago</span><br/>
+                                Aug. 2018 — May 2019  /  Designer <br/>
+                                May — Aug. 2018  /  Design Intern<br/>
                                 </li>
-                              </ul>
+                                <li>
+                                <span className="emphasis">SAIC Marketing & Graphics</span><br/>
+                                Jan. — May 2018  /  Motion Designer
+                                </li>
+                                <li>
+                                <span className="emphasis">F Newsmagazine</span><br/>
+                                Sept. 2017 — May 2018  /  Designer & Illustrator
+                                </li>
+                                <li>
+                                <span className="emphasis">Tom, Dick & Harry Co.</span><br/>
+                                Jun. — Aug. 2016  /  Graphic Design Intern
+                                </li>
+                                <li>
+                                <span className="emphasis">SAIC IRFM Creative</span><br/>
+                                Jun. 2015 — Jun. 2017  /  Graphic Designer
+                                </li>
+                            </ul>
                           </CustomBody>
                           </Accordion.Collapse>
                         </Card>
@@ -97,41 +112,26 @@ function About() {
 
                         <Card>
                           <CustomToggle as={Card.Header} eventKey="2">
-                                Experience
+                                Education
                           </CustomToggle>
                           <Accordion.Collapse eventKey="2">
                           <CustomBody as={Card.Body} eventKey="2">
-                            <ul>
+                          <ul>
                                 <li>
-                                <span className="emphasis">BUCK Design</span><br/>
-                                Jun.—Present  /  2D Animation Apprentice <br/>
+                                <span className="emphasis">School of Visual Arts</span> / New York, U.S.<br/>
+                                Master of Fine Arts<br/>
+                                2019—2021 | Computer Arts
                                 </li>
                                 <li>
-                                <span className="emphasis">Hornet Animation</span><br/>
-                                Jun.—Dec. 2020  /  Motion Design Intern <br/>
+                                <span className="emphasis">School of the Art Institute of Chicago</span> / Chicago, U.S.<br/>
+                                Bachelor of Fine Arts<br/>
+                                2015—2018 | Visual Communication Design
                                 </li>
                                 <li>
-                                <span className="emphasis">Ogilvy Chicago</span><br/>
-                                Aug. 2018—May 2019  /  Designer <br/>
-                                May—Aug. 2018  /  Design Intern<br/>
+                                <span className="emphasis">Donghua University</span> / Shanghai, China<br/>
+                                2013—2014 | Automation Engineering, School of Information Science & Technology
                                 </li>
-                                <li>
-                                <span className="emphasis">SAIC Marketing & Graphics</span><br/>
-                                Jan.—May 2018  /  Motion Designer
-                                </li>
-                                <li>
-                                <span className="emphasis">F Newsmagazine</span><br/>
-                                Sept. 2017—May 2018  /  Designer & Illustrator
-                                </li>
-                                <li>
-                                <span className="emphasis">Tom, Dick & Harry Co.</span><br/>
-                                Jun.—Aug. 2016  /  Graphic Design Intern
-                                </li>
-                                <li>
-                                <span className="emphasis">SAIC IRFM Creative</span><br/>
-                                Jun. 2015—Jun. 2017  /  Graphic Designer
-                                </li>
-                            </ul>
+                              </ul>
                           </CustomBody>
                           </Accordion.Collapse>
                         </Card>
