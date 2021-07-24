@@ -34,6 +34,7 @@ import tmb_sva2021 from '../../assets/img/motion/content-sva2021/sva-5.png';
 import tmb_growth from '../../assets/img/motion/content-growth/growth-2.png';
 import tmb_pencil from '../../assets/img/motion/content-pencil/pencil-1.png';
 import tmb_blip from '../../assets/img/motion/content-blip/blip-1.png';
+import tmb_1k from '../../assets/img/motion/content-1k/1k-cover.png';
 
 //import thumbnail files
 import tmb_planit from '../../assets/img/graphic/planit.png';
@@ -66,6 +67,14 @@ export default function FullWidthGrid() {
           <div className={'wide-wrapper' + " " + classes.root}>
             <GoTop />
             <Grid container spacing={1} >
+            <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/1k" //project path
+                      image={tmb_1k}
+                      title="1k"
+                      category="motion graphics"
+                    />
+              </Grid>
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/motionReel" //project path

@@ -48,6 +48,7 @@ import proj_sva2021 from './components/projectPages/proj_sva2021';
 import proj_growth from './components/projectPages/proj_growth';
 import proj_pencil from './components/projectPages/proj_pencil';
 import proj_blip from './components/projectPages/proj_blip';
+import proj_1k from './components/projectPages/proj_1k';
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
 import proj_blackout from './components/projectPages/proj_blackout';
@@ -93,6 +94,7 @@ function App() {
         <Route exact path='/growth' component={proj_growth}></Route>
         <Route exact path='/pencil' component={proj_pencil}></Route>
         <Route exact path='/blip' component={proj_blip}></Route>
+        <Route exact path='/1k' component={proj_1k}></Route>
         {/* graphic design project */}
         <Route exact path='/planit' component={proj_planit}></Route>
         <Route exact path='/blackout' component={proj_blackout}></Route>
