@@ -40,7 +40,10 @@ export default class GoTop extends Component {
             <div className="back-to-top show-back-to-top">
                 {is_visible && (
                     <div className="arrow-container" onClick={() => this.scrollToTop()}>
-                        <div className = "arrow"></div>
+                        <div className = "arrow" id="arrow1">
+                                <div className = "arrow" id="arrow2"></div>
+                        </div>
+                        
                     </div>
                 )}
             </div>
