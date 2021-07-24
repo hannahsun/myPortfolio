@@ -381,7 +381,7 @@ footer li {
 }
 
 .thumb-image {
-  transition: 0.2s ease-out;
+  transition: 300ms ease-out;
   position: absolute;
   left: 0;
   top: 0;
@@ -392,9 +392,6 @@ footer li {
   background-color: rgba(190, 190, 190, 0);
   background-blend-mode: exclusion;
   opacity: 1;
-}
-.thumb-image:hover {
-  background-color: #bebebe;
 }
 .thumb-image:hover > .thumb-overlay {
   opacity: 1;
@@ -407,7 +404,7 @@ footer li {
 .thumb-image:hover .thumb-viewmore {
   margin-left: 0;
   opacity: 1;
-  transition-delay: 0.2s;
+  transition-delay: 100ms;
 }
 
 .thumb-overlay {
@@ -416,11 +413,10 @@ footer li {
   top: 0;
   width: 100%;
   height: 100%;
-  z-index: 5;
-  opacity: 0;
-  background-color: #eeede7;
-  mix-blend-mode: saturation;
-  transition: 0.2s ease-in-out;
+  z-index: -1;
+  opacity: 1;
+  backdrop-filter: blur(0px);
+  transition: 300ms cubic-bezier(0.53, -0.005, 0, 1.005);
 }
 
 .thumb-info-wrapper {
@@ -442,13 +438,16 @@ footer li {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #eeede7;
+  background-color: #ff562b;
   opacity: 0;
   z-index: -1;
-  transition: 0.2s ease-in-out;
+  transition: 300ms cubic-bezier(0.53, -0.005, 0, 1.005);
 }
 .thumb-info-wrapper:hover::after {
-  opacity: 0.7;
+  opacity: 1;
+}
+.thumb-info-wrapper:hover .thumb-overlay {
+  backdrop-filter: blur(0px);
 }
 
 .thumb-title {
@@ -462,7 +461,7 @@ footer li {
   text-transform: capitalize;
   font-size: clamp(14px, 130%, 25px);
   margin-left: -20px;
-  transition: 0.3s ease-in-out;
+  transition: 450ms cubic-bezier(0.53, -0.005, 0, 1.005);
 }
 
 .thumb-category {
@@ -482,7 +481,7 @@ footer li {
   bottom: 0;
   opacity: 0;
   margin-left: -20px;
-  transition: 0.3s ease-in-out;
+  transition: 450ms cubic-bezier(0.53, -0.005, 0, 1.005);
 }
 
 .imageContainer {
@@ -504,7 +503,7 @@ footer li {
   height: 1em;
   display: inline-block;
   position: relative;
-  transition: 0.2s ease;
+  transition: 0.2s cubic-bezier(0.53, -0.005, 0, 1.005);
 }
 .icon-more span {
   position: absolute;
@@ -517,7 +516,7 @@ footer li {
 }
 .icon-more .stroke-1 {
   transform: translate(-50%, 0) rotate(0);
-  transition: 0.25s ease-out;
+  transition: 0.25s cubic-bezier(0.53, -0.005, 0, 1.005);
 }
 .icon-more .stroke-2 {
   transform: translate(-50%, 0) rotate(90deg);

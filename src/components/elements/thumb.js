@@ -13,14 +13,15 @@ function Thumb(props) {
            <div className="thumb-image" data-title={props.title} style={{backgroundImage: 'url("' + props.image + '")'}}>
                 {/* <img className="viewmore" src={viewmore}></img> */}
                 
-                <div className="thumb-overlay"></div>
+                {/* <div className="thumb-overlay"></div> */}
                 <div className="thumb-info-wrapper">
                       <div className="thumb-title">
                           {props.title}
                           <div className="thumb-category">{props.category}</div>
                           <div className="thumb-viewmore">view more →</div>
                       </div>
-                  </div>
+                      <div className="thumb-overlay"></div>
+                </div>
            </div>
            
            

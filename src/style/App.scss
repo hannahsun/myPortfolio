@@ -228,7 +228,8 @@ footer li{
     height: 100%;
 }
 
-$transit-s: .2s;
+$transit-s: 300ms;
+$myEase: cubic-bezier(0.530, -0.005, 0.000, 1.005);
 .thumb-image{
     transition: $transit-s ease-out;
     position: absolute;
@@ -242,9 +243,9 @@ $transit-s: .2s;
     background-blend-mode: exclusion;
     opacity: 1;
 
-    &:hover{
-        background-color: rgba(190,190,190,1);
-    }
+    // &:hover{
+    //     background-color: rgba(190,190,190,1);
+    // }
     &:hover > .thumb-overlay{ 
         opacity: 1;
     }
@@ -256,21 +257,26 @@ $transit-s: .2s;
     &:hover .thumb-viewmore{
         margin-left:0;
         opacity: 1;
-        transition-delay: $transit-s;
+        transition-delay: $transit-s/3;
     }
 }
+
+//-------adjustment layer below
+
 .thumb-overlay{
     position: absolute;
     left:0;
     top:0;
     width:100%;
     height:100%;
-    z-index: 5;
-    opacity: 0;
-    background-color: $white;
-    mix-blend-mode: saturation;
+    z-index: -1;
+    opacity: 1;
+    backdrop-filter: blur(0px);
+   // background-color: $white;
+//     mix-blend-mode: saturation;
+    transition: $transit-s $myEase;
 
-    transition: $transit-s ease-in-out;
+    
 }
 
 .thumb-info-wrapper{
@@ -290,13 +296,16 @@ $transit-s: .2s;
         position: absolute;
         left:0; top:0;
         width:100%; height:100%;
-        background-color: $white;
+        background-color: $accent;
         opacity: 0;
         z-index: -1;
-        transition: $transit-s ease-in-out;
+        transition: $transit-s $myEase;
     }
     &:hover::after{
-        opacity: .7;
+        opacity: 1; //info box solid color overlay
+    }
+    &:hover .thumb-overlay{
+        backdrop-filter: blur(0px);
     }
 }
 .thumb-title{
@@ -311,7 +320,7 @@ $transit-s: .2s;
     font-size:clamp(14px, 130%, 25px); //title size
     
     margin-left:-20px; //aniamted distance 
-    transition: $transit-s*1.5 ease-in-out;
+    transition: $transit-s*1.5 $myEase;
 }
 .thumb-category{
     font-family: $codeFont;
@@ -330,7 +339,7 @@ $transit-s: .2s;
     bottom:0;
     opacity: 0;
     margin-left:-20px; //aniamted distance
-    transition: $transit-s*1.5 ease-in-out;
+    transition: $transit-s*1.5 $myEase;
 }
 
 // ----- image container (play) -------
@@ -364,7 +373,7 @@ $transit-s: .2s;
     // border:.05em solid $white;
     display: inline-block;
     position: relative;
-    transition:.2s ease;
+    transition:.2s $myEase;
 
     & span{
         position: absolute;
@@ -376,7 +385,7 @@ $transit-s: .2s;
     }
     & .stroke-1{
         transform: translate(-50%,0) rotate(0);
-        transition:.25s ease-out;
+        transition:.25s $myEase;
     }
     & .stroke-2{
         transform: translate(-50%,0) rotate(90deg);
