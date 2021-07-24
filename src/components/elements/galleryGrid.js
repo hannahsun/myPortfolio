@@ -9,16 +9,21 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 function GalleryGrid(props) {
   const matches = useMediaQuery('(min-width:600px)');
   const gridSize = [12/props.col];
+  let myHeight;
+  if(props.trueSize == true){
+    myHeight = '100%'
+  }else{
+    myHeight = [100/props.col + 'vw']
+  }
+
 
   const useStyles = makeStyles(()=>({
     item:{
     objectFit: 'cover',
     width:'100%',
-    /*input- number of columns*/
-    height: [100/props.col + 'vw'],
-    '@media (max-width: 600px)' : {
-      height: '100%'
-    }
+    height: myHeight,
+      '@media (max-width: 600px)' : {
+      height: '100%'}
     }
   }));
 

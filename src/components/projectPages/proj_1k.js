@@ -16,12 +16,11 @@ import onek6 from '../../assets/img/motion/content-1k/1k-6.png';
 
 //define image pools
 let ImagePool_1 = [
-  {url: onek1,size: 2},
-  {url: onek2,size: 2},
-  {url: onek3,size: 2},
-  {url: onek4,size: 2},
-  {url: onek5,size: 2},
   {url: onek6,size: 2},
+  {url: onek5,size: 2},
+  {url: onek4,size: 2},
+  {url: onek2,size: 2},
+  {url: onek1,size: 2},
 ]
 
 
@@ -55,7 +54,8 @@ export default function myproject() {
 
     <GalleryGrid 
         imagePool = {ImagePool_1}
-        col = {4}
+        trueSize = {true}
+        col = {6}
         spacing = {1}
     />
 

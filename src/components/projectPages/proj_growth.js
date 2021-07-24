@@ -46,6 +46,7 @@ export default function myproject() {
         imagePool = {ImagePool_1}
         col = {2}
         spacing = {1}
+        trueSize = {true}
     />
 
     </React.Fragment>

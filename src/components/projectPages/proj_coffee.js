@@ -51,7 +51,7 @@ export default function myproject() {
     <GalleryGrid 
         imagePool = {ImagePool_1}
         col = {3}
-        spacing = {2}
+        spacing = {1}
     />
 
     </React.Fragment>
