@@ -78,7 +78,7 @@ export default function myproject() {
         spacing = {1}
     />
 
-  <Spacer height="60px" />÷
+  <Spacer height="60px" />
 
     <Insert 
       title="Initial Storyboards"
