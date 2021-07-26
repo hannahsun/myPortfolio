@@ -51,7 +51,7 @@ export default function myproject() {
       Q1="Project"
       Q2="Tools"
       A1="Blip"
-      A2="After Effects / Illustrator / Cinema4D"
+      A2="After Effects / Cinema4D / Illustrator"
       description="
       Blip is a short 2D animation that explores the topic of digital addiction, an issue increasing year by year and especially during the pandemic lockdown. I was inspired to do a piece about today’s lifestyle and the dependency we’ve developed on our digital devices. In an exaggerated style, the animation portrays the experience of isolation and distraction many people share today with frequent use of digital technology.
       <br><br> NOTE: The video below is a trailer. Full film coming soon.

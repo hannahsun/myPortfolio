@@ -71,7 +71,7 @@ export default function FullWidthGrid() {
                 <Thumb 
                       link="/1k" //project path
                       image={tmb_1k}
-                      title="1k"
+                      title="1K"
                       category="motion graphics"
                     />
               </Grid>
