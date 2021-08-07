@@ -17,11 +17,9 @@ import blip6 from '../../assets/img/motion/content-blip/blip-6.png';
 import blip7 from '../../assets/img/motion/content-blip/blip-7.png';
 import blip8 from '../../assets/img/motion/content-blip/blip-8.png';
 import blip9 from '../../assets/img/motion/content-blip/blip-9.png';
+import blip10 from '../../assets/img/motion/content-blip/blip-10.png';
 import blip_sb from '../../assets/img/motion/content-blip/blip-SB.png';
 
-//import blipmotion1 from '../../assets/img/motion/content-blip/blip-sh01.gif';
-//import blipmotion2 from '../../assets/img/motion/content-blip/blip-sh02.gif';
-//import blipmotion3 from '../../assets/img/motion/content-blip/blip-sh03.gif';
 
 //define image pools
 let ImagePool_1 = [
@@ -30,18 +28,12 @@ let ImagePool_1 = [
   {url: blip2,size: 2},
   {url: blip3,size: 2},
   {url: blip4,size: 2},
+  {url: blip10,size: 2},
   {url: blip6,size: 2},
   {url: blip5,size: 2},
   {url: blip7,size: 2},
   {url: blip8,size: 2},
 ]
-
-
-// let ImagePool_2 = [
-//   {url: blipmotion1,size: 2},
-//   {url: blipmotion2,size: 2},
-//   {url: blipmotion3,size: 2},
-// ]
 
 
 export default function myproject() {
@@ -61,7 +53,7 @@ export default function myproject() {
       
     />
 
-    <ResponsivePlayer url="https://vimeo.com/540849731"/>
+    <ResponsivePlayer url="https://vimeo.com/539964022"/>
 
 
     <Spacer height="120px"/>
@@ -74,7 +66,7 @@ export default function myproject() {
 
     <GalleryGrid 
         imagePool = {ImagePool_1}
-        col = {6}
+        col = {4}
         spacing = {1}
     />
 

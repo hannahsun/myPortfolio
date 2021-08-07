@@ -33,7 +33,7 @@ import tmb_whatever from '../../assets/img/motion/content-whatever/ig-3.png';
 import tmb_sva2021 from '../../assets/img/motion/content-sva2021/sva-5.png';
 import tmb_growth from '../../assets/img/motion/content-growth/growth-2.png';
 import tmb_pencil from '../../assets/img/motion/content-pencil/pencil-1.png';
-import tmb_blip from '../../assets/img/motion/content-blip/blip-1.png';
+import tmb_blip from '../../assets/img/motion/content-blip/blip-2.png';
 import tmb_1k from '../../assets/img/motion/content-1k/1k-cover.png';
 
 //import thumbnail files
