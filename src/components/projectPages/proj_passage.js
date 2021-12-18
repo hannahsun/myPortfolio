@@ -66,7 +66,7 @@ export default function myproject() {
     <Insert 
       title="PASSAGE"
       subtitle="concept"
-      description= "Objects are carriers of memories. And we share and bond universally over those collective experiences. This animation imagined a magical space inside a time capsule where the things we've loved and treasured in the past continue to live and thrive in their own dimension."
+      description= "Objects are carriers of memories that remind us of those collective experiecens we share and bond universally. This animation imagined a magical space inside a time capsule where the things we've loved and treasured in the past continue to live and thrive in their own dimension."
       padding='100px'
       />
 
