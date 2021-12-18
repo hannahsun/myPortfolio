@@ -57,7 +57,8 @@ function About() {
                           <ul>
                                 <li>
                                 <span className="emphasis">BUCK Design</span><br/>
-                                Jun. 2021 — Present  /  2D Animation Apprentice <br/>
+                                Dec. 2021 — Present  /  Junior 2D Animator <br/>
+                                Jun. — Nov. 2021  /  2D Animation Apprentice <br/>
                                 </li>
                                 <li>
                                 <span className="emphasis">Hornet Animation</span><br/>
