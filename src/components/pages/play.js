@@ -13,13 +13,13 @@ import HoverVideoPlayer from 'react-hover-video-player';
 import chips from '../../assets/img/play/chips.gif';
 import fan from '../../assets/img/play/fan-1.png';
 import plasticWrap from '../../assets/img/play/cloth-1.png';
-import blob from '../../assets/img/play/blob.jpg';
 import eraser from '../../assets/img/play/eraser.gif';
 import basketball from '../../assets/img/play/basketball.gif';
 import legion1 from '../../assets/img/play/legion.png';
 import notification from '../../assets/img/play/notification.gif';
 import legionGif1 from '../../assets/img/play/legion-2.gif';
 import pencil from '../../assets/img/play/pencil.gif';
+import star from '../../assets/img/play/star.gif';
 
 //video links
 import pencilVideo from '../../assets/img/play/pencil.mp4';
@@ -31,6 +31,10 @@ import everydayjobVideo from '../../assets/img/play/everydayjob.mp4';
 
 
 const photos = [
+        {
+        src: star,
+        width: 1,
+        height: 1},
         {
         src: eraser,
         width: 1,
@@ -74,12 +78,7 @@ const photos = [
         src: legion1,
         width: 1,
         height: 1
-        },  
-        {
-        src: blob,
-        width: 1,
-        height: 1
-        }, 
+        }
         
       ];
 

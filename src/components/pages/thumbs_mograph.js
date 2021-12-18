@@ -34,7 +34,8 @@ import tmb_sva2021 from '../../assets/img/motion/content-sva2021/sva-5.png';
 import tmb_organism from '../../assets/img/motion/content-organism/growth-2.png';
 import tmb_pencil from '../../assets/img/motion/content-pencil/pencil-1.png';
 import tmb_blip from '../../assets/img/motion/content-blip/blip-2.png';
-import tmb_1k from '../../assets/img/motion/content-1k/1k-cover.png';
+import tmb_1k from '../../assets/img/motion/content-1k/1k-2.png';
+import tmb_star from '../../assets/img/motion/content-star/star-2.png';
 
 //import thumbnail files
 import tmb_planit from '../../assets/img/graphic/planit.png';
@@ -67,12 +68,21 @@ export default function FullWidthGrid() {
           <div className={'wide-wrapper' + " " + classes.root}>
             <GoTop />
             <Grid container spacing={1} >
-            <Grid item xs={12} sm={12} md={6}>
+            <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
+                      link="/star" //project path
+                      image={tmb_star}
+                      title="WFH"
+                      category="2021"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
                       link="/1k" //project path
                       image={tmb_1k}
                       title="1K"
-                      category="motion graphics"
+                      category="2021"
                     />
               </Grid>
               
@@ -81,7 +91,7 @@ export default function FullWidthGrid() {
                       link="/blip" //project path
                       image={tmb_blip}
                       title="Blip"
-                      category="Animation"
+                      category="2021"
                     />
               </Grid>
 
@@ -90,7 +100,7 @@ export default function FullWidthGrid() {
                       link="/motionReel" //project path
                       image={tmb_motionReel}
                       title="Motion Reel 2020"
-                      category="motion graphics"
+                      category="2020"
                     />
               </Grid>
 
@@ -99,7 +109,7 @@ export default function FullWidthGrid() {
                       link="/pencil" //project path
                       image={tmb_pencil}
                       title="Pencil"
-                      category="Motion Graphics"
+                      category="2021"
                     />
               </Grid>
               <Grid item xs={12} sm={6} md={3}>
@@ -107,7 +117,7 @@ export default function FullWidthGrid() {
                       link="/organism" //project path
                       image={tmb_organism}
                       title="Organism"
-                      category="3D Mograph"
+                      category="2021"
                     />
               </Grid>
 
@@ -117,7 +127,7 @@ export default function FullWidthGrid() {
                       link="/hanukkah" //project path
                       image={tmb_hanukkah}
                       title="The Festival of Lights"
-                      category="2D Mograph"
+                      category="2020"
                     />
               </Grid>
 
@@ -126,19 +136,17 @@ export default function FullWidthGrid() {
                       link="/marbleglass" //project path
                       image={tmb_marbleglass}
                       title="Marbleglass"
-                      category="3D Mograph"
+                      category="2020"
                     />
               </Grid>
 
-              
-             
 
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/coffee" //project path
                       image={tmb_coffee}
                       title="Coffee Time"
-                      category="3D Mograph"
+                      category="2020"
                     />
               </Grid>
 
@@ -146,8 +154,8 @@ export default function FullWidthGrid() {
                 <Thumb 
                       link="/desktop" //project path
                       image={tmb_desktop}
-                      title="Workstation 2020"
-                      category="3D Mograph"
+                      title="Workstation"
+                      category="2020"
                     />
               </Grid>
 
@@ -156,7 +164,7 @@ export default function FullWidthGrid() {
                       link="/basketball" //project path
                       image={tmb_basketball}
                       title="Halftime"
-                      category="3D Animation / Compositing"
+                      category="2020"
                     />
               </Grid>
 
@@ -165,8 +173,8 @@ export default function FullWidthGrid() {
                 <Thumb 
                       link="/notification" //project path
                       image={tmb_notification}
-                      title="'You Received a New Message'"
-                      category="3D Mograph"
+                      title="New Message"
+                      category="2020"
                     />
               </Grid>
 
@@ -175,8 +183,8 @@ export default function FullWidthGrid() {
                 <Thumb 
                       link="/sva2021" //project path
                       image={tmb_sva2021}
-                      title="SVA 2021"
-                      category="Kinetic Typography"
+                      title="SVA Showreel Intro"
+                      category="2021"
                     />
               </Grid>
 
@@ -184,18 +192,8 @@ export default function FullWidthGrid() {
                 <Thumb 
                       link="/whatever" //project path
                       image={tmb_whatever}
-                      title="Explorations & Stuff"
-                      category="Mixed"
-                    />
-              </Grid>
-              
-
-              <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/passage" //project path
-                      image={tmb_passage}
-                      title="Passage"
-                      category="3D Animation"
+                      title="Dumpster"
+                      category="stuff that never saw the light :')"
                     />
               </Grid>
               
@@ -204,7 +202,7 @@ export default function FullWidthGrid() {
                       link="/spider" //project path
                       image={tmb_spider}
                       title="Spider"
-                      category="Modeling / Compositing / Concept Art"
+                      category="2020"
                     />
               </Grid>
 
@@ -213,19 +211,25 @@ export default function FullWidthGrid() {
                       link="/machine" //project path
                       image={tmb_machine}
                       title="Rube Goldburg Machine"
-                      category="3D Dynamic"
+                      category="2020"
                     />
               </Grid>
              
-
-
 
                 <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/2020opening" //project path
                       image={tmb_2020opening}
                       title="demoreel opening"
-                      category="3D Mograph"
+                      category="2020"
+                    />
+              </Grid>
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/passage" //project path
+                      image={tmb_passage}
+                      title="Passage"
+                      category="2020"
                     />
               </Grid>
 
@@ -234,7 +238,7 @@ export default function FullWidthGrid() {
                       link="/museum"
                       image={tmb_museum}
                       title="museum of the future"
-                      category="Motion Graphics"
+                      category="2019"
                     />
               </Grid>
 
@@ -243,7 +247,7 @@ export default function FullWidthGrid() {
                       link="/stilltolife"
                       image={tmb_stilltolife}
                       title="Still To Life"
-                      category="3D Animation"
+                      category="2020"
                     />
               </Grid>
 
@@ -253,7 +257,7 @@ export default function FullWidthGrid() {
                       link="/blend"
                       image={tmb_blend}
                       title="Blend 3015"
-                      category="Motion Graphics"
+                      category="2020"
                     />
                 </Grid>
 
@@ -263,7 +267,7 @@ export default function FullWidthGrid() {
                       link="/squares"
                       image={tmb_squares}
                       title="Squares"
-                      category="Motion Graphics"
+                      category="2019"
                     />
               </Grid>
 
@@ -272,7 +276,7 @@ export default function FullWidthGrid() {
                       link="/chicagomemory"
                       image={tmb_chicagomemory}
                       title="chicago memory"
-                      category="motion graphics"
+                      category="2019"
                     />
               </Grid>
               <Grid item xs={12} sm={12} md={6}>
@@ -280,7 +284,7 @@ export default function FullWidthGrid() {
                     link="/blackout"
                     image= {tmb_blackout}
                     title="Blackout"
-                    category="Information Design"
+                    category="2018 / Information Design"
                   />
               </Grid>        
           
@@ -289,7 +293,7 @@ export default function FullWidthGrid() {
                     link="/salmongold"
                     image= {tmb_salmongold}
                     title="Salmon Gold"
-                    category="Visual identity"
+                    category="2018 / Visual identity"
                   />
             </Grid>
               
