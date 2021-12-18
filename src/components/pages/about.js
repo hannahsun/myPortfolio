@@ -56,16 +56,16 @@ function About() {
                           <CustomBody as={Card.Body} eventKey="0" >
                           <ul>
                                 <li>
-                                <span className="emphasis">BUCK Design</span><br/>
+                                <span className="emphasis">BUCK</span><br/>
                                 Dec. 2021 — Present  /  Junior 2D Animator <br/>
                                 Jun. — Nov. 2021  /  2D Animation Apprentice <br/>
                                 </li>
                                 <li>
-                                <span className="emphasis">Hornet Animation</span><br/>
+                                <span className="emphasis">Hornet</span><br/>
                                 Jun. — Dec. 2020  /  Motion Design Intern <br/>
                                 </li>
                                 <li>
-                                <span className="emphasis">Ogilvy Chicago</span><br/>
+                                <span className="emphasis">Ogilvy</span><br/>
                                 Aug. 2018 — May 2019  /  Designer <br/>
                                 May — Aug. 2018  /  Design Intern<br/>
                                 </li>
@@ -81,10 +81,10 @@ function About() {
                                 <span className="emphasis">Tom, Dick & Harry Co.</span><br/>
                                 Jun. — Aug. 2016  /  Graphic Design Intern
                                 </li>
-                                <li>
+                                {/* <li>
                                 <span className="emphasis">SAIC IRFM Creative</span><br/>
                                 Jun. 2015 — Jun. 2017  /  Graphic Designer
-                                </li>
+                                </li> */}
                             </ul>
                           </CustomBody>
                           </Accordion.Collapse>
