@@ -20,6 +20,7 @@ import notification from '../../assets/img/play/notification.gif';
 import legionGif1 from '../../assets/img/play/legion-2.gif';
 import pencil from '../../assets/img/play/pencil.gif';
 import star from '../../assets/img/play/star.gif';
+import explosion from '../../assets/img/play/explosion.gif';
 
 //video links
 import pencilVideo from '../../assets/img/play/pencil.mp4';
@@ -31,6 +32,7 @@ import everydayjobVideo from '../../assets/img/play/everydayjob.mp4';
 
 
 const photos = [
+        
         {
         src: star,
         width: 1,
