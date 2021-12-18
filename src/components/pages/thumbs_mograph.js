@@ -140,17 +140,7 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-
-              <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/coffee" //project path
-                      image={tmb_coffee}
-                      title="Coffee Time"
-                      category="2020"
-                    />
-              </Grid>
-
-              <Grid item xs={12} sm={12} md={6}>
+              <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
                       link="/desktop" //project path
                       image={tmb_desktop}
@@ -168,15 +158,24 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/coffee" //project path
+                      image={tmb_coffee}
+                      title="Coffee Time"
+                      category="2020"
+                    />
+              </Grid>
 
-              <Grid item xs={12} sm={12} md={3}>
+
+              {/* <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
                       link="/notification" //project path
                       image={tmb_notification}
                       title="New Message"
                       category="2020"
                     />
-              </Grid>
+              </Grid> */}
 
 
               <Grid item xs={12} sm={12} md={6}>
@@ -288,14 +287,14 @@ export default function FullWidthGrid() {
                   />
               </Grid>        
           
-            <Grid item xs={12} sm={12} md={6}>
+            {/* <Grid item xs={12} sm={12} md={6}>
             <Thumb 
                     link="/salmongold"
                     image= {tmb_salmongold}
                     title="Salmon Gold"
                     category="2018 / Visual identity"
                   />
-            </Grid>
+            </Grid> */}
               
 
             </Grid>
