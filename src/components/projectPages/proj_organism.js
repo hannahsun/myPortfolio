@@ -7,17 +7,17 @@ import Insert from '../elements/projectInsert';
 
 
 // image import
-import growth1 from '../../assets/img/motion/content-growth/growth-1.png';
-import growth2 from '../../assets/img/motion/content-growth/growth-2.png';
-import growth3 from '../../assets/img/motion/content-growth/growth-3.png';
-import growth4 from '../../assets/img/motion/content-growth/growth-4.png';
+import organism1 from '../../assets/img/motion/content-organism/growth-1.png';
+import organism2 from '../../assets/img/motion/content-organism/growth-2.png';
+import organism3 from '../../assets/img/motion/content-organism/growth-3.png';
+import organism4 from '../../assets/img/motion/content-organism/growth-4.png';
 
 //define image pools
 let ImagePool_1 = [
-  {url: growth1,size: 2},
-  {url: growth2,size: 2},
-  {url: growth3,size: 2},
-  {url: growth4,size: 2},
+  {url: organism1,size: 2},
+  {url: organism2,size: 2},
+  {url: organism3,size: 2},
+  {url: organism4,size: 2},
 ]
 
 export default function myproject() {
@@ -26,7 +26,7 @@ export default function myproject() {
     <Project 
       Q1="Project"
       Q2="Tools"
-      A1="Growth"
+      A1="Organism"
       A2="X-particles / Cinema4D / Octane / After Effects"
       description=""
       
