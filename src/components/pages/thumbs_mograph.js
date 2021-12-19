@@ -31,7 +31,7 @@ import tmb_notification from '../../assets/img/motion/notification-1.png';
 import tmb_hanukkah from '../../assets/img/motion/content-hanukkah/hanukkah_1.png';
 import tmb_whatever from '../../assets/img/motion/content-whatever/ig-3.png';
 import tmb_sva2021 from '../../assets/img/motion/content-sva2021/sva-5.png';
-import tmb_organism from '../../assets/img/motion/content-organism/growth-2.png';
+// import tmb_organism from '../../assets/img/motion/content-organism/growth-2.png';
 import tmb_pencil from '../../assets/img/motion/content-pencil/pencil-1.png';
 import tmb_blip from '../../assets/img/motion/content-blip/blip-2.png';
 import tmb_1k from '../../assets/img/motion/content-1k/1k-2.png';
@@ -112,14 +112,14 @@ export default function FullWidthGrid() {
                       category="2021"
                     />
               </Grid>
-              <Grid item xs={12} sm={6} md={3}>
+              {/* <Grid item xs={12} sm={6} md={3}>
                 <Thumb 
                       link="/organism" //project path
                       image={tmb_organism}
                       title="Organism"
                       category="2021"
                     />
-              </Grid>
+              </Grid> */}
 
 
               <Grid item xs={12} sm={12} md={6}>
