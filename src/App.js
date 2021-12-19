@@ -45,7 +45,7 @@ import proj_notification from './components/projectPages/proj_notification';
 import proj_hanukkah from './components/projectPages/proj_hanukkah';
 import proj_whatever from './components/projectPages/proj_whatever';
 import proj_sva2021 from './components/projectPages/proj_sva2021';
-// import proj_organism from './components/projectPages/proj_organism';
+import proj_organism from './components/projectPages/proj_organism';
 import proj_pencil from './components/projectPages/proj_pencil';
 import proj_blip from './components/projectPages/proj_blip';
 import proj_1k from './components/projectPages/proj_1k';
@@ -92,7 +92,7 @@ function App() {
         <Route exact path='/passage' component={proj_passage}></Route>
         <Route exact path='/whatever' component={proj_whatever}></Route>
         <Route exact path='/sva2021' component={proj_sva2021}></Route>
-        {/* <Route exact path='/organism' component={proj_organism}></Route> */}
+        <Route exact path='/organism' component={proj_organism}></Route>
         <Route exact path='/pencil' component={proj_pencil}></Route>
         <Route exact path='/blip' component={proj_blip}></Route>
         <Route exact path='/1k' component={proj_1k}></Route>
