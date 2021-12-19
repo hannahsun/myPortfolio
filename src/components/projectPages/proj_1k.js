@@ -34,8 +34,6 @@ export default function myproject() {
       A1="1K"
       A2="After Effects / Illustrator / Cinema4D"
       description="
-      Blessed to have my first 1k followers on Instagram✨ A big thank you to those who have followed and supported me thus far ☻
-      <br><br>
       <b>Design & animation:</b>&nbsp; Hannah Sun <br>
       <b>Music & sound:</b>&nbsp; Nicolas Maurin"
       

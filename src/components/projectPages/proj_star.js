@@ -29,7 +29,8 @@ export default function myproject() {
       Q2="Tools"
       A1="WFH"
       A2="Cinema4D / After Effects / Illustrator"
-      description=""
+      description="<b>Design & animation:</b>&nbsp; Hannah Sun <br>
+      <b>Music & sound:</b>&nbsp; Nicolas Maurin"
       
     />
 
