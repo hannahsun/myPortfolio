@@ -37,6 +37,7 @@ import tmb_blip from '../../assets/img/motion/content-blip/blip-2.png';
 import tmb_1k from '../../assets/img/motion/content-1k/1k-2.png';
 import tmb_star from '../../assets/img/motion/content-star/star-2.png';
 import tmb_chaseuso from '../../assets/img/motion/content-chaseuso/chase-2.png';
+import tmb_motionReel2021 from '../../assets/img/motion/motionReel2021_2.png';
 
 //import thumbnail files
 import tmb_planit from '../../assets/img/graphic/planit.png';
@@ -71,6 +72,15 @@ export default function FullWidthGrid() {
             <Grid container spacing={1} >
             <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
+                      link="/motionReel2021" //project path
+                      image={tmb_motionReel2021}
+                      title="Motion Reel 2021"
+                      category="2021"
+                    />
+              </Grid>
+
+            <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
                       link="/star" //project path
                       image={tmb_star}
                       title="WFH"
@@ -78,14 +88,6 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={3}>
-                <Thumb 
-                      link="/1k" //project path
-                      image={tmb_1k}
-                      title="1K"
-                      category="2021"
-                    />
-              </Grid>
               
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
@@ -105,14 +107,15 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={6}>
+              <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
-                      link="/motionReel" //project path
-                      image={tmb_motionReel}
-                      title="Motion Reel 2020"
-                      category="2020"
+                      link="/1k" //project path
+                      image={tmb_1k}
+                      title="1K"
+                      category="2021"
                     />
               </Grid>
+
 
               <Grid item xs={12} sm={6} md={3}>
                 <Thumb 
@@ -123,14 +126,16 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={6} md={3}>
+              <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
-                      link="/organism" //project path
-                      image={tmb_organism}
-                      title="Organism"
-                      category="2021"
+                      link="/motionReel" //project path
+                      image={tmb_motionReel}
+                      title="Motion Reel 2020"
+                      category="2020"
                     />
               </Grid>
+
+
 
 
               <Grid item xs={12} sm={12} md={6}>
@@ -151,20 +156,21 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={3}>
+
+              <Grid item xs={12} sm={6} md={3}>
                 <Thumb 
-                      link="/desktop" //project path
-                      image={tmb_desktop}
-                      title="Workstation"
-                      category="2020"
+                      link="/organism" //project path
+                      image={tmb_organism}
+                      title="Organism"
+                      category="2021"
                     />
               </Grid>
 
               <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
-                      link="/basketball" //project path
-                      image={tmb_basketball}
-                      title="Halftime"
+                      link="/desktop" //project path
+                      image={tmb_desktop}
+                      title="Workstation"
                       category="2020"
                     />
               </Grid>
@@ -178,6 +184,17 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
+              <Grid item xs={12} sm={12} md={3}>
+                <Thumb 
+                      link="/basketball" //project path
+                      image={tmb_basketball}
+                      title="Halftime"
+                      category="2020"
+                    />
+              </Grid>
+
+              
+
 
               {/* <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
@@ -189,16 +206,7 @@ export default function FullWidthGrid() {
               </Grid> */}
 
 
-              <Grid item xs={12} sm={12} md={6}>
-                <Thumb 
-                      link="/sva2021" //project path
-                      image={tmb_sva2021}
-                      title="SVA Showreel Intro"
-                      category="2021"
-                    />
-              </Grid>
-
-              <Grid item xs={12} sm={12} md={6}>
+              <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/whatever" //project path
                       image={tmb_whatever}
@@ -206,7 +214,7 @@ export default function FullWidthGrid() {
                       category="stuff that never saw the light :')"
                     />
               </Grid>
-              
+
               <Grid item xs={12} sm={12} md={3}>
                 <Thumb 
                       link="/spider" //project path
@@ -224,6 +232,19 @@ export default function FullWidthGrid() {
                       category="2020"
                     />
               </Grid>
+
+              
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/sva2021" //project path
+                      image={tmb_sva2021}
+                      title="SVA Showreel Intro"
+                      category="2021"
+                    />
+              </Grid>
+
+              
+              
              
 
                 <Grid item xs={12} sm={12} md={6}>

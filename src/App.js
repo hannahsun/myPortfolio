@@ -20,7 +20,8 @@ import Play from './components/pages/play.js';
 //project page components
 import demo from './components/projectPages/demo';
 //motion projects
-import proj_motionReel from './components/projectPages/proj_motionReel';
+import proj_motionReel2020 from './components/projectPages/proj_motionReel2020';
+import proj_motionReel2021 from './components/projectPages/proj_motionReel2021';
 import proj_legion from './components/projectPages/proj_legion';
 import proj_stillToLife from './components/projectPages/proj_stillToLife';
 import proj_miscellaneous from './components/projectPages/proj_miscellaneous';
@@ -68,7 +69,7 @@ function App() {
         <Route exact path='/play' component={Play}></Route>
 
         {/*motion project pages  */}
-        <Route exact path='/motionReel' component={proj_motionReel}></Route>
+        <Route exact path='/motionReel2020' component={proj_motionReel2020}></Route>
         <Route exact path='/marbleglass' component={proj_marbleglass}></Route>
         <Route exact path='/notification' component={proj_notification}></Route>
         <Route exact path='/2020opening' component={proj_2020opening}></Route>
@@ -99,6 +100,7 @@ function App() {
         <Route exact path='/1k' component={proj_1k}></Route>
         <Route exact path='/star' component={proj_star}></Route>
         <Route exact path='/chaseuso' component={proj_chaseuso}></Route>
+        <Route exact path='/motionReel2021' component={proj_motionReel2021}></Route>
         {/* graphic design project */}
         <Route exact path='/planit' component={proj_planit}></Route>
         <Route exact path='/blackout' component={proj_blackout}></Route>
