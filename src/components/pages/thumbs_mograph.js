@@ -70,7 +70,7 @@ export default function FullWidthGrid() {
           <div className={'wide-wrapper' + " " + classes.root}>
             <GoTop />
             <Grid container spacing={1} >
-            <Grid item xs={12} sm={12} md={3}>
+            <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/motionReel2021" //project path
                       image={tmb_motionReel2021}
@@ -79,7 +79,7 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-            <Grid item xs={12} sm={12} md={3}>
+            <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/star" //project path
                       image={tmb_star}
@@ -107,7 +107,7 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={3}>
+              <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/1k" //project path
                       image={tmb_1k}
@@ -117,7 +117,7 @@ export default function FullWidthGrid() {
               </Grid>
 
 
-              <Grid item xs={12} sm={6} md={3}>
+              <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/pencil" //project path
                       image={tmb_pencil}
@@ -157,7 +157,7 @@ export default function FullWidthGrid() {
               </Grid>
 
 
-              <Grid item xs={12} sm={6} md={3}>
+              <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/organism" //project path
                       image={tmb_organism}
@@ -166,7 +166,7 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={3}>
+              <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/desktop" //project path
                       image={tmb_desktop}
@@ -184,7 +184,7 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={3}>
+              <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/basketball" //project path
                       image={tmb_basketball}
@@ -215,7 +215,7 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={3}>
+              <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/spider" //project path
                       image={tmb_spider}
@@ -224,7 +224,7 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={12} sm={12} md={3}>
+              <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/machine" //project path
                       image={tmb_machine}
