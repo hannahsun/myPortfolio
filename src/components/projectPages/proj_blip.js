@@ -54,28 +54,28 @@ export default function myproject() {
 
     <ResponsivePlayer url="https://vimeo.com/539964022"/>
 
-
-    <Spacer height="120px"/>
     <Insert 
       title="Snapshots"
       subtitle=""
       description= ""
-      padding='40px'
+      padding1='90px'
+      padding2='0px'
     />
 
     <GalleryGrid 
         imagePool = {ImagePool_1}
         col = {4}
         spacing = {1}
+        trueSize = {true}
     />
 
-  <Spacer height="60px" />
 
     <Insert 
       title="Initial Storyboards"
       subtitle=""
       description= ""
-      padding='40px'
+      padding1='20px'
+      padding2='70px'
     />
     <Image image={blip_sb} />
 
