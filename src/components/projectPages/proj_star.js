@@ -36,13 +36,7 @@ export default function myproject() {
 
     <ResponsivePlayer url="https://vimeo.com/646920028" />
 
-    <Insert 
-      title=""
-      subtitle=""
-      description= ""
-      padding1='0px'
-      padding2='0px'
-    />
+   
 
 <GalleryGrid 
         imagePool = {ImagePool_1}

@@ -47,7 +47,7 @@ export default function myproject() {
       title="Snapshots"
       subtitle=""
       description= ""
-      padding1='70px'
+      padding1='100px'
       padding2='0px'
     />
 
@@ -62,7 +62,7 @@ export default function myproject() {
           title="Behind the Scene"
           subtitle=""
           description= ""
-          padding1='0px'
+          padding1='30px'
           padding2='70px'
         />
     <ResponsivePlayer url="https://vimeo.com/578908233"/>
