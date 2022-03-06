@@ -50,35 +50,32 @@ export default function myproject() {
       <b>Direction, Design & animation:</b>&nbsp; Hannah Sun <br>
       <b>Music & sound:</b>&nbsp; Joe Basile */}
 
-<Insert 
-      title="Cutdowns"
-      subtitle=""
-      description= ""
-      padding='20px'
-    />
+
     <Image image={chaseuso3} />
 
 
-    <Spacer height="90px"/>
+    {/* <Spacer height="90px"/> */}
     <Insert 
       title="Shots I worked on"
       subtitle="& behind the Scenes"
       description= ""
-      padding='50px'
+      padding1='90px'
+      padding2="0"
     />
 
     <GalleryGrid 
         imagePool = {ImagePool_1}
         col = {4}
         spacing = {1}
+        trueSize = {true}
     />
 
-<Spacer height="90px"/>
 <Insert 
       title="The Full Video "
       subtitle=""
       description= ""
-      padding='50px'
+      padding1='20px'
+      padding2='70px'
     />
 
   <ResponsivePlayer url="https://vimeo.com/632333351"/>

@@ -53,7 +53,7 @@ function CustomBody({ children, eventKey }) {
 
 function Project(props) {
   return (
-    <div className="wide-wrapper">
+    <div className="wide-wrapper ">
           
            <div className="section-wrapper nopadding">
            <Accordion defaultActiveKey="">

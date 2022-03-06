@@ -12,13 +12,13 @@ function Insert(props) {
   }else{
     myStyle={
       // backgroundColor:'red',
-      paddingTop: props.padding,
-      paddingBottom: props.padding
+      paddingTop: props.padding1,
+      paddingBottom: props.padding2
     }
   }
 
   return (
-    <div className="section-wrapper" style={myStyle}>
+    <div className="section-wrapper constrained" style={myStyle}>
     <Grid container spacing={2}>
         <Grid item xs={12} sm={4}>
             <h4>{props.title}</h4>

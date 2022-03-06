@@ -29,6 +29,8 @@ function GalleryGrid(props) {
 
   const classes = useStyles();
   return (
+    <div className="section-wrapper constrained">
+
     <Grid container spacing={props.spacing}>
        {  
         props.imagePool.map((item,i) => 
@@ -44,6 +46,7 @@ function GalleryGrid(props) {
         )
        }
     </Grid>
+    </div>
   );
 }
 
