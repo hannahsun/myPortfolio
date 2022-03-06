@@ -8,7 +8,7 @@ $ratio_wide: 1/2.2;
 
 h4{
     font-family: 'Telegraf','Roboto', sans-serif;
-    font-size:clamp(20px,2.5vw,28px);
+    font-size:clamp(20px,2.5vw,22px);
     font-weight:900;
     line-height: 1.3em;
 }
@@ -440,7 +440,20 @@ img.d-block{
     margin: 0 3px;
 }
 
+.rule{
+    position: relative;
+}
+.rule::after{
+    content:'';
+    position:absolute;
+    top:-0.6em;
+    left:8px;
+    width:calc(100% - 16px);
+    height:1px;
+    background: $white;
+    opacity: .5;
 
+}
 
 //breakpoints
 @media only screen and (max-width: 960px) {

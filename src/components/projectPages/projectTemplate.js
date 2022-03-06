@@ -18,7 +18,7 @@ function CustomToggle({ children, eventKey }) {
   const decoratedOnClick = useAccordionToggle(eventKey, () =>
     console.log('toggle accordion!'),
   );
-  const [isActive, setActive] = useState(false);
+  const [isActive, setActive] = useState(true);
   const toggleActive = () =>{
     setActive(!isActive)
   }
@@ -56,7 +56,7 @@ function Project(props) {
     <div className="wide-wrapper ">
           
            <div className="section-wrapper nopadding">
-           <Accordion defaultActiveKey="">
+           <Accordion defaultActiveKey="0" alwaysOpen>
                 <Card>
                   <CustomToggle as={Card.Header} eventKey="0"> 
                       <h5>Project Info </h5>
@@ -67,33 +67,36 @@ function Project(props) {
                       </div>
                   </CustomToggle>
                   <Accordion.Collapse eventKey="0">
-                  <CustomBody as={Card.Body} eventKey="0" >
-                    <div className="project-info-body-wrapper">
-                      <Grid container spacing={2}>
-                          <Grid item xs={3} sm={2} md={1} xl={1}>
-                              <div className='project-info-item lighttext no-select'>{props.Q1}</div>
-                              <div className='project-info-item lighttext no-select'>{props.Q2}</div>
-                              <div className='project-info-item lighttext no-select'>{props.Q3}</div>
-                              <div className='project-info-item lighttext no-select'>{props.Q4}</div>
-                          </Grid>
-                          <Grid item xs={7} sm={5} md={5} xl={3}>
-                              {/* input-1 */}
-                              <div className="project-info-item">{props.A1}</div> 
-                              {/* input-2 */}
-                              <div className="project-info-item">{props.A2}</div>
-                              {/* input-3 */}
-                              <div className="project-info-item">{props.A3}</div>
-                              {/* input-4 */}
-                              <div className="project-info-item">{props.A4}</div>
-                          </Grid>
-                          <Grid item xs={12} sm={5} md={6} xl={8}>
-                              {/* input-5 */}
-                              {/* {props.description} */}
-                              <div dangerouslySetInnerHTML={{ __html: props.description}}></div>
-                          </Grid>
-                        </Grid>
-                      </div>
-                  </CustomBody>
+                          <CustomBody as={Card.Body} eventKey="0" alwaysOpen>
+                            <div className="project-info-body-wrapper">
+                              <Grid container spacing={2}>
+                                  <Grid item xs={4} sm={3} md={1} xl={1}>
+                                      <div className='project-info-item lighttext no-select'>{props.Q1}</div>
+                                      <div className='project-info-item lighttext no-select'>{props.Q2}</div>
+                                      <div className='project-info-item lighttext no-select'>{props.Q3}</div>
+                                      <div className='project-info-item lighttext no-select'>{props.Q4}</div>
+                                  </Grid>
+                                  <Grid item xs={7} sm={5} md={4} xl={3}>
+                                      {/* input-1 */}
+                                      <div className="project-info-item">{props.A1}</div> 
+                                      {/* input-2 */}
+                                      <div className="project-info-item">{props.A2}</div>
+                                      {/* input-3 */}
+                                      <div className="project-info-item">{props.A3}</div>
+                                      {/* input-4 */}
+                                      <div className="project-info-item">{props.A4}</div>
+                                      
+                                  </Grid>
+
+                                  <Grid item xs={12} sm={5} md={6} xl={5}>
+                                      {/* input-5 */}
+                                      {/* {props.description} */}
+                                      <div dangerouslySetInnerHTML={{ __html: props.description}}></div>
+                                  </Grid>
+
+                                </Grid>
+                              </div>
+                          </CustomBody>
                   </Accordion.Collapse>
                 </Card>
             </Accordion>

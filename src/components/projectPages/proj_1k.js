@@ -30,9 +30,11 @@ export default function myproject() {
     <React.Fragment>
     <Project 
       Q1="Project"
-      Q2="Tools"
+      Q2="Client"
+      Q3="Tools"
       A1="1K"
-      A2="After Effects / Illustrator / Cinema4D"
+      A2="Personal"
+      A3="After Effects / Illustrator / Cinema4D"
       description="
       <b>Design & animation:</b>&nbsp; Hannah Sun <br>
       <b>Music & sound:</b>&nbsp; Nicolas Maurin"
@@ -41,13 +43,12 @@ export default function myproject() {
 
     <ResponsivePlayer url="https://vimeo.com/578892912"/>
 
-
-    <Spacer height="120px"/>
     <Insert 
       title="Snapshots"
       subtitle=""
       description= ""
-      padding='40px'
+      padding1='70px'
+      padding2='0px'
     />
 
     <GalleryGrid 
@@ -56,24 +57,13 @@ export default function myproject() {
         col = {6}
         spacing = {1}
     />
-
-<Spacer height="120px"/>
-        <Insert 
-          title="Sketches"
-          subtitle=""
-          description= ""
-          padding='60px'
-        />
-
-
-    <Image image={onek_sb} />
-
-    <Spacer height="120px"/>
+  
         <Insert 
           title="Behind the Scene"
           subtitle=""
           description= ""
-          padding='60px'
+          padding1='0px'
+          padding2='70px'
         />
     <ResponsivePlayer url="https://vimeo.com/578908233"/>
 

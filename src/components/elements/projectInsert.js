@@ -19,7 +19,7 @@ function Insert(props) {
 
   return (
     <div className="section-wrapper constrained" style={myStyle}>
-    <Grid container spacing={2}>
+    <Grid className="rule" container spacing={2}>
         <Grid item xs={12} sm={4}>
             <h4>{props.title}</h4>
             <p>{props.subtitle}</p>

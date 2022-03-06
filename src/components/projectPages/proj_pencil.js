@@ -33,13 +33,12 @@ export default function myproject() {
 
     <ResponsivePlayer url="https://vimeo.com/544348386" />
 
-
-    <Spacer height="120px"/>
     <Insert 
       title="Initial Storyboards"
       subtitle=""
       description= ""
-      padding='40px'
+      padding1='70px'
+      padding2='50px'
     />
 
     <Image 

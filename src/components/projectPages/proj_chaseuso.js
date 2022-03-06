@@ -74,7 +74,7 @@ export default function myproject() {
       title="The Full Video "
       subtitle=""
       description= ""
-      padding1='20px'
+      padding1='0px'
       padding2='70px'
     />
 

@@ -234,14 +234,14 @@ export default function FullWidthGrid() {
                       category="2020"
                     />
               </Grid>
-              <Grid item xs={12} sm={12} md={6}>
+              {/* <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/passage" //project path
                       image={tmb_passage}
                       title="Passage"
                       category="2020"
                     />
-              </Grid>
+              </Grid> */}
 
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
@@ -280,7 +280,7 @@ export default function FullWidthGrid() {
                       category="2019"
                     />
               </Grid>
-
+{/* 
                 <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/chicagomemory"
@@ -288,7 +288,8 @@ export default function FullWidthGrid() {
                       title="chicago memory"
                       category="2019"
                     />
-              </Grid>
+              </Grid> */}
+
               <Grid item xs={12} sm={12} md={6}>
               <Thumb 
                     link="/blackout"

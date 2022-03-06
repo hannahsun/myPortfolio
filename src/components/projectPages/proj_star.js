@@ -26,9 +26,9 @@ export default function myproject() {
     <React.Fragment>
     <Project 
       Q1="Project"
-      Q2="Tools"
+      Q2="Client"
       A1="WFH"
-      A2="Cinema4D / After Effects / Illustrator"
+      A2="Personal"
       description="<b>Design & animation:</b>&nbsp; Hannah Sun <br>
       <b>Music & sound:</b>&nbsp; Nicolas Maurin"
       
@@ -36,18 +36,17 @@ export default function myproject() {
 
     <ResponsivePlayer url="https://vimeo.com/646920028" />
 
-
-    <Spacer height="120px"/>
     <Insert 
-      title="Stills"
+      title=""
       subtitle=""
       description= ""
-      padding='40px'
+      padding1='0px'
+      padding2='0px'
     />
 
 <GalleryGrid 
         imagePool = {ImagePool_1}
-        col = {4}
+        col = {2}
         spacing = {1}
         trueSize = {true}
     />
