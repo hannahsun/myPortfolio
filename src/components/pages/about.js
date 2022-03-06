@@ -43,7 +43,7 @@ function About() {
                     <h3 >
                     Hello there! I'm Hannah, a multi-disciplinary designer and animator currently based in NYC. I'm passionate about learning, ideating, and making beautiful graphics.
                     <br/>
-                    Below is a little more about me☟  
+                    Below is a little more about me ☟  
                     </h3>
                     <div className="spacer spacer-m"></div>
                     {/* <Accordion defaultActiveKey="0"> */}

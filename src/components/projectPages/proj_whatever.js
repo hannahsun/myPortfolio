@@ -69,8 +69,8 @@ export default function Whatever() {
     <React.Fragment>
     <Project 
       Q1="Project"
-      A1="Explorations & Stuff"
-      description="Some tests and experiments that didn't make it to the light."
+      A1="Design Trash Can"
+      description="Some stuff that didn't make it to the light"
       
     />
     <GalleryGrid 

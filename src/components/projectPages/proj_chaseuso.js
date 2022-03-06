@@ -59,7 +59,7 @@ export default function myproject() {
       title="Shots I worked on"
       subtitle="& behind the Scenes"
       description= ""
-      padding1='90px'
+      padding1='100px'
       padding2="0"
     />
 
@@ -74,7 +74,7 @@ export default function myproject() {
       title="The Full Video "
       subtitle=""
       description= ""
-      padding1='0px'
+      padding1='30px'
       padding2='70px'
     />
 

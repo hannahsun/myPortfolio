@@ -202,7 +202,7 @@ export default function FullWidthGrid() {
                 <Thumb 
                       link="/whatever" //project path
                       image={tmb_whatever}
-                      title="Dumpster"
+                      title="Whatever"
                       category="stuff that never saw the light :')"
                     />
               </Grid>

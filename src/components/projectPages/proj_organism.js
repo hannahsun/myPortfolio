@@ -34,12 +34,12 @@ export default function myproject() {
 
     <ResponsivePlayer url="https://vimeo.com/544343019" />
 
-    <Spacer height="120px"/>
     <Insert 
       title="Snapshots"
       subtitle=""
       description= ""
-      padding='40px'
+      padding1='100px'
+      padding2='0px'
     />
 
     <GalleryGrid 

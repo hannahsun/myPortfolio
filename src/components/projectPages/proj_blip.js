@@ -58,7 +58,7 @@ export default function myproject() {
       title="Snapshots"
       subtitle=""
       description= ""
-      padding1='90px'
+      padding1='100px'
       padding2='0px'
     />
 
@@ -74,7 +74,7 @@ export default function myproject() {
       title="Initial Storyboards"
       subtitle=""
       description= ""
-      padding1='20px'
+      padding1='30px'
       padding2='70px'
     />
     <Image image={blip_sb} />

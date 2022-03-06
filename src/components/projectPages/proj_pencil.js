@@ -37,7 +37,7 @@ export default function myproject() {
       title="Initial Storyboards"
       subtitle=""
       description= ""
-      padding1='70px'
+      padding1='100px'
       padding2='50px'
     />
 

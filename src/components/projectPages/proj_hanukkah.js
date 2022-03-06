@@ -47,9 +47,9 @@ export default function myproject() {
     <React.Fragment>
     <Project 
       Q1="Project"
-      Q2="Tools"
+      Q2="Client"
       A1="The Festival of Lights"
-      A2="After Effects / Illustrator"
+      A2="Hornet"
       description="
       Hanukkah is known as 'The Festival of Lights'. It's a festival all about sharing the light to illuminate the darkness. About shining a light that can unite us in the fight against evil. Now, more than ever, this message is particularly timely. May your life shrine bright with the light of the Menorah candles this holiday season. Happy Hanukkah!
       <br><br>
@@ -65,15 +65,12 @@ export default function myproject() {
 
 
 
-
-    
-
-    <Spacer height="120px"/>
     <Insert 
-      title="Snapshots"
+      title="Shots I animated"
       subtitle=""
       description= ""
-      padding='40px'
+      padding1='100px'
+      padding2='0px'
     />
 
     <GalleryGrid 
@@ -81,8 +78,15 @@ export default function myproject() {
         col = {6}
         spacing = {1}
     />
-    <Spacer height="60px" />
-    <GalleryGrid 
+  <Insert 
+      title="Design"
+      subtitle=""
+      description= ""
+      padding1='50px'
+      padding2='0px'
+    />
+   
+   <GalleryGrid 
         imagePool = {ImagePool_1}
         col = {6}
         spacing = {1}
