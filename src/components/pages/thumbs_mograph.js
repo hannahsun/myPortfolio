@@ -128,7 +128,7 @@ export default function FullWidthGrid() {
 
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
-                      link="/motionReel" //project path
+                      link="/motionReel2020" //project path
                       image={tmb_motionReel}
                       title="Motion Reel 2020"
                       category="2020"
@@ -233,7 +233,7 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              
+
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/sva2021" //project path
