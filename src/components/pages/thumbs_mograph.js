@@ -36,6 +36,7 @@ import tmb_pencil from '../../assets/img/motion/content-pencil/pencil-1.png';
 import tmb_blip from '../../assets/img/motion/content-blip/blip-2.png';
 import tmb_1k from '../../assets/img/motion/content-1k/1k-2.png';
 import tmb_star from '../../assets/img/motion/content-star/star-2.png';
+import tmb_chaseuso from '../../assets/img/motion/content-chaseuso/chase-2.png';
 
 //import thumbnail files
 import tmb_planit from '../../assets/img/graphic/planit.png';
@@ -91,6 +92,15 @@ export default function FullWidthGrid() {
                       link="/blip" //project path
                       image={tmb_blip}
                       title="Blip"
+                      category="2021"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/chaseuso" //project path
+                      image={tmb_chaseuso}
+                      title="Chase US Open"
                       category="2021"
                     />
               </Grid>
