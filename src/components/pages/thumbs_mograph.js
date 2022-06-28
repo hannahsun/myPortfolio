@@ -39,6 +39,7 @@ import tmb_star from '../../assets/img/motion/content-star/star-2.png';
 import tmb_chaseuso from '../../assets/img/motion/content-chaseuso/chase-2.png';
 import tmb_trafficJam from '../../assets/img/motion/content-trafficJam/trafficjam-2.png';
 import tmb_motionReel2021 from '../../assets/img/motion/motionReel2021_2.png';
+import tmb_cashapp from '../../assets/img/motion/content-cashapp/bubble-cover1.png';
 
 //import thumbnail files
 import tmb_planit from '../../assets/img/graphic/planit.png';
@@ -133,6 +134,15 @@ export default function FullWidthGrid() {
                       image={tmb_pencil}
                       title="Pencil"
                       category="2021"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/cashapptaxes" //project path
+                      image={tmb_cashapp}
+                      title="Cash App Taxes"
+                      category="2022"
                     />
               </Grid>
 
