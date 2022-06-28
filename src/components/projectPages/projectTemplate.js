@@ -18,7 +18,7 @@ function CustomToggle({ children, eventKey }) {
   const decoratedOnClick = useAccordionToggle(eventKey, () =>
     console.log('toggle accordion!'),
   );
-  const [isActive, setActive] = useState(true);
+  const [isActive, setActive] = useState(false); //change plus sign status
   const toggleActive = () =>{
     setActive(!isActive)
   }
@@ -56,7 +56,9 @@ function Project(props) {
     <div className="wide-wrapper ">
           
            <div className="section-wrapper nopadding">
-           <Accordion defaultActiveKey="0" alwaysOpen>
+           <Accordion >  
+             {/* defaultActiveKey="0" to set accordion to be open by default */}
+
                 <Card>
                   <CustomToggle as={Card.Header} eventKey="0"> 
                       <h5>Project Info </h5>
@@ -66,11 +68,11 @@ function Project(props) {
                           <span className="stroke-2"></span>
                       </div>
                   </CustomToggle>
-                  <Accordion.Collapse eventKey="0">
-                          <CustomBody as={Card.Body} eventKey="0" alwaysOpen>
+                  <Accordion.Collapse eventKey="0"> 
+                          <CustomBody as={Card.Body} eventKey="1" >
                             <div className="project-info-body-wrapper">
                               <Grid container spacing={2}>
-                                  <Grid item xs={4} sm={3} md={1} xl={1}>
+                                  <Grid item xs={4} sm={3} md={2} xl={1}>
                                       <div className='project-info-item lighttext no-select'>{props.Q1}</div>
                                       <div className='project-info-item lighttext no-select'>{props.Q2}</div>
                                       <div className='project-info-item lighttext no-select'>{props.Q3}</div>
