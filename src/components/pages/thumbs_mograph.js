@@ -157,23 +157,16 @@ export default function FullWidthGrid() {
               </Grid>
 
 
-              <Grid item xs={6} sm={6} md={3}>
-                <Thumb 
-                      link="/organism" //project path
-                      image={tmb_organism}
-                      title="Organism"
-                      category="2021"
-                    />
-              </Grid>
+              
 
-              <Grid item xs={6} sm={6} md={3}>
+              {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/desktop" //project path
                       image={tmb_desktop}
                       title="Workstation"
                       category="2020"
                     />
-              </Grid>
+              </Grid> */}
 
               <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
@@ -215,23 +208,23 @@ export default function FullWidthGrid() {
                     />
               </Grid>
 
-              <Grid item xs={6} sm={6} md={3}>
+              {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/spider" //project path
                       image={tmb_spider}
                       title="Spider"
                       category="2020"
                     />
-              </Grid>
+              </Grid> */}
 
-              <Grid item xs={6} sm={6} md={3}>
+              {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/machine" //project path
                       image={tmb_machine}
                       title="Rube Goldburg Machine"
                       category="2020"
                     />
-              </Grid>
+              </Grid> */}
 
 
               <Grid item xs={12} sm={12} md={6}>
@@ -281,26 +274,34 @@ export default function FullWidthGrid() {
                       category="2020"
                     />
               </Grid>
+              <Grid item xs={6} sm={6} md={3}>
+                <Thumb 
+                      link="/organism" //project path
+                      image={tmb_organism}
+                      title="Organism"
+                      category="2021"
+                    />
+              </Grid>
 
 
-                <Grid item xs={6} sm={6} md={3}>
+                {/* <Grid item xs={6} sm={6} md={3}>
                 <Thumb 
                       link="/blend"
                       image={tmb_blend}
                       title="Blend 3015"
                       category="2020"
                     />
-                </Grid>
+                </Grid> */}
 
 
-                <Grid item xs={12} sm={12} md={6}>
+                {/* <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/squares"
                       image={tmb_squares}
                       title="Squares"
                       category="2019"
                     />
-              </Grid>
+              </Grid> */}
 {/* 
                 <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
@@ -311,7 +312,7 @@ export default function FullWidthGrid() {
                     />
               </Grid> */}
 
-              <Grid item xs={12} sm={12} md={6}>
+              {/* <Grid item xs={12} sm={12} md={6}>
               <Thumb 
                     link="/blackout"
                     image= {tmb_blackout}
@@ -319,7 +320,7 @@ export default function FullWidthGrid() {
                     category="2018 / Information Design"
                   />
               </Grid>        
-          
+           */}
             {/* <Grid item xs={12} sm={12} md={6}>
             <Thumb 
                     link="/salmongold"
