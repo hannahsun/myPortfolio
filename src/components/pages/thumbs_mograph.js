@@ -37,6 +37,7 @@ import tmb_blip from '../../assets/img/motion/content-blip/blip-2.png';
 import tmb_1k from '../../assets/img/motion/content-1k/1k-2.png';
 import tmb_star from '../../assets/img/motion/content-star/star-2.png';
 import tmb_chaseuso from '../../assets/img/motion/content-chaseuso/chase-2.png';
+import tmb_trafficJam from '../../assets/img/motion/content-trafficJam/trafficjam-1.png';
 import tmb_motionReel2021 from '../../assets/img/motion/motionReel2021_2.png';
 
 //import thumbnail files
@@ -95,6 +96,15 @@ export default function FullWidthGrid() {
                       image={tmb_blip}
                       title="Blip"
                       category="2021"
+                    />
+              </Grid>
+
+              <Grid item xs={12} sm={12} md={6}>
+                <Thumb 
+                      link="/roadRave" //project path
+                      image={tmb_trafficJam}
+                      title="Back on the Grid"
+                      category="2022"
                     />
               </Grid>
 

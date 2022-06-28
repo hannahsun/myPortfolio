@@ -52,6 +52,7 @@ import proj_blip from './components/projectPages/proj_blip';
 import proj_1k from './components/projectPages/proj_1k';
 import proj_star from './components/projectPages/proj_star';
 import proj_chaseuso from './components/projectPages/proj_chaseuso';
+import proj_trafficJam from './components/projectPages/proj_trafficJam';
 //graphic design projects
 import proj_planit from './components/projectPages/proj_planit';
 import proj_blackout from './components/projectPages/proj_blackout';
@@ -101,6 +102,7 @@ function App() {
         <Route exact path='/star' component={proj_star}></Route>
         <Route exact path='/chaseuso' component={proj_chaseuso}></Route>
         <Route exact path='/motionReel2021' component={proj_motionReel2021}></Route>
+        <Route exact path='/roadRave' component={proj_trafficJam}></Route>
         {/* graphic design project */}
         <Route exact path='/planit' component={proj_planit}></Route>
         <Route exact path='/blackout' component={proj_blackout}></Route>
