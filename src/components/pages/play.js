@@ -70,21 +70,6 @@ const photos = [
         src: pencil,
         width: 1,
         height: 1
-        },
-        {
-        src:legionGif1,
-        width: 1,
-        height: 1
-        },
-        {
-        src: notification,
-        width: 1,
-        height: 1
-        },  
-        {
-        src: legion1,
-        width: 1,
-        height: 1
         }
         
       ];

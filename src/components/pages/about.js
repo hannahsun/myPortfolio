@@ -57,8 +57,9 @@ function About() {
                           <ul>
                                 <li>
                                 <span className="emphasis">BUCK</span><br/>
-                                Dec. 2021 — Present  /  Junior 2D Animator <br/>
-                                Jun. — Nov. 2021  /  2D Animation Apprentice <br/>
+                                Mar. 2022 - Present  /  Animator <br/>
+                                Dec. 2021 — Feb. 2022  /  Junior 2D Animator <br/>
+                                Jun. — Nov. 2021  /  2D Apprentice <br/>
                                 </li>
                                 <li>
                                 <span className="emphasis">Hornet</span><br/>
