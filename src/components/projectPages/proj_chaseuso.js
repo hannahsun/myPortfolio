@@ -56,8 +56,8 @@ export default function myproject() {
 
     {/* <Spacer height="90px"/> */}
     <Insert 
-      title="Shots I worked on"
-      subtitle="& behind the Scenes"
+      title="Behind the scenes"
+      subtitle=""
       description= ""
       padding1='100px'
       padding2="0"
@@ -71,7 +71,7 @@ export default function myproject() {
     />
 
 <Insert 
-      title="The Full Video "
+      title="Deliverable "
       subtitle=""
       description= ""
       padding1='30px'
