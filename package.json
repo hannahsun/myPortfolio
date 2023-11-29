@@ -19,7 +19,6 @@
     "react-photo-gallery": "^8.0.0",
     "react-player": "^1.15.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^5.0.1",
     "sass": "^1.36.0",
     "serve": "^14.2.1",
     "styled-components": "^5.2.3",
@@ -49,9 +48,10 @@
   "devDependencies": {
     "css-loader": "^6.8.1",
     "file-loader": "^6.0.0",
+    "react-scripts": "^5.0.1",
     "react-url-loader": "^0.0.3",
     "ts-loader": "^9.1.1",
     "url-loader": "^4.1.0",
-    "webpack": "^4.42.0"
+    "webpack": "^5.0.0"
   }
 }
