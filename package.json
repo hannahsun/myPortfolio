@@ -49,9 +49,10 @@
     "css-loader": "^6.8.1",
     "file-loader": "^6.0.0",
     "react-scripts": "^5.0.1",
-    "react-url-loader": "^0.0.3",
+    "react-url-loader": "^0.0.4",
     "ts-loader": "^9.1.1",
     "url-loader": "^4.1.0",
-    "webpack": "^5.0.0"
+    "webpack": "^5.0.0",
+    "eslint-webpack-plugin": "^4.0.0"
   }
 }
