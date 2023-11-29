@@ -53,9 +53,5 @@
     "ts-loader": "^9.1.1",
     "url-loader": "^4.1.0",
     "webpack": "^5.0.0"
-  },
-  "engines": {
-    "node": "20.10.0",
-    "npm": "10.2.3"
   }
 }
