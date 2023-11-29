@@ -287,7 +287,7 @@ export default function FullWidthGrid() {
                     />
               </Grid> */}
 
-              <Grid item xs={12} sm={12} md={6}>
+              {/* <Grid item xs={12} sm={12} md={6}>
                 <Thumb 
                       link="/museum"
                       image={tmb_museum}
@@ -311,7 +311,7 @@ export default function FullWidthGrid() {
                       title="Organism"
                       category="2021"
                     />
-              </Grid>
+              </Grid> */}
 
 
                 {/* <Grid item xs={6} sm={6} md={3}>
